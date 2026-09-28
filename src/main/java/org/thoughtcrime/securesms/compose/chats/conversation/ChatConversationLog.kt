@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.compose.chats.conversation
 
 import android.os.Trace
 import android.util.Log
-import org.monogram.core.perf.ChatOpenPerfDebug
+import org.thoughtcrime.securesms.compose.core.perf.ChatOpenPerfDebug
 import org.thoughtcrime.securesms.compose.BuildConfig
 import org.thoughtcrime.securesms.compose.features.chats.conversation.logic.effectiveThreadId
 import java.util.concurrent.atomic.AtomicInteger

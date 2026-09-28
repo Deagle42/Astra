@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
 
-import org.monogram.core.telegram.TelegramLinkDomains
+import org.thoughtcrime.securesms.compose.core.telegram.TelegramLinkDomains
 import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
 

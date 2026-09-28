@@ -60,7 +60,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import org.koin.compose.koinInject
-import org.monogram.core.date.toDate
+import org.thoughtcrime.securesms.compose.core.date.toDate
 import org.thoughtcrime.securesms.compose.domain.models.ChatModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
 import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType

@@ -11,7 +11,7 @@ import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.monogram.core.perf.ChatOpenPerfBridge
+import org.thoughtcrime.securesms.compose.core.perf.ChatOpenPerfBridge
 import org.thoughtcrime.securesms.compose.domain.models.ChatViewportCacheEntry
 import org.thoughtcrime.securesms.compose.domain.models.ConversationUpdate
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent

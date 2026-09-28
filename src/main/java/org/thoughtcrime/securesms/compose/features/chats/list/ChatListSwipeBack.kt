@@ -5,7 +5,7 @@ import org.thoughtcrime.securesms.compose.core.ui.ScreenSwipeBackPreview
 import org.thoughtcrime.securesms.compose.core.ui.ScreenSwipeBackState
 
 fun resolveArchiveReturnFolderId(
-    folders: List<org.monogram.domain.models.FolderModel>,
+    folders: List<org.thoughtcrime.securesms.compose.domain.models.FolderModel>,
     showAllChatsFolder: Boolean,
     lastNonArchiveFolderId: Int? = null,
 ): Int {

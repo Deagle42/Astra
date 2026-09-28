@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application' version '9.3.2'
     id 'org.jetbrains.kotlin.plugin.compose' version '2.1.0'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '2.1.0'
+    id 'kotlin-parcelize'
     id 'com.google.gms.google-services' version '4.5.0'
     id 'com.diffplug.spotless' version '8.10.0'
 }
@@ -44,7 +46,7 @@ android {
         applicationId "chat.delta.lite"
         multiDexEnabled true
 
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 37
 
         vectorDrawables.useSupportLibrary = true
@@ -258,6 +260,27 @@ spotless {
 final def markwon_version = '4.6.2'
 
 dependencies {
+    // Kotlin Coroutines & Serialization
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3'
+
+    // Decompose & MVIKotlin
+    implementation 'com.arkivanov.decompose:decompose:3.2.1'
+    implementation 'com.arkivanov.decompose:extensions-compose:3.2.1'
+    implementation 'com.arkivanov.mvikotlin:mvikotlin:4.2.0'
+    implementation 'com.arkivanov.mvikotlin:mvikotlin-main:4.2.0'
+    implementation 'com.arkivanov.mvikotlin:mvikotlin-extensions-coroutines:4.2.0'
+
+    // Koin
+    implementation 'io.insert-koin:koin-core:4.0.0'
+    implementation 'io.insert-koin:koin-android:4.0.0'
+    implementation 'io.insert-koin:koin-androidx-compose:4.0.0'
+
+    // AndroidX Biometric & Security
+    implementation 'androidx.biometric:biometric:1.2.0-alpha05'
+    implementation 'androidx.security:security-crypto:1.1.0-alpha06'
+
     // Jetpack Compose & UI
     implementation platform('androidx.compose:compose-bom:2025.02.00')
     implementation 'androidx.compose.ui:ui'

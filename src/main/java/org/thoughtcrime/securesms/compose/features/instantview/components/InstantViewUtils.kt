@@ -16,7 +16,7 @@ import kotlinx.coroutines.flow.filterIsInstance
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.mapNotNull
 import kotlinx.coroutines.withTimeoutOrNull
-import org.monogram.core.telegram.TelegramLinkDomains
+import org.thoughtcrime.securesms.compose.core.telegram.TelegramLinkDomains
 import org.thoughtcrime.securesms.compose.domain.models.FileDownloadEvent
 import org.thoughtcrime.securesms.compose.domain.models.webapp.PageBlock
 import org.thoughtcrime.securesms.compose.domain.models.webapp.PageBlockCaption

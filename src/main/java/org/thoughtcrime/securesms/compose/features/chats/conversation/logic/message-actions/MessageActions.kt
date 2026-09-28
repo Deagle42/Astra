@@ -12,7 +12,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.monogram.core.telegram.TelegramLinkDomains
+import org.thoughtcrime.securesms.compose.core.telegram.TelegramLinkDomains
 import org.thoughtcrime.securesms.compose.domain.models.GifModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageEntity

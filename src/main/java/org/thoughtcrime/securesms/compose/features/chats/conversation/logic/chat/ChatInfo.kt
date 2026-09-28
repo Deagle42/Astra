@@ -308,7 +308,7 @@ internal fun DefaultChatComponent.runChatAction(
 }
 
 internal fun DefaultChatComponent.handleConfirmRestrict(
-    permissions: org.monogram.domain.models.ChatPermissionsModel,
+    permissions: org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel,
     untilDate: Int
 ) {
     val userId = _state.value.restrictUserId ?: return

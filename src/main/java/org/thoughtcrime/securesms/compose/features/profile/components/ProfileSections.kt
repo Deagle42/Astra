@@ -98,7 +98,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.net.toUri
-import org.monogram.core.telegram.TelegramLinkDomains
+import org.thoughtcrime.securesms.compose.core.telegram.TelegramLinkDomains
 import org.thoughtcrime.securesms.compose.domain.models.UserTypeEnum
 import org.thoughtcrime.securesms.compose.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition

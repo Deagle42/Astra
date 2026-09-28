@@ -922,7 +922,7 @@ private fun StoryPreviewCard(
                 }
             }
 
-            if (story.media.type == org.monogram.domain.models.stories.StoryMediaType.VIDEO) {
+            if (story.media.type == org.thoughtcrime.securesms.compose.domain.models.stories.StoryMediaType.VIDEO) {
                 Surface(
                     modifier = Modifier
                         .align(Alignment.TopEnd)
