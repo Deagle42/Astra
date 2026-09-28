@@ -1,3 +1,16 @@
 package org.thoughtcrime.securesms.compose.domain.repository
 
-interface EmojiRepository
+import kotlinx.coroutines.flow.Flow
+import org.thoughtcrime.securesms.compose.domain.models.RecentEmojiModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+
+interface EmojiRepository {
+    val recentEmojis: Flow<List<RecentEmojiModel>>
+
+    suspend fun getDefaultEmojis(): List<String>
+    suspend fun searchEmojis(query: String): List<String>
+    suspend fun searchCustomEmojis(query: String): List<StickerModel>
+    suspend fun addRecentEmoji(recentEmoji: RecentEmojiModel)
+    suspend fun clearRecentEmojis()
+    suspend fun getMessageAvailableReactions(chatId: Long, messageId: Long): List<String>
+}

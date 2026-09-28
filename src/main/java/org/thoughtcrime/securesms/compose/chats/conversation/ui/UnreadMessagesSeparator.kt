@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth

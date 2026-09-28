@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.content
+import org.thoughtcrime.securesms.R
 
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.PickVisualMediaRequest

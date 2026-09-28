@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo
+import org.thoughtcrime.securesms.R
 
 import android.graphics.BitmapFactory
 import androidx.activity.compose.BackHandler

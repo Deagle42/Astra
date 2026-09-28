@@ -1,6 +1,15 @@
 package org.thoughtcrime.securesms.compose.domain.models
 
-data class ProxyCheckResult(
-    val id: Long = 0L,
-    val name: String = ""
-) 
+sealed interface ProxyCheckResult {
+    data class Success(val latencyMs: Long) : ProxyCheckResult
+    data class Failure(val reason: ProxyFailureReason, val message: String) : ProxyCheckResult
+}
+
+enum class ProxyFailureReason {
+    UNREACHABLE,
+    INVALID_SECRET,
+    DNS_FAILURE,
+    AUTH_FAILED,
+    TIMEOUT,
+    UNKNOWN
+}

@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.editor.photo.components
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding

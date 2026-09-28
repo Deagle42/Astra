@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.editor.video.components
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.MaterialTheme

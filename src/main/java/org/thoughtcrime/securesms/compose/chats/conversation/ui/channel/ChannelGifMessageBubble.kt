@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.channel
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background

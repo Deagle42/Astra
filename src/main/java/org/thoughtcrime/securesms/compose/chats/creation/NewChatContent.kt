@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.creation
+import org.thoughtcrime.securesms.R
 
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.rememberLauncherForActivityResult

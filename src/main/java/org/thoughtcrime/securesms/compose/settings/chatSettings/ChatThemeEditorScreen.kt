@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.chatSettings
+import org.thoughtcrime.securesms.R
 
 import android.graphics.Color.HSVToColor
 import android.graphics.Color.colorToHSV

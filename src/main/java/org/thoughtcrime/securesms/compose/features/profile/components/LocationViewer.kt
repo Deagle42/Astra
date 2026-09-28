@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.profile.components
+import org.thoughtcrime.securesms.R
 
 import android.content.Intent
 import android.net.Uri

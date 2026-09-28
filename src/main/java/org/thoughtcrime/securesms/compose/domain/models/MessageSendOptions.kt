@@ -1,6 +1,9 @@
 package org.thoughtcrime.securesms.compose.domain.models
 
 data class MessageSendOptions(
-    val id: Long = 0L,
-    val name: String = ""
-) 
+    val silent: Boolean = false,
+    val scheduleDate: Int? = null,
+    val sendAsDocument: Boolean = false,
+    val disableLinkPreview: Boolean = false,
+    val linkPreviewUrl: String? = null
+)

@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.stories
+import org.thoughtcrime.securesms.R
 
 import android.app.Activity
 import android.content.Context

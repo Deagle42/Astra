@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.camera
+import org.thoughtcrime.securesms.R
 
 import android.content.ContentValues
 import android.net.Uri

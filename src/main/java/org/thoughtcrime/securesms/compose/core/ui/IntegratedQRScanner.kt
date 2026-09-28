@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.core.ui
+import org.thoughtcrime.securesms.R
 
 import android.annotation.SuppressLint
 import androidx.camera.core.CameraSelector

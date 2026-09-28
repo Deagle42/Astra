@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.sessions
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

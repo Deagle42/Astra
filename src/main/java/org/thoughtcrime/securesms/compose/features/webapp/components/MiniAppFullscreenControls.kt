@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.webapp.components
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn

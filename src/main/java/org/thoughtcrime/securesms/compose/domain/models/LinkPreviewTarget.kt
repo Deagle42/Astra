@@ -1,6 +1,8 @@
 package org.thoughtcrime.securesms.compose.domain.models
 
 data class LinkPreviewTarget(
-    val id: Long = 0L,
-    val name: String = ""
-) 
+    val sourceUrl: String,
+    val normalizedUrl: String,
+    val displayLabel: String,
+    val host: String
+)

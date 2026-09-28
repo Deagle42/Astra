@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.stories.components
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable

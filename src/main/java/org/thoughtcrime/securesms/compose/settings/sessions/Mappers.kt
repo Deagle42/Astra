@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.sessions
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons

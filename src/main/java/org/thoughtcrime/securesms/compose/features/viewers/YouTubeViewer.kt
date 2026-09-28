@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3Api::class, androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.features.viewers
+import org.thoughtcrime.securesms.R
 
 import android.app.PictureInPictureParams
 import android.content.Context

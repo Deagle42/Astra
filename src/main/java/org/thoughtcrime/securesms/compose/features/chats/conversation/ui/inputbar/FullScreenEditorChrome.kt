@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.inputbar
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement

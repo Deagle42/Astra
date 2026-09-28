@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.message
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer

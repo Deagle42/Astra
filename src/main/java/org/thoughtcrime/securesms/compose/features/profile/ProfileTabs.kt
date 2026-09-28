@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.profile
+import org.thoughtcrime.securesms.R
 
 import androidx.annotation.StringRes
 import org.thoughtcrime.securesms.compose.domain.models.ChatFullInfoModel

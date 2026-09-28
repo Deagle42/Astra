@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.notifications
+import org.thoughtcrime.securesms.R
 
 import android.widget.Toast
 import androidx.compose.foundation.clickable

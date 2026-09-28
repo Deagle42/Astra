@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui
+import org.thoughtcrime.securesms.R
 
 import android.Manifest
 import android.annotation.SuppressLint

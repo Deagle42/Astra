@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.inputbar
+import org.thoughtcrime.securesms.R
 
 import android.content.ClipData
 import androidx.compose.animation.AnimatedContent
@@ -2033,4 +2034,3 @@ private fun AiStyleChip(
         }
     }
 }
-

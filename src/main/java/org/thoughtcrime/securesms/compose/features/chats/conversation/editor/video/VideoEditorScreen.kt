@@ -1,6 +1,7 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video
+import org.thoughtcrime.securesms.R
 
 import android.widget.Toast
 import androidx.activity.compose.BackHandler

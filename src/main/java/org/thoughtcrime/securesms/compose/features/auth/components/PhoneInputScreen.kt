@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.auth.components
+import org.thoughtcrime.securesms.R
 
 import android.content.res.Configuration
 import androidx.compose.animation.AnimatedContent

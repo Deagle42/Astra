@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.profile.logs.components
+import org.thoughtcrime.securesms.R
 
 import android.content.ClipData
 import android.widget.Toast

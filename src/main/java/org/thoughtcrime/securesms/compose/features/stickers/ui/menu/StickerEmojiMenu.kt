@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.stickers.ui.menu
+import org.thoughtcrime.securesms.R
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility

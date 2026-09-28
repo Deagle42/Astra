@@ -1,3 +1,5 @@
 package org.thoughtcrime.securesms.compose.domain.managers
 
-interface ClipManager
+interface ClipManager {
+    fun copyToClipboard(tag: String, text: String)
+}

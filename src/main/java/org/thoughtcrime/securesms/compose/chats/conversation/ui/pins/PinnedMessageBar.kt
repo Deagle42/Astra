@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.pins
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.Spring

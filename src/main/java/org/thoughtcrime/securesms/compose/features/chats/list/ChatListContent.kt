@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.list
+import org.thoughtcrime.securesms.R
 
 import android.util.Log
 import android.widget.Toast

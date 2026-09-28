@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.webapp.components
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape

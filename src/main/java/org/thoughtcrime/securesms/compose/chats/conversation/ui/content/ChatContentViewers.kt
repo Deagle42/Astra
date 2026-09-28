@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.content
+import org.thoughtcrime.securesms.R
 
 import android.content.ClipData
 import android.widget.Toast
@@ -554,4 +555,3 @@ private fun MessageContent.matchesDisplayPath(path: String): Boolean {
         else -> false
     }
 }
-

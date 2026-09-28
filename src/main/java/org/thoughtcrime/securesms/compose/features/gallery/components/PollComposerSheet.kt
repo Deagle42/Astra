@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.gallery.components
+import org.thoughtcrime.securesms.R
 
 import android.os.Build
 import androidx.compose.animation.AnimatedVisibility

@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.features.profile.components
+import org.thoughtcrime.securesms.R
 
 import android.content.ClipData
 import android.content.Intent

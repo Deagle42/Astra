@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.channel
+import org.thoughtcrime.securesms.R
 
 import android.content.Context
 import org.thoughtcrime.securesms.compose.R

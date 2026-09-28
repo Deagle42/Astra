@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.content
+import org.thoughtcrime.securesms.R
 
 import android.content.ClipData
 import androidx.activity.compose.BackHandler
@@ -279,4 +280,3 @@ internal fun ChatContentOverlays(
         onBack()
     }
 }
-

@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message
+import org.thoughtcrime.securesms.R
 
 import androidx.annotation.OptIn
 import androidx.compose.foundation.background

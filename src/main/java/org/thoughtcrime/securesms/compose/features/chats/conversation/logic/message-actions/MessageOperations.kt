@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
+import org.thoughtcrime.securesms.R
 
 import android.util.Log
 import kotlinx.coroutines.delay

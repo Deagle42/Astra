@@ -1,3 +1,9 @@
 package org.thoughtcrime.securesms.compose.domain.repository
 
-interface ConnectionStatus
+sealed class ConnectionStatus {
+    data object Connected : ConnectionStatus()
+    data object Connecting : ConnectionStatus()
+    data object Updating : ConnectionStatus()
+    data object WaitingForNetwork : ConnectionStatus()
+    data object ConnectingToProxy : ConnectionStatus()
+}

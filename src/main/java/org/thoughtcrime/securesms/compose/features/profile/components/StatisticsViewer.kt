@@ -1,6 +1,7 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.features.profile.components
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.Crossfade

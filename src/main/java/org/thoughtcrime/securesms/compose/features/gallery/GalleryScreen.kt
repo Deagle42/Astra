@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.gallery
+import org.thoughtcrime.securesms.R
 
 import android.net.Uri
 import androidx.compose.animation.AnimatedContent

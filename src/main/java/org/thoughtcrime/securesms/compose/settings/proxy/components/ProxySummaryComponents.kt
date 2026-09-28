@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.proxy
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.animateColorAsState

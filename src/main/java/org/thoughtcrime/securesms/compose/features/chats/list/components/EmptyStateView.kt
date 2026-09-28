@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.list.components
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

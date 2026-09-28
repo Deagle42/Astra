@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.premium
+import org.thoughtcrime.securesms.R
 
 import android.content.Intent
 import android.net.Uri

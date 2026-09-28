@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.settings.notifications
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn

@@ -1,3 +1,5 @@
 package org.thoughtcrime.securesms.compose.domain.repository
 
-interface MessageDisplayer
+interface MessageDisplayer {
+    fun show(message: String)
+}

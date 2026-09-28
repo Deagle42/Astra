@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.viewers.components
+import org.thoughtcrime.securesms.R
 
 import android.content.Context
 import android.content.ContextWrapper

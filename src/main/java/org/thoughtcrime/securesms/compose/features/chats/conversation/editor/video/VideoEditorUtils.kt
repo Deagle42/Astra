@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video
+import org.thoughtcrime.securesms.R
 
 import android.content.Context
 import android.graphics.SurfaceTexture

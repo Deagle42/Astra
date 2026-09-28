@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.list
+import android.content.Intent
 
 import com.arkivanov.mvikotlin.core.store.Reducer
 import com.arkivanov.mvikotlin.core.store.Store

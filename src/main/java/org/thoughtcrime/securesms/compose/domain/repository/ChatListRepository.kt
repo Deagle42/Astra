@@ -1,3 +1,18 @@
 package org.thoughtcrime.securesms.compose.domain.repository
 
-interface ChatListRepository
+import kotlinx.coroutines.flow.StateFlow
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+
+interface ChatListRepository {
+    val chatListFlow: StateFlow<List<ChatModel>>
+    val isLoadingFlow: StateFlow<Boolean>
+    val connectionStateFlow: StateFlow<ConnectionStatus>
+
+    fun loadNextChunk(limit: Int)
+    fun selectFolder(folderId: Int)
+    fun refresh()
+    fun refreshOnResume()
+    suspend fun getChatById(chatId: Long): ChatModel?
+    suspend fun isChatArchived(chatId: Long): Boolean?
+    fun retryConnection()
+}

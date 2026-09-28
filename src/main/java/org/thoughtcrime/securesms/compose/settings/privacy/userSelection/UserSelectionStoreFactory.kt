@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.privacy.userSelection
+import android.content.Intent
 
 import com.arkivanov.mvikotlin.core.store.Reducer
 import com.arkivanov.mvikotlin.core.store.Store

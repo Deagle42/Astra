@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background

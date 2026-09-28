@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.proxy.components
+import org.thoughtcrime.securesms.R
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Column

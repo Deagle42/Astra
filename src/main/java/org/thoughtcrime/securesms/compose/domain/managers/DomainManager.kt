@@ -1,3 +1,5 @@
 package org.thoughtcrime.securesms.compose.domain.managers
 
-interface DomainManager
+interface DomainManager {
+    fun isEnabled(): Boolean
+}

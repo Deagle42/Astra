@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content
+import org.thoughtcrime.securesms.R
 
 import android.content.ClipData
 import android.util.Log
@@ -784,4 +785,3 @@ private fun extractDownloadPath(content: MessageContent): String? {
         else -> null
     }
 }
-

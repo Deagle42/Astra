@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.webview.components
+import org.thoughtcrime.securesms.R
 
 import android.webkit.WebView
 import androidx.compose.foundation.layout.Row

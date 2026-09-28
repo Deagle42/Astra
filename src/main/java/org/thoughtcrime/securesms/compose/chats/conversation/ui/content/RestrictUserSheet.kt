@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.content
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -263,4 +264,3 @@ private fun PermissionToggle(
         )
     }
 }
-

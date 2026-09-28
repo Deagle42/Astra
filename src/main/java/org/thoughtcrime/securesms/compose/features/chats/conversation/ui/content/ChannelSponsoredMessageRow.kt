@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content
+import org.thoughtcrime.securesms.R
 
 import android.content.res.Configuration
 import androidx.compose.foundation.background

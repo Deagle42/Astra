@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.adblock
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.*
 import androidx.compose.foundation.background

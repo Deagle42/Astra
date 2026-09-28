@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.pins
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.core.animate
 import androidx.compose.animation.core.spring
@@ -544,4 +545,3 @@ private fun PinnedMessagesLoadingSkeleton(
         }
     }
 }
-

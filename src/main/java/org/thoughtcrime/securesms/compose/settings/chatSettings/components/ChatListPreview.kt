@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.chatSettings.components
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.*
 import androidx.compose.animation.core.Spring

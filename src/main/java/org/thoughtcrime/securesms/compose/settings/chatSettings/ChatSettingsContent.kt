@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.settings.chatSettings
+import org.thoughtcrime.securesms.R
 
 import android.content.Context
 import android.net.Uri

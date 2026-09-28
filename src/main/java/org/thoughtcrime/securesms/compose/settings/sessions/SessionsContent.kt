@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.settings.sessions
+import org.thoughtcrime.securesms.R
 
 import android.Manifest
 import android.content.pm.PackageManager

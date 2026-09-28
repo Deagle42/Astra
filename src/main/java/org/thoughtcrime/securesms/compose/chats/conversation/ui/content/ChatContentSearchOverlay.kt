@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.content
+import org.thoughtcrime.securesms.R
 
 import android.app.DatePickerDialog
 import android.content.Context
@@ -917,4 +918,3 @@ private fun SearchResultsListOverlay(
         }
     }
 }
-

@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.powersaving
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues

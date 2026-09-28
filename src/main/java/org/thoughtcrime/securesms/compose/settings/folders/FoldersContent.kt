@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.settings.folders
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Spring

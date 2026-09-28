@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.core.ui
+import org.thoughtcrime.securesms.R
 
 import android.content.ClipData
 import androidx.compose.foundation.background

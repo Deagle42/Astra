@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content
+import android.content.Intent
 
 import androidx.compose.foundation.gestures.animateScrollBy
 import androidx.compose.foundation.gestures.scrollBy
@@ -534,4 +535,3 @@ internal fun buildViewportSnapshot(
         anchorChatId = anchorChatId
     )
 }
-

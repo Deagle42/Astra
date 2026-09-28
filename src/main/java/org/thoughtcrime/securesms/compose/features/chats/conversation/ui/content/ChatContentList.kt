@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content
+import org.thoughtcrime.securesms.R
 
 import android.os.SystemClock
 import android.util.Log
@@ -2186,5 +2187,4 @@ fun TopicItem(
         }
     }
 }
-
 

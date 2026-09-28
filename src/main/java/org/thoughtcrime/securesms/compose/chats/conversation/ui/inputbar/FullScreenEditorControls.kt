@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.inputbar
+import org.thoughtcrime.securesms.R
 
 import android.widget.Toast
 import androidx.compose.foundation.combinedClickable

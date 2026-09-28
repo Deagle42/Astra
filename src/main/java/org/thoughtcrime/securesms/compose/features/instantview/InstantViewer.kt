@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.features.instantview
+import org.thoughtcrime.securesms.R
 
 import android.content.ClipData
 import androidx.activity.compose.BackHandler
@@ -1884,4 +1885,3 @@ private fun formatMediaDuration(durationSeconds: Int): String {
         "%d:%02d".format(minutes, seconds)
     }
 }
-

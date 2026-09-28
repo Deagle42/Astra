@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.editor.photo
+import org.thoughtcrime.securesms.R
 
 import android.content.Context
 import android.graphics.Bitmap

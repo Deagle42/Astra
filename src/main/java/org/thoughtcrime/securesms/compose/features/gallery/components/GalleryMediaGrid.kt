@@ -1,6 +1,7 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.features.gallery.components
+import org.thoughtcrime.securesms.R
 
 import android.net.Uri
 import androidx.compose.animation.core.animateFloatAsState

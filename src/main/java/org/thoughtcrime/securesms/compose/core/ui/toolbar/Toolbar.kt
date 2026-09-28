@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.core.ui.toolbar
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.ArrowBack

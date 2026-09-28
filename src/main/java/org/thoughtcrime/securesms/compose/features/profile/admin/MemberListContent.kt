@@ -1,6 +1,7 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.features.profile.admin
+import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.*
 import androidx.compose.foundation.clickable
