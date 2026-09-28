@@ -1,3 +1,6 @@
 package org.thoughtcrime.securesms.compose.features.webview
 
-class WebViewComponent
+interface WebViewComponent {
+    val url: String
+    fun onDismiss()
+}
