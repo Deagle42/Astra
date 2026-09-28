@@ -1,3 +1,1 @@
 package org.thoughtcrime.securesms.compose.settings.privacy.userSelection
-
-class DefaultUserSelectionComponent
