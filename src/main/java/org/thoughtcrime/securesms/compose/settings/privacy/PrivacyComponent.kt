@@ -9,7 +9,7 @@ import org.thoughtcrime.securesms.compose.domain.repository.PrivacyKey
 import org.thoughtcrime.securesms.compose.domain.repository.PrivacyRepository
 import org.thoughtcrime.securesms.compose.core.util.componentScope
 import org.thoughtcrime.securesms.compose.root.AppComponentContext
-import org.thoughtcrime.securesms.compose.settings.privacy.userSelection.DefaultUserSelectionComponent
+import org.thoughtcrime.securesms.compose.settings.privacy.userSelection.UserSelectionComponent
 import org.thoughtcrime.securesms.compose.settings.privacy.userSelection.UserSelectionComponent
 
 interface PrivacyComponent {

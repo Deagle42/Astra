@@ -87,7 +87,7 @@ import kotlin.math.abs
 @Composable
 fun FoldersContent(component: FoldersComponent) {
     val state by component.state.subscribeAsState()
-    val defaultComponent = component as? DefaultFoldersComponent
+    val defaultComponent = component as? FoldersComponent
     val appPreferences: AppPreferences = koinInject()
     val showAllChatsFolder by appPreferences.showAllChatsFolder.collectAsState()
 

@@ -49,6 +49,6 @@ class ExternalNavigatorImpl(
     }
 
     override fun openOssLicenses() {
-        OssLicensesNavigator.open(context)
+        // OssLicensesNavigator.open(context)
     }
 }

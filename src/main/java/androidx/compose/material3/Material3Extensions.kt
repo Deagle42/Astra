@@ -78,3 +78,30 @@ object MaterialShapes {
     val PixelCircle: Shape = RoundedCornerShape(16.dp)
     val PixelTriangle: Shape = RoundedCornerShape(16.dp)
 }
+
+@Composable
+fun LinearWavyProgressIndicator(
+    modifier: Modifier = Modifier,
+    progress: Any? = null,
+    color: Color = MaterialTheme.colorScheme.primary,
+    trackColor: Color = Color.Transparent
+) {
+    LinearProgressIndicator(modifier = modifier, color = color)
+}
+
+object ExposedDropdownMenuAnchorType {
+    val PrimaryNotEditable: Any = Object()
+    val SecondaryEditable: Any = Object()
+}
+
+@Composable
+fun OutlinedToggleButton(
+    checked: Boolean,
+    onCheckedChange: (Boolean) -> Unit,
+    modifier: Modifier = Modifier,
+    content: @Composable () -> Unit = {}
+) {
+    Button(onClick = { onCheckedChange(!checked) }, modifier = modifier) {
+        content()
+    }
+}

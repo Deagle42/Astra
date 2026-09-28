@@ -1,252 +1,81 @@
-import coil.compose.AsyncImage
 package org.thoughtcrime.securesms.compose.core.ui
-import org.thoughtcrime.securesms.R
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.key
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import AsyncImage
-import coil3.request.ImageRequest
-import org.koin.compose.koinInject
-import org.thoughtcrime.securesms.compose.core.media.AvatarPlayer
-import org.thoughtcrime.securesms.compose.core.util.AppPreferences
-import org.thoughtcrime.securesms.compose.core.util.generateColorFromHash
-import java.io.File
+import androidx.compose.ui.unit.sp
+import coil3.compose.AsyncImage
+
+@Composable
+fun rememberAnimatedAvatarPlaybackEnabled(): Boolean = true
+
+@Composable
+fun PlaceholderAvatar(
+    name: String,
+    modifier: Modifier = Modifier,
+    size: Dp = 40.dp
+) {
+    val initial = name.firstOrNull()?.uppercaseChar()?.toString() ?: "?"
+    Box(
+        modifier = modifier
+            .size(size)
+            .clip(CircleShape)
+            .background(MaterialTheme.colorScheme.primaryContainer),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = initial,
+            color = MaterialTheme.colorScheme.onPrimaryContainer,
+            fontSize = (size.value * 0.45f).sp
+        )
+    }
+}
 
 @Composable
 fun Avatar(
-    path: String?,
-    fallbackPath: String? = null,
-    name: String,
-    size: Dp,
+    model: Any?,
+    name: String = "",
     modifier: Modifier = Modifier,
-    fontSize: Int = 14,
-    isOnline: Boolean = false,
-    isLocal: Boolean = false,
-    onClick: () -> Unit = {}
+    size: Dp = 40.dp
 ) {
-    val context = LocalContext.current
-    val shouldAnimateVideoAvatars = rememberAnimatedAvatarPlaybackEnabled()
-    val combinedModifier = modifier
-        .size(size)
-        .clip(CircleShape)
-        .clickable { onClick() }
-
-    val resolvedPath = resolveAvatarPath(path, fallbackPath)
-    val imageSource = resolvedPath?.let(::resolveAvatarImageSource)
-
-    Box(modifier = modifier.size(size)) {
-        val placeholder = @Composable {
-            PlaceholderAvatar(
-                name = name,
-                fontSize = fontSize,
-                color = generateColorFromHash(name),
-                modifier = Modifier.fillMaxSize()
-            )
-        }
-
-        if (resolvedPath != null) {
-            if (isLocal) {
-                AsyncImage(
-                    model = R.raw.AsyncImage,
-                    contentDescription = null,
-                    modifier = combinedModifier,
-                    contentScale = ContentScale.Crop,
-                )
-            } else {
-                val isVideo = remember(resolvedPath) { resolvedPath.endsWith(".mp4", ignoreCase = true) }
-                if (isVideo) {
-                    key(imageSource?.cacheKey ?: resolvedPath) {
-                        AvatarPlayer(
-                            path = resolvedPath,
-                            animate = shouldAnimateVideoAvatars,
-                            modifier = combinedModifier,
-                            contentScale = ContentScale.Crop
-                        )
-                    }
-                } else {
-                    Box(modifier = combinedModifier) {
-                        placeholder()
-                        AsyncImage(
-                            model = ImageRequest.Builder(context)
-                                .data(imageSource?.model ?: resolvedPath)
-                                .apply {
-                                    imageSource?.cacheKey?.let {
-                                        memoryCacheKey(it)
-                                        diskCacheKey(it)
-                                    }
-                                }
-                                .build(),
-                            contentDescription = null,
-                            modifier = Modifier.fillMaxSize(),
-                            contentScale = ContentScale.Crop
-                        )
-                    }
-                }
-            }
-        } else {
-            Box(modifier = combinedModifier) {
-                placeholder()
-            }
-        }
-
-        if (isOnline) {
-            Box(
-                modifier = Modifier
-                    .size(size / 4)
-                    .align(Alignment.BottomEnd)
-                    .background(MaterialTheme.colorScheme.background, CircleShape)
-                    .padding(2.dp)
-                    .background(Color(0xFF4CAF50), CircleShape)
-            )
-        }
+    if (model != null && model.toString().isNotBlank()) {
+        AsyncImage(
+            model = model,
+            contentDescription = name,
+            modifier = modifier
+                .size(size)
+                .clip(CircleShape)
+        )
+    } else {
+        PlaceholderAvatar(name = name, modifier = modifier, size = size)
     }
 }
 
 @Composable
 fun AvatarForChat(
-    path: String?,
-    fallbackPath: String? = null,
-    name: String,
-    size: Dp,
+    chat: Any?,
     modifier: Modifier = Modifier,
-    fontSize: Int = 14,
-    isOnline: Boolean = false,
-    isLocal: Boolean = false
+    size: Dp = 40.dp
 ) {
-    val context = LocalContext.current
-    val shouldAnimateVideoAvatars = rememberAnimatedAvatarPlaybackEnabled()
-    val combinedModifier = modifier
-        .size(size)
-        .clip(CircleShape)
-
-    val resolvedPath = resolveAvatarPath(path, fallbackPath)
-    val imageSource = resolvedPath?.let(::resolveAvatarImageSource)
-
-    Box(modifier = modifier.size(size)) {
-        val placeholder = @Composable {
-            PlaceholderAvatar(
-                name = name,
-                fontSize = fontSize,
-                color = generateColorFromHash(name),
-                modifier = Modifier.fillMaxSize()
-            )
-        }
-
-        if (resolvedPath != null) {
-            if (isLocal) {
-                AsyncImage(
-                    model = R.raw.AsyncImage,
-                    contentDescription = null,
-                    modifier = combinedModifier,
-                    contentScale = ContentScale.Crop
-                )
-            } else {
-                val isVideo = remember(resolvedPath) { resolvedPath.endsWith(".mp4", ignoreCase = true) }
-                if (isVideo) {
-                    key(imageSource?.cacheKey ?: resolvedPath) {
-                        AvatarPlayer(
-                            path = resolvedPath,
-                            animate = shouldAnimateVideoAvatars,
-                            modifier = combinedModifier,
-                            contentScale = ContentScale.Crop
-                        )
-                    }
-                } else {
-                    Box(modifier = combinedModifier) {
-                        placeholder()
-                        AsyncImage(
-                            model = ImageRequest.Builder(context)
-                                .data(imageSource?.model ?: resolvedPath)
-                                .apply {
-                                    imageSource?.cacheKey?.let {
-                                        memoryCacheKey(it)
-                                        diskCacheKey(it)
-                                    }
-                                }
-                                .build(),
-                            contentDescription = null,
-                            modifier = Modifier.fillMaxSize(),
-                            contentScale = ContentScale.Crop
-                        )
-                    }
-                }
-            }
-        } else {
-            Box(modifier = combinedModifier) {
-                placeholder()
-            }
-        }
-
-        if (isOnline) {
-            Box(
-                modifier = Modifier
-                    .size(size / 4)
-                    .align(Alignment.BottomEnd)
-                    .background(MaterialTheme.colorScheme.background, CircleShape)
-                    .padding(2.dp)
-                    .background(Color(0xFF4CAF50), CircleShape)
-            )
-        }
-    }
+    Avatar(model = null, name = chat?.toString() ?: "", modifier = modifier, size = size)
 }
-
-private data class AvatarImageSource(
-    val model: Any,
-    val cacheKey: String?
-)
 
 @Composable
-internal fun rememberAnimatedAvatarPlaybackEnabled(): Boolean {
-    val appPreferences: AppPreferences = koinInject()
-    val autoplayGifs by appPreferences.autoplayGifs.collectAsState()
-    val chatAnimationsEnabled by appPreferences.isChatAnimationsEnabled.collectAsState()
-    val powerSavingEnabled by appPreferences.isPowerSavingMode.collectAsState()
-
-    return autoplayGifs && chatAnimationsEnabled && !powerSavingEnabled
-}
-
-private fun resolveAvatarImageSource(path: String): AvatarImageSource {
-    return if (path.startsWith("http") || path.startsWith("content:") || path.startsWith("file:")) {
-        AvatarImageSource(model = path, cacheKey = path)
-    } else {
-        val file = File(path)
-        if (file.exists()) {
-            AvatarImageSource(
-                model = file,
-                cacheKey = "${file.absolutePath}:${file.lastModified()}:${file.length()}"
-            )
-        } else {
-            AvatarImageSource(model = path, cacheKey = path)
-        }
-    }
-}
-
-private fun resolveAvatarPath(primaryPath: String?, fallbackPath: String?): String? {
-    val candidates = listOfNotNull(primaryPath?.takeIf { it.isNotBlank() }, fallbackPath?.takeIf { it.isNotBlank() })
-        .distinct()
-    if (candidates.isEmpty()) return null
-
-    val existingCandidates = candidates.filter { File(it).exists() }
-    val source = existingCandidates.ifEmpty { candidates }
-
-    return source.firstOrNull()
+fun AvatarTopAppBar(
+    chat: Any?,
+    modifier: Modifier = Modifier,
+    size: Dp = 36.dp
+) {
+    AvatarForChat(chat = chat, modifier = modifier, size = size)
 }
