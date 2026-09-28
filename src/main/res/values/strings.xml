@@ -3363,4 +3363,18 @@
     <string name="your_id_label">Your id label</string>
     <string name="your_proxies_header">Your proxies header</string>
 
+    <string name="last_seen_minutes_ago">last seen %d minutes ago</string>
+    <string name="members_count_format">%d members</string>
+    <string name="emojis_count">%d emojis</string>
+    <string name="stickers_count">%d stickers</string>
+    <string name="poll_votes_count">%d votes</string>
+    <string name="pinned_count">%d pinned</string>
+    <string name="profile_chat_join_requests_count">%d join requests</string>
+    <string name="profile_common_groups_count">%d groups in common</string>
+    <string name="story_privacy_show_to_count">Show to %d</string>
+    <string name="story_privacy_hide_from_count">Hide from %d</string>
+    <string name="story_audience_selected_count">%d selected</string>
+    <string name="story_duration_compact_minutes">%dm</string>
+    <string name="story_duration_compact_hours">%dh</string>
+    <string name="premium_plan_months">%d months</string>
 </resources>

@@ -1,3 +1,4 @@
+import coil.compose.AsyncImage
 package org.thoughtcrime.securesms.compose.core.ui
 import org.thoughtcrime.securesms.R
 
@@ -22,7 +23,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import coil3.compose.AsyncImage
+import AsyncImage
 import coil3.request.ImageRequest
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.core.media.AvatarPlayer
@@ -65,7 +66,7 @@ fun Avatar(
         if (resolvedPath != null) {
             if (isLocal) {
                 AsyncImage(
-                    model = R.raw.coil3.compose.AsyncImage,
+                    model = R.raw.AsyncImage,
                     contentDescription = null,
                     modifier = combinedModifier,
                     contentScale = ContentScale.Crop,
@@ -153,7 +154,7 @@ fun AvatarForChat(
         if (resolvedPath != null) {
             if (isLocal) {
                 AsyncImage(
-                    model = R.raw.coil3.compose.AsyncImage,
+                    model = R.raw.AsyncImage,
                     contentDescription = null,
                     modifier = combinedModifier,
                     contentScale = ContentScale.Crop

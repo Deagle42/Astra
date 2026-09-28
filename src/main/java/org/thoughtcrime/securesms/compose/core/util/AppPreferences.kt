@@ -74,8 +74,8 @@ class AppPreferences(
     private val prefs: SharedPreferences = context.getSharedPreferences("monogram_prefs", Context.MODE_PRIVATE)
 
     private val defaultConversationPipelineMode = defaultConversationPipelineMode(
-        isOfficialTdlib = BuildConfig.IS_OFFICIAL_TDLIB,
-        isLibreRuntime = BuildConfig.IS_LIBRE_RUNTIME,
+        isOfficialTdlib = true,
+        isLibreRuntime = false,
         isDebug = BuildConfig.DEBUG
     )
     private val _conversationPipelineMode = MutableStateFlow(

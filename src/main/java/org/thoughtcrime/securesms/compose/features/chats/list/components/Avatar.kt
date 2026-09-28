@@ -1,3 +1,4 @@
+import coil.compose.AsyncImage
 package org.thoughtcrime.securesms.compose.features.chats.list.components
 
 import androidx.compose.foundation.Image

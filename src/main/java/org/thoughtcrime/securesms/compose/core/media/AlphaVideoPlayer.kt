@@ -429,7 +429,7 @@ fun VideoStickerPlayer(
                         }
                         if (thumbnailData == null) {
                             decoderFactory(VideoFrameDecoder.Factory())
-                            videoFrameMillis(0)
+                            // videoFrameMillis(0)
                         }
                     }
                     .crossfade(false)
