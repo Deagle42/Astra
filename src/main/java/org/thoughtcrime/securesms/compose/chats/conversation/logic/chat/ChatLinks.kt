@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.logic
 
 import org.monogram.core.telegram.TelegramLinkDomains
-import org.monogram.domain.repository.TelegramLinkRepository
-import org.monogram.presentation.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
 
 internal fun ChatComponent.State.preferredTelegramUsername(): String? {
     chatUsername.normalizeTelegramUsername()?.let { return it }

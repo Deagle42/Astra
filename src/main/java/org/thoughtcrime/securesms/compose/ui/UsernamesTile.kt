@@ -34,7 +34,7 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.R
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable

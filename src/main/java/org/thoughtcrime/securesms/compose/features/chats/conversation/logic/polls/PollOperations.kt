@@ -2,7 +2,7 @@ package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
 
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 internal fun DefaultChatComponent.handlePollOptionClick(messageId: Long, optionId: Int) {
     scope.launch {

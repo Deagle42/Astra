@@ -17,7 +17,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.monogram.presentation.core.util.coRunCatching
+import org.thoughtcrime.securesms.compose.core.util.coRunCatching
 import java.io.File
 import kotlin.math.max
 

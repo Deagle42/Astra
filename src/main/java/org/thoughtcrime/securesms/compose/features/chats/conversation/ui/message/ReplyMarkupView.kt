@@ -34,10 +34,10 @@ import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.InlineKeyboardButtonModel
-import org.monogram.domain.models.InlineKeyboardButtonType
-import org.monogram.domain.models.ReplyMarkupModel
-import org.monogram.presentation.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.domain.models.InlineKeyboardButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.InlineKeyboardButtonType
+import org.thoughtcrime.securesms.compose.domain.models.ReplyMarkupModel
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 
 @Composable
 fun ReplyMarkupView(

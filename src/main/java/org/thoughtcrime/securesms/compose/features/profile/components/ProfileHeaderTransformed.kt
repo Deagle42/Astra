@@ -44,12 +44,12 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.UserTypeEnum
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.AvatarHeader
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.UserTypeEnum
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.AvatarHeader
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 
 @Composable
 fun ProfileHeaderTransformed(

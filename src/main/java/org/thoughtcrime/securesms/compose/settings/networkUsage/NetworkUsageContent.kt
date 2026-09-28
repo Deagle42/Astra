@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.networkUsage
+package org.thoughtcrime.securesms.compose.settings.networkUsage
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.Spring
@@ -34,10 +34,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.domain.models.NetworkTypeUsage
-import org.monogram.domain.models.NetworkUsageCategory
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.domain.models.NetworkTypeUsage
+import org.thoughtcrime.securesms.compose.domain.models.NetworkUsageCategory
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import java.util.*
 
 private enum class NetworkTab(val titleRes: Int, val icon: ImageVector) {

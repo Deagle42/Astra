@@ -46,12 +46,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.ui.ConfirmationSheet
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsTextField
-import org.monogram.presentation.core.ui.shimmerBackground
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
+import org.thoughtcrime.securesms.compose.core.ui.shimmerBackground
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

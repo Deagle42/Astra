@@ -9,18 +9,18 @@ import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.ChatStorageUsageModel
-import org.monogram.domain.models.FileTypeStorageUsageModel
-import org.monogram.domain.models.StorageCleanupResultModel
-import org.monogram.domain.models.StorageUsageBreakdownModel
-import org.monogram.domain.models.StorageUsageModel
-import org.monogram.domain.repository.MessageDisplayer
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.domain.repository.StorageRepository
-import org.monogram.domain.repository.StringProvider
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.models.ChatStorageUsageModel
+import org.thoughtcrime.securesms.compose.domain.models.FileTypeStorageUsageModel
+import org.thoughtcrime.securesms.compose.domain.models.StorageCleanupResultModel
+import org.thoughtcrime.securesms.compose.domain.models.StorageUsageBreakdownModel
+import org.thoughtcrime.securesms.compose.domain.models.StorageUsageModel
+import org.thoughtcrime.securesms.compose.domain.repository.MessageDisplayer
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.domain.repository.StorageRepository
+import org.thoughtcrime.securesms.compose.domain.repository.StringProvider
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 import java.util.Locale
 
 internal const val AppTempChatId: Long = Long.MIN_VALUE

@@ -39,9 +39,9 @@ import coil3.compose.AsyncImage
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.flow.filterIsInstance
 import org.koin.compose.koinInject
-import org.monogram.domain.models.FileDownloadEvent
-import org.monogram.domain.models.FileModel
-import org.monogram.domain.repository.FileRepository
+import org.thoughtcrime.securesms.compose.domain.models.FileDownloadEvent
+import org.thoughtcrime.securesms.compose.domain.models.FileModel
+import org.thoughtcrime.securesms.compose.domain.repository.FileRepository
 import java.io.File
 
 @OptIn(ExperimentalFoundationApi::class)

@@ -1,10 +1,10 @@
 package org.thoughtcrime.securesms.compose.chats.list
 
 import com.arkivanov.mvikotlin.core.store.Store
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.repository.ForwardRequest
-import org.monogram.domain.repository.ForwardTarget
-import org.monogram.presentation.features.share.ShareTarget
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.repository.ForwardRequest
+import org.thoughtcrime.securesms.compose.domain.repository.ForwardTarget
+import org.thoughtcrime.securesms.compose.features.share.ShareTarget
 
 interface ChatListStore : Store<ChatListStore.Intent, ChatListComponent.State, ChatListStore.Label> {
 

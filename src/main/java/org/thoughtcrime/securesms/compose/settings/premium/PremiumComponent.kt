@@ -6,18 +6,18 @@ import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.PremiumFeatureModel
-import org.monogram.domain.models.PremiumFeatureType
-import org.monogram.domain.models.PremiumFeaturesModel
-import org.monogram.domain.models.PremiumLimitModel
-import org.monogram.domain.models.PremiumLimitType
-import org.monogram.domain.models.PremiumPaymentOptionModel
-import org.monogram.domain.models.PremiumSource
-import org.monogram.domain.repository.PremiumRepository
-import org.monogram.domain.repository.UserRepository
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.models.PremiumFeatureModel
+import org.thoughtcrime.securesms.compose.domain.models.PremiumFeatureType
+import org.thoughtcrime.securesms.compose.domain.models.PremiumFeaturesModel
+import org.thoughtcrime.securesms.compose.domain.models.PremiumLimitModel
+import org.thoughtcrime.securesms.compose.domain.models.PremiumLimitType
+import org.thoughtcrime.securesms.compose.domain.models.PremiumPaymentOptionModel
+import org.thoughtcrime.securesms.compose.domain.models.PremiumSource
+import org.thoughtcrime.securesms.compose.domain.repository.PremiumRepository
+import org.thoughtcrime.securesms.compose.domain.repository.UserRepository
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface PremiumComponent {
     val state: Value<State>

@@ -39,13 +39,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.core.util.namespacedCacheKey
-import org.monogram.presentation.features.chats.conversation.AutoDownloadSuppression
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.core.util.namespacedCacheKey
+import org.thoughtcrime.securesms.compose.features.chats.conversation.AutoDownloadSuppression
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable

@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
 
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
 
 internal fun MessageModel.withOptimisticEdit(
     text: String,

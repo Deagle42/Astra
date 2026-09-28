@@ -12,8 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.BotCommandModel
-import org.monogram.presentation.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.domain.models.BotCommandModel
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

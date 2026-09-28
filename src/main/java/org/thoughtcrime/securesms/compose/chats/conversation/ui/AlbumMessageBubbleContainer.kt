@@ -33,15 +33,15 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.toSize
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.InlineKeyboardButtonModel
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.features.chats.conversation.ui.channel.ChannelAlbumMessageBubble
-import org.monogram.presentation.features.chats.conversation.ui.message.ChatAlbumMessageBubble
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageViaBotAttribution
-import org.monogram.presentation.features.chats.conversation.ui.message.ReplyMarkupView
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.InlineKeyboardButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.channel.ChannelAlbumMessageBubble
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.ChatAlbumMessageBubble
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageViaBotAttribution
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.ReplyMarkupView
 
 @Composable
 internal fun AlbumMessageBubbleContainer(

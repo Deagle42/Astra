@@ -4,11 +4,11 @@ import com.arkivanov.decompose.value.MutableValue
 import com.arkivanov.decompose.value.Value
 import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.repository.ChatInfoRepository
-import org.monogram.domain.repository.ChatListRepository
-import org.monogram.domain.repository.ChatMemberStatus
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.repository.ChatInfoRepository
+import org.thoughtcrime.securesms.compose.domain.repository.ChatListRepository
+import org.thoughtcrime.securesms.compose.domain.repository.ChatMemberStatus
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 class DefaultAdminManageComponent(
     context: AppComponentContext,

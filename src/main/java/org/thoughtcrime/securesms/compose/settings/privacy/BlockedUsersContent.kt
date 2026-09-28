@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.privacy
+package org.thoughtcrime.securesms.compose.settings.privacy
 
 import androidx.compose.animation.*
 import androidx.compose.animation.core.EaseIn
@@ -27,10 +27,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

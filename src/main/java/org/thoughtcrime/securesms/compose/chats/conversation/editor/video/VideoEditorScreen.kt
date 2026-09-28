@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.chats.conversation.editor.video
+package org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video
 
 import android.widget.Toast
 import androidx.activity.compose.BackHandler
@@ -39,15 +39,15 @@ import androidx.media3.extractor.DefaultExtractorsFactory
 import androidx.media3.extractor.mp4.Mp4Extractor
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.getMimeType
-import org.monogram.presentation.core.media.VideoGLTextureView
-import org.monogram.presentation.features.chats.conversation.editor.photo.components.EditorTopBar
-import org.monogram.presentation.features.chats.conversation.editor.photo.components.TextEntryDialog
-import org.monogram.presentation.features.chats.conversation.editor.video.components.VideoCompressionControls
-import org.monogram.presentation.features.chats.conversation.editor.video.components.VideoFilterControls
-import org.monogram.presentation.features.chats.conversation.editor.video.components.VideoTextControls
-import org.monogram.presentation.features.chats.conversation.editor.video.components.VideoTrimControls
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.getMimeType
+import org.thoughtcrime.securesms.compose.core.media.VideoGLTextureView
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.EditorTopBar
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.TextEntryDialog
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video.components.VideoCompressionControls
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video.components.VideoFilterControls
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video.components.VideoTextControls
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video.components.VideoTrimControls
 import java.io.File
 import java.io.FileNotFoundException
 

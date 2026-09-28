@@ -9,15 +9,15 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.ChatType
-import org.monogram.domain.models.UserStatusType
-import org.monogram.domain.models.UserTypeEnum
-import org.monogram.domain.repository.ChatMemberStatus
-import org.monogram.presentation.features.chats.common.ChatActionState
-import org.monogram.presentation.features.chats.common.ChatActionType
-import org.monogram.presentation.features.chats.conversation.ChatConversationLog
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatType
+import org.thoughtcrime.securesms.compose.domain.models.UserStatusType
+import org.thoughtcrime.securesms.compose.domain.models.UserTypeEnum
+import org.thoughtcrime.securesms.compose.domain.repository.ChatMemberStatus
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionState
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionType
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatConversationLog
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 internal fun DefaultChatComponent.loadChatInfo() {
     scope.launch {

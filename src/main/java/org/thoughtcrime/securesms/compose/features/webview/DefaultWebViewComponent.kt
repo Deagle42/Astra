@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.compose.features.webview
 
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 class DefaultWebViewComponent(
     context: AppComponentContext,

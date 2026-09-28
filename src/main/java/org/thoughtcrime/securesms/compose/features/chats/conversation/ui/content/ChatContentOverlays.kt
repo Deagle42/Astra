@@ -23,21 +23,21 @@ import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.zIndex
 import androidx.window.core.layout.WindowWidthSizeClass
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.ChatPermissionsModel
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ConfirmationSheet
-import org.monogram.presentation.core.util.LocalTabletInterfaceEnabled
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.editor.photo.PhotoEditorScreen
-import org.monogram.presentation.features.chats.conversation.editor.video.VideoEditorScreen
-import org.monogram.presentation.features.chats.conversation.ui.StickerSetSheet
-import org.monogram.presentation.features.chats.conversation.ui.message.BotCommandsSheet
-import org.monogram.presentation.features.chats.conversation.ui.message.ChecklistEditorSheet
-import org.monogram.presentation.features.chats.conversation.ui.message.PollVotersSheet
-import org.monogram.presentation.features.chats.conversation.ui.message.PreviewImageViewerRequest
-import org.monogram.presentation.features.chats.conversation.ui.message.PreviewVideoViewerRequest
-import org.monogram.presentation.features.chats.conversation.ui.pins.PinnedMessagesListSheet
+import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
+import org.thoughtcrime.securesms.compose.core.util.LocalTabletInterfaceEnabled
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.PhotoEditorScreen
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video.VideoEditorScreen
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.StickerSetSheet
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.BotCommandsSheet
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.ChecklistEditorSheet
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.PollVotersSheet
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.PreviewImageViewerRequest
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.PreviewVideoViewerRequest
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.pins.PinnedMessagesListSheet
 
 @Composable
 internal fun ChatContentOverlays(

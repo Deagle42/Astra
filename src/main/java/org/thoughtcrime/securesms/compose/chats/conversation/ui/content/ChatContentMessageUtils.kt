@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.content
 
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 
 internal fun MessageModel.extractTextContent(): String? {
     return when (val currentContent = content) {

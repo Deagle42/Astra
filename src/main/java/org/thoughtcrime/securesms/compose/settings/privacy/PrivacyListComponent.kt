@@ -6,15 +6,15 @@ import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import org.monogram.domain.managers.DistrManager
-import org.monogram.domain.models.PrivacyRule
-import org.monogram.domain.models.PrivacyValue
-import org.monogram.domain.repository.AppPreferencesProvider
-import org.monogram.domain.repository.ClientOptionsRepository
-import org.monogram.domain.repository.PrivacyKey
-import org.monogram.domain.repository.PrivacyRepository
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.managers.DistrManager
+import org.thoughtcrime.securesms.compose.domain.models.PrivacyRule
+import org.thoughtcrime.securesms.compose.domain.models.PrivacyValue
+import org.thoughtcrime.securesms.compose.domain.repository.AppPreferencesProvider
+import org.thoughtcrime.securesms.compose.domain.repository.ClientOptionsRepository
+import org.thoughtcrime.securesms.compose.domain.repository.PrivacyKey
+import org.thoughtcrime.securesms.compose.domain.repository.PrivacyRepository
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface PrivacyListComponent {
     val state: Value<State>

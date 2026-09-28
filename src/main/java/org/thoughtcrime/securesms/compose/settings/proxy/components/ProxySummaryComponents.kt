@@ -44,9 +44,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.models.ProxyModel
-import org.monogram.domain.models.ProxyTypeModel
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.domain.models.ProxyModel
+import org.thoughtcrime.securesms.compose.domain.models.ProxyTypeModel
+import org.thoughtcrime.securesms.compose.R
 
 @Composable
 internal fun ProxyConnectionSummaryCard(

@@ -24,9 +24,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageEntityType
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 
 @Immutable
 data class MessageTextRenderData(

@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.chats.conversation.ui.message
+package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message
 
 import androidx.annotation.OptIn
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -33,14 +33,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.media3.common.util.UnstableApi
 import org.koin.compose.koinInject
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.StickerModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
-import org.monogram.presentation.features.stickers.ui.view.StickerSkeleton
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerSkeleton
 import java.io.File
 
 internal fun resolveStickerTapAction(

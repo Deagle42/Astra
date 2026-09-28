@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.compose.settings.privacy
 
-import org.monogram.domain.models.PrivacyRule
-import org.monogram.domain.models.PrivacyValue
-import org.monogram.domain.repository.PrivacyKey
+import org.thoughtcrime.securesms.compose.domain.models.PrivacyRule
+import org.thoughtcrime.securesms.compose.domain.models.PrivacyValue
+import org.thoughtcrime.securesms.compose.domain.repository.PrivacyKey
 
 internal data class PrivacyRuleConfig(
     val baseValue: PrivacyValue,

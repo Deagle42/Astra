@@ -19,10 +19,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.graphics.toColorInt
-import org.monogram.domain.models.webapp.ThemeParams
-import org.monogram.presentation.core.util.coRunCatching
-import org.monogram.presentation.features.webapp.TelegramWebAppHost
-import org.monogram.presentation.features.webapp.TelegramWebviewProxy
+import org.thoughtcrime.securesms.compose.domain.models.webapp.ThemeParams
+import org.thoughtcrime.securesms.compose.core.util.coRunCatching
+import org.thoughtcrime.securesms.compose.features.webapp.TelegramWebAppHost
+import org.thoughtcrime.securesms.compose.features.webapp.TelegramWebviewProxy
 import androidx.compose.ui.graphics.Color as ComposeColor
 
 @Composable

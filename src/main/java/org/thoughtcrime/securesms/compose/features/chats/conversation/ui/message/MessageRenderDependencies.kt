@@ -16,12 +16,12 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageEntityType
-import org.monogram.domain.models.MessageReactionModel
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.core.util.coRunCatching
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.domain.models.MessageReactionModel
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.core.util.coRunCatching
 
 @Immutable
 data class MessageRenderDependencies(

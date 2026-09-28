@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.chats.conversation.ui.message
+package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message
 
 import androidx.annotation.OptIn
 import androidx.compose.foundation.background
@@ -52,14 +52,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.core.util.namespacedCacheKey
-import org.monogram.presentation.features.chats.conversation.ui.InlineVideoPlayer
-import org.monogram.presentation.features.stickers.ui.view.shimmerEffect
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.core.util.namespacedCacheKey
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.InlineVideoPlayer
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.shimmerEffect
 import java.io.File
 import java.io.FileNotFoundException
 

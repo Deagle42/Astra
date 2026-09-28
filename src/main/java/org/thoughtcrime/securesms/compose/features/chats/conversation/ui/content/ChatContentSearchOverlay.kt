@@ -50,10 +50,10 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.filterNotNull
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.AvatarForChat
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.AvatarForChat
 import java.util.Calendar
 import java.util.Locale
 

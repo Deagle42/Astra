@@ -83,13 +83,13 @@ import androidx.compose.ui.window.DialogProperties
 import androidx.compose.ui.window.DialogWindowProvider
 import androidx.core.view.WindowCompat
 import kotlinx.coroutines.launch
-import org.monogram.domain.repository.ChecklistDraft
-import org.monogram.domain.repository.ChecklistTaskDraft
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SectionHeader
-import org.monogram.presentation.core.ui.SettingsSwitchTile
-import org.monogram.presentation.core.ui.SettingsTextField
+import org.thoughtcrime.securesms.compose.domain.repository.ChecklistDraft
+import org.thoughtcrime.securesms.compose.domain.repository.ChecklistTaskDraft
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SectionHeader
+import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
 import kotlin.math.roundToInt
 
 @OptIn(ExperimentalMaterial3Api::class)

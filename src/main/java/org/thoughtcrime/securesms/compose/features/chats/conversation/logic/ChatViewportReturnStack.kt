@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
 
-import org.monogram.domain.models.ChatViewportCacheEntry
+import org.thoughtcrime.securesms.compose.domain.models.ChatViewportCacheEntry
 
 internal data class ChatViewportReturnPopResult(
     val targetMessageId: Long?,

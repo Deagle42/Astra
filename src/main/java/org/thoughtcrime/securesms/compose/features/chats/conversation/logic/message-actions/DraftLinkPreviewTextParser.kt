@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
 
 import androidx.core.net.toUri
-import org.monogram.domain.models.LinkPreviewTarget
+import org.thoughtcrime.securesms.compose.domain.models.LinkPreviewTarget
 
 internal object DraftLinkPreviewTextParser {
     fun parseTargets(text: String): List<LinkPreviewTarget> {

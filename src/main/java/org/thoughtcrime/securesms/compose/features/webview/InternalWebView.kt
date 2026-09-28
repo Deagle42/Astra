@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.webview
+package org.thoughtcrime.securesms.compose.features.webview
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -30,11 +30,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import kotlinx.coroutines.launch
-import org.monogram.presentation.R
-import org.monogram.presentation.features.webview.components.CertificateSheet
-import org.monogram.presentation.features.webview.components.FindInPageBar
-import org.monogram.presentation.features.webview.components.OptionsSheet
-import org.monogram.presentation.features.webview.components.WebViewTopBar
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.webview.components.CertificateSheet
+import org.thoughtcrime.securesms.compose.features.webview.components.FindInPageBar
+import org.thoughtcrime.securesms.compose.features.webview.components.OptionsSheet
+import org.thoughtcrime.securesms.compose.features.webview.components.WebViewTopBar
 import java.io.ByteArrayInputStream
 
 @OptIn(ExperimentalMaterial3Api::class)

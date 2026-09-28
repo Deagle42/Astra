@@ -21,9 +21,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil3.compose.rememberAsyncImagePainter
 import coil3.request.ImageRequest
-import org.monogram.presentation.core.media.AvatarPlayer
-import org.monogram.presentation.core.ui.rememberAnimatedAvatarPlaybackEnabled
-import org.monogram.presentation.core.util.generateColorFromHash
+import org.thoughtcrime.securesms.compose.core.media.AvatarPlayer
+import org.thoughtcrime.securesms.compose.core.ui.rememberAnimatedAvatarPlaybackEnabled
+import org.thoughtcrime.securesms.compose.core.util.generateColorFromHash
 import java.io.File
 
 @Composable

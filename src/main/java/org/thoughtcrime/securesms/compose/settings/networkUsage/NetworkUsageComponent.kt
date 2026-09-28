@@ -4,10 +4,10 @@ import com.arkivanov.decompose.value.MutableValue
 import com.arkivanov.decompose.value.Value
 import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.NetworkUsageModel
-import org.monogram.domain.repository.NetworkStatisticsRepository
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.models.NetworkUsageModel
+import org.thoughtcrime.securesms.compose.domain.repository.NetworkStatisticsRepository
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface NetworkUsageComponent {
     val state: Value<State>

@@ -5,10 +5,10 @@ import com.arkivanov.decompose.value.Value
 import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
-import org.monogram.domain.repository.ChatCreationRepository
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.repository.ChatCreationRepository
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface DataStorageComponent {
     val state: Value<State>

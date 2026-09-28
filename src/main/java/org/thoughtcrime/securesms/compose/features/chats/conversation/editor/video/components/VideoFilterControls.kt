@@ -16,8 +16,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.features.chats.conversation.editor.video.VideoFilter
-import org.monogram.presentation.features.chats.conversation.editor.video.getPresetVideoFilters
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video.VideoFilter
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video.getPresetVideoFilters
 
 
 @Composable

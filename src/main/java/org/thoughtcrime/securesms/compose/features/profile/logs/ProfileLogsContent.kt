@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.profile.logs
+package org.thoughtcrime.securesms.compose.features.profile.logs
 
 import android.widget.Toast
 import androidx.compose.animation.*
@@ -24,18 +24,18 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.domain.models.MessageSenderModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SectionHeader
-import org.monogram.presentation.core.ui.SettingsTextField
-import org.monogram.presentation.features.profile.logs.components.DateHeader
-import org.monogram.presentation.features.profile.logs.components.FilterChipCompact
-import org.monogram.presentation.features.profile.logs.components.LogBubble
-import org.monogram.presentation.features.viewers.ImageViewer
-import org.monogram.presentation.features.viewers.FullscreenImageItem
-import org.monogram.presentation.features.viewers.VideoViewer
+import org.thoughtcrime.securesms.compose.domain.models.MessageSenderModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SectionHeader
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
+import org.thoughtcrime.securesms.compose.features.profile.logs.components.DateHeader
+import org.thoughtcrime.securesms.compose.features.profile.logs.components.FilterChipCompact
+import org.thoughtcrime.securesms.compose.features.profile.logs.components.LogBubble
+import org.thoughtcrime.securesms.compose.features.viewers.ImageViewer
+import org.thoughtcrime.securesms.compose.features.viewers.FullscreenImageItem
+import org.thoughtcrime.securesms.compose.features.viewers.VideoViewer
 import java.text.SimpleDateFormat
 import java.util.*
 

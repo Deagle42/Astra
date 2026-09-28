@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.chats.creation
 
 import kotlinx.coroutines.flow.StateFlow
-import org.monogram.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
 
 interface NewChatComponent {
     val state: StateFlow<State>

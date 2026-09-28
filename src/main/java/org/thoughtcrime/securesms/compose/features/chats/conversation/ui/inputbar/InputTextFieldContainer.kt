@@ -39,11 +39,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.BotCommandModel
-import org.monogram.domain.models.BotMenuButtonModel
-import org.monogram.domain.models.StickerModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.LocalTabletInterfaceEnabled
+import org.thoughtcrime.securesms.compose.domain.models.BotCommandModel
+import org.thoughtcrime.securesms.compose.domain.models.BotMenuButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.LocalTabletInterfaceEnabled
 
 @Composable
 internal fun InputTextFieldContainer(

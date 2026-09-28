@@ -33,9 +33,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.R
-import org.monogram.presentation.features.gallery.BucketFilter
-import org.monogram.presentation.features.gallery.GalleryFilter
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.gallery.BucketFilter
+import org.thoughtcrime.securesms.compose.features.gallery.GalleryFilter
 
 private data class GalleryTabSpec(
     val filter: GalleryFilter,

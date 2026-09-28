@@ -9,8 +9,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.media3.common.util.UnstableApi
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.features.viewers.components.VideoPage
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.features.viewers.components.VideoPage
 
 @OptIn(UnstableApi::class)
 @Composable

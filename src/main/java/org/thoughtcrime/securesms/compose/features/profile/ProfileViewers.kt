@@ -38,19 +38,19 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.repository.TelegramLinkRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.features.instantview.InstantViewer
-import org.monogram.presentation.features.viewers.FullscreenImageItem
-import org.monogram.presentation.features.viewers.ManagedImageViewer
-import org.monogram.presentation.features.viewers.VideoViewer
-import org.monogram.presentation.features.viewers.YouTubeViewer
-import org.monogram.presentation.features.webapp.MiniAppViewer
-import org.monogram.presentation.features.webapp.components.InvoiceDialog
-import org.monogram.presentation.features.webapp.components.MiniAppTOSBottomSheet
-import org.monogram.presentation.features.webview.InternalWebView
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.instantview.InstantViewer
+import org.thoughtcrime.securesms.compose.features.viewers.FullscreenImageItem
+import org.thoughtcrime.securesms.compose.features.viewers.ManagedImageViewer
+import org.thoughtcrime.securesms.compose.features.viewers.VideoViewer
+import org.thoughtcrime.securesms.compose.features.viewers.YouTubeViewer
+import org.thoughtcrime.securesms.compose.features.webapp.MiniAppViewer
+import org.thoughtcrime.securesms.compose.features.webapp.components.InvoiceDialog
+import org.thoughtcrime.securesms.compose.features.webapp.components.MiniAppTOSBottomSheet
+import org.thoughtcrime.securesms.compose.features.webview.InternalWebView
 
 @Composable
 fun ProfileViewers(

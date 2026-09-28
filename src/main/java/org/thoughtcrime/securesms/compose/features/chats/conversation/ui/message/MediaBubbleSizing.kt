@@ -2,8 +2,8 @@ package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.messag
 
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.webapp.PageBlock
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.webapp.PageBlock
 
 private const val DEFAULT_MEDIA_ASPECT_RATIO = 1f
 private const val MIN_MEDIA_ASPECT_RATIO = 0.5f

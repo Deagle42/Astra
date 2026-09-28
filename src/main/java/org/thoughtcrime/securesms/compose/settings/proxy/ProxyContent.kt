@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.proxy
+package org.thoughtcrime.securesms.compose.settings.proxy
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -106,37 +106,37 @@ import androidx.compose.ui.window.PopupProperties
 import androidx.core.content.ContextCompat
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
 import kotlinx.coroutines.launch
-import org.monogram.domain.repository.ProxyNetworkMode
-import org.monogram.domain.repository.ProxyNetworkRule
-import org.monogram.domain.repository.ProxyNetworkType
-import org.monogram.domain.repository.ProxySmartSwitchMode
-import org.monogram.domain.repository.ProxySortMode
-import org.monogram.domain.repository.ProxyUnavailableFallback
-import org.monogram.domain.repository.defaultProxyNetworkMode
-import org.monogram.presentation.BuildConfig
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.IntegratedQRScanner
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsSwitchTile
-import org.monogram.presentation.core.ui.SettingsTile
-import org.monogram.presentation.features.stickers.ui.menu.MenuOptionRow
-import org.monogram.presentation.features.viewers.components.ViewerSettingsDropdown
-import org.monogram.presentation.settings.proxy.components.DropdownSelectionTrailing
-import org.monogram.presentation.settings.proxy.components.ProxyAddEditSheet
-import org.monogram.presentation.settings.proxy.components.ProxyItem
-import org.monogram.presentation.settings.proxy.components.SectionHeader
-import org.monogram.presentation.settings.proxy.components.StyledDropdownMenu
-import org.monogram.presentation.settings.proxy.components.SwipeToDeleteContainer
-import org.monogram.presentation.settings.proxy.components.fallbackIcon
-import org.monogram.presentation.settings.proxy.components.fallbackLabelRes
-import org.monogram.presentation.settings.proxy.components.itemPosition
-import org.monogram.presentation.settings.proxy.components.networkModeIcon
-import org.monogram.presentation.settings.proxy.components.networkModeLabelRes
-import org.monogram.presentation.settings.proxy.components.networkRuleSubtitleRes
-import org.monogram.presentation.settings.proxy.components.networkTitleRes
-import org.monogram.presentation.settings.proxy.components.smartSwitchModeLabelRes
-import org.monogram.presentation.settings.proxy.components.sortModeIcon
-import org.monogram.presentation.settings.proxy.components.sortModeLabelRes
+import org.thoughtcrime.securesms.compose.domain.repository.ProxyNetworkMode
+import org.thoughtcrime.securesms.compose.domain.repository.ProxyNetworkRule
+import org.thoughtcrime.securesms.compose.domain.repository.ProxyNetworkType
+import org.thoughtcrime.securesms.compose.domain.repository.ProxySmartSwitchMode
+import org.thoughtcrime.securesms.compose.domain.repository.ProxySortMode
+import org.thoughtcrime.securesms.compose.domain.repository.ProxyUnavailableFallback
+import org.thoughtcrime.securesms.compose.domain.repository.defaultProxyNetworkMode
+import org.thoughtcrime.securesms.compose.BuildConfig
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.IntegratedQRScanner
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTile
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
+import org.thoughtcrime.securesms.compose.features.viewers.components.ViewerSettingsDropdown
+import org.thoughtcrime.securesms.compose.settings.proxy.components.DropdownSelectionTrailing
+import org.thoughtcrime.securesms.compose.settings.proxy.components.ProxyAddEditSheet
+import org.thoughtcrime.securesms.compose.settings.proxy.components.ProxyItem
+import org.thoughtcrime.securesms.compose.settings.proxy.components.SectionHeader
+import org.thoughtcrime.securesms.compose.settings.proxy.components.StyledDropdownMenu
+import org.thoughtcrime.securesms.compose.settings.proxy.components.SwipeToDeleteContainer
+import org.thoughtcrime.securesms.compose.settings.proxy.components.fallbackIcon
+import org.thoughtcrime.securesms.compose.settings.proxy.components.fallbackLabelRes
+import org.thoughtcrime.securesms.compose.settings.proxy.components.itemPosition
+import org.thoughtcrime.securesms.compose.settings.proxy.components.networkModeIcon
+import org.thoughtcrime.securesms.compose.settings.proxy.components.networkModeLabelRes
+import org.thoughtcrime.securesms.compose.settings.proxy.components.networkRuleSubtitleRes
+import org.thoughtcrime.securesms.compose.settings.proxy.components.networkTitleRes
+import org.thoughtcrime.securesms.compose.settings.proxy.components.smartSwitchModeLabelRes
+import org.thoughtcrime.securesms.compose.settings.proxy.components.sortModeIcon
+import org.thoughtcrime.securesms.compose.settings.proxy.components.sortModeLabelRes
 
 private enum class ProxyTab(
     val titleRes: Int,

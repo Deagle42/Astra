@@ -31,16 +31,16 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.ProxyModel
-import org.monogram.domain.models.ProxyTypeModel
-import org.monogram.domain.repository.ProxyNetworkMode
-import org.monogram.domain.repository.ProxyNetworkRule
-import org.monogram.domain.repository.ProxyNetworkType
-import org.monogram.domain.repository.ProxySmartSwitchMode
-import org.monogram.domain.repository.ProxySortMode
-import org.monogram.domain.repository.ProxyUnavailableFallback
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.domain.models.ProxyModel
+import org.thoughtcrime.securesms.compose.domain.models.ProxyTypeModel
+import org.thoughtcrime.securesms.compose.domain.repository.ProxyNetworkMode
+import org.thoughtcrime.securesms.compose.domain.repository.ProxyNetworkRule
+import org.thoughtcrime.securesms.compose.domain.repository.ProxyNetworkType
+import org.thoughtcrime.securesms.compose.domain.repository.ProxySmartSwitchMode
+import org.thoughtcrime.securesms.compose.domain.repository.ProxySortMode
+import org.thoughtcrime.securesms.compose.domain.repository.ProxyUnavailableFallback
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 

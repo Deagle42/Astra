@@ -4,9 +4,9 @@ import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 private const val SEARCH_DEBOUNCE_MS = 250L
 private const val SEARCH_PAGE_SIZE = 20
@@ -16,14 +16,14 @@ private fun hasDateFilter(fromEpochSeconds: Int?, toEpochSeconds: Int?): Boolean
     return fromEpochSeconds != null || toEpochSeconds != null
 }
 
-private fun DefaultChatComponent.hasSearchCriteria(state: org.monogram.presentation.features.chats.conversation.ChatComponent.State): Boolean {
+private fun DefaultChatComponent.hasSearchCriteria(state: org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent.State): Boolean {
     return state.searchQuery.isNotBlank() ||
             state.searchSender != null ||
             state.searchDateFromEpochSeconds != null ||
             state.searchDateToEpochSeconds != null
 }
 
-private fun DefaultChatComponent.hasMoreSearchResults(state: org.monogram.presentation.features.chats.conversation.ChatComponent.State): Boolean {
+private fun DefaultChatComponent.hasMoreSearchResults(state: org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent.State): Boolean {
     return state.searchResults.size < state.searchResultsTotalCount ||
             state.searchNextFromMessageId != 0L
 }

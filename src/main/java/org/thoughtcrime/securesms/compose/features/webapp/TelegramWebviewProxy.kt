@@ -15,8 +15,8 @@ import android.webkit.JavascriptInterface
 import android.webkit.WebView
 import androidx.core.graphics.toColorInt
 import org.json.JSONObject
-import org.monogram.domain.models.webapp.ThemeParams
-import org.monogram.domain.models.webapp.WebAppEvent
+import org.thoughtcrime.securesms.compose.domain.models.webapp.ThemeParams
+import org.thoughtcrime.securesms.compose.domain.models.webapp.WebAppEvent
 import java.util.concurrent.ConcurrentHashMap
 
 private const val TAG = "MiniAppLog"

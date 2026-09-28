@@ -23,15 +23,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.PrivacyValue
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.UserStatusType
-import org.monogram.domain.repository.PrivacyKey
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsTile
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.PrivacyValue
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.UserStatusType
+import org.thoughtcrime.securesms.compose.domain.repository.PrivacyKey
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTile
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

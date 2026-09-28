@@ -48,14 +48,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.monogram.domain.models.AttachMenuBotModel
-import org.monogram.presentation.R
-import org.monogram.presentation.features.gallery.components.AttachBotsSection
-import org.monogram.presentation.features.gallery.components.FolderRow
-import org.monogram.presentation.features.gallery.components.GalleryGrid
-import org.monogram.presentation.features.gallery.components.GalleryTabs
-import org.monogram.presentation.features.gallery.components.PartialAccessCard
-import org.monogram.presentation.features.gallery.components.PermissionCard
+import org.thoughtcrime.securesms.compose.domain.models.AttachMenuBotModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.gallery.components.AttachBotsSection
+import org.thoughtcrime.securesms.compose.features.gallery.components.FolderRow
+import org.thoughtcrime.securesms.compose.features.gallery.components.GalleryGrid
+import org.thoughtcrime.securesms.compose.features.gallery.components.GalleryTabs
+import org.thoughtcrime.securesms.compose.features.gallery.components.PartialAccessCard
+import org.thoughtcrime.securesms.compose.features.gallery.components.PermissionCard
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

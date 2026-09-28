@@ -7,10 +7,10 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.SponsoredMessageModel
-import org.monogram.domain.models.SponsoredMessagesFeedModel
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.SponsoredMessageModel
+import org.thoughtcrime.securesms.compose.domain.models.SponsoredMessagesFeedModel
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 internal data class ChannelSponsoredRequestContext(
     val isChannel: Boolean,

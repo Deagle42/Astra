@@ -24,10 +24,10 @@ import androidx.compose.ui.unit.IntSize
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
-import org.monogram.presentation.features.stickers.core.LottieStickerController
-import org.monogram.presentation.features.stickers.core.StickerController
-import org.monogram.presentation.features.stickers.core.StickerThumbnailCache
-import org.monogram.presentation.features.stickers.core.VpxStickerController
+import org.thoughtcrime.securesms.compose.features.stickers.core.LottieStickerController
+import org.thoughtcrime.securesms.compose.features.stickers.core.StickerController
+import org.thoughtcrime.securesms.compose.features.stickers.core.StickerThumbnailCache
+import org.thoughtcrime.securesms.compose.features.stickers.core.VpxStickerController
 import java.io.File
 
 @Suppress("COMPOSE_APPLIER_CALL_MISMATCH") // https://issuetracker.google.com/issues/432262806 lol

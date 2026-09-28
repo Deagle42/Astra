@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
 
-import org.monogram.domain.models.ChatViewportCacheEntry
-import org.monogram.presentation.features.chats.conversation.ChatConversationLog
-import org.monogram.presentation.features.chats.conversation.ChatScrollCommand
-import org.monogram.presentation.features.chats.conversation.ScrollAlign
+import org.thoughtcrime.securesms.compose.domain.models.ChatViewportCacheEntry
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatConversationLog
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatScrollCommand
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ScrollAlign
 
 internal sealed interface InitialChatScrollTarget {
     val command: ChatScrollCommand

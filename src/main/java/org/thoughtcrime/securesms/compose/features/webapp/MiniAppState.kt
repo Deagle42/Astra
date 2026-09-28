@@ -42,16 +42,16 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 import org.json.JSONObject
-import org.monogram.domain.models.webapp.OSMReverseResponse
-import org.monogram.domain.models.webapp.ThemeParams
-import org.monogram.domain.models.webapp.WebAppPopupButton
-import org.monogram.domain.repository.BotPreferencesProvider
-import org.monogram.domain.repository.LocationRepository
-import org.monogram.domain.repository.UserRepository
-import org.monogram.domain.repository.WebAppRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.coRunCatching
-import org.monogram.presentation.core.util.toHex
+import org.thoughtcrime.securesms.compose.domain.models.webapp.OSMReverseResponse
+import org.thoughtcrime.securesms.compose.domain.models.webapp.ThemeParams
+import org.thoughtcrime.securesms.compose.domain.models.webapp.WebAppPopupButton
+import org.thoughtcrime.securesms.compose.domain.repository.BotPreferencesProvider
+import org.thoughtcrime.securesms.compose.domain.repository.LocationRepository
+import org.thoughtcrime.securesms.compose.domain.repository.UserRepository
+import org.thoughtcrime.securesms.compose.domain.repository.WebAppRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.coRunCatching
+import org.thoughtcrime.securesms.compose.core.util.toHex
 import java.security.SecureRandom
 import kotlin.coroutines.resume
 

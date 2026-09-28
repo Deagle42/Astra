@@ -2,8 +2,8 @@ package org.thoughtcrime.securesms.compose.chats.conversation.ui.pins
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import org.monogram.domain.models.MessageContent
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.R
 
 /**
  * Map message content to human-readable type name

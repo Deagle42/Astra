@@ -74,14 +74,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.domain.repository.TextCompositionStyleModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsTextField
-import org.monogram.presentation.features.chats.conversation.ui.message.addEmojiStyle
-import org.monogram.presentation.features.profile.logs.components.calculateDiff
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.domain.repository.TextCompositionStyleModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.addEmojiStyle
+import org.thoughtcrime.securesms.compose.features.profile.logs.components.calculateDiff
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 import java.util.Locale
 
 private data class AiPanelLanguageOption(

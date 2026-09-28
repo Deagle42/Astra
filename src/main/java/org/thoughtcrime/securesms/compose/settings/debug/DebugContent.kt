@@ -48,13 +48,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.domain.repository.PushProvider
-import org.monogram.domain.repository.UnifiedPushDebugStatus
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SectionHeader
-import org.monogram.presentation.core.ui.SettingsItem
-import org.monogram.presentation.core.ui.SettingsSwitchTile
+import org.thoughtcrime.securesms.compose.domain.repository.PushProvider
+import org.thoughtcrime.securesms.compose.domain.repository.UnifiedPushDebugStatus
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SectionHeader
+import org.thoughtcrime.securesms.compose.core.ui.SettingsItem
+import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile
 import java.text.DateFormat
 import java.util.Date
 

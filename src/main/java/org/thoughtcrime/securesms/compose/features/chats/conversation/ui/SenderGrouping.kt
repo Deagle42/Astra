@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui
 
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.features.chats.conversation.ui.content.GroupedMessageItem
-import org.monogram.presentation.features.chats.conversation.ui.content.shouldShowDate
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content.GroupedMessageItem
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content.shouldShowDate
 
 internal fun shouldGroupSenderBlock(
     current: MessageModel,

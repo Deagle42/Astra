@@ -33,8 +33,8 @@ import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.MessageEntity
-import org.monogram.presentation.core.ui.spacer.WeightSpacer
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.core.ui.spacer.WeightSpacer
 
 /**
  * Quote block

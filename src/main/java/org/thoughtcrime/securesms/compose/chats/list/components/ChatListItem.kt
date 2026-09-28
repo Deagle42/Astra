@@ -61,18 +61,18 @@ import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import org.koin.compose.koinInject
 import org.monogram.core.date.toDate
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageEntityType
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.AvatarForChat
-import org.monogram.presentation.core.ui.TypingDots
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.core.util.toShortRelativeDate
-import org.monogram.presentation.features.chats.conversation.ui.message.addEmojiStyle
-import org.monogram.presentation.features.chats.conversation.ui.message.buildAnnotatedMessageTextWithEmoji
-import org.monogram.presentation.features.chats.conversation.ui.message.rememberMessageInlineContent
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.AvatarForChat
+import org.thoughtcrime.securesms.compose.core.ui.TypingDots
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.core.util.toShortRelativeDate
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.addEmojiStyle
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.buildAnnotatedMessageTextWithEmoji
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.rememberMessageInlineContent
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

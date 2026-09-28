@@ -43,7 +43,7 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.input.pointer.positionChange
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.MessageSendOptions
+import org.thoughtcrime.securesms.compose.domain.models.MessageSendOptions
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

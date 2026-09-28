@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.chats.conversation.ui.message
+package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message
 
 import androidx.annotation.OptIn
 import androidx.compose.foundation.background
@@ -47,15 +47,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
 import androidx.media3.common.util.UnstableApi
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.media.VideoStickerPlayer
-import org.monogram.presentation.core.media.VideoType
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.core.util.namespacedCacheKey
-import org.monogram.presentation.features.chats.conversation.AutoDownloadSuppression
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.media.VideoStickerPlayer
+import org.thoughtcrime.securesms.compose.core.media.VideoType
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.core.util.namespacedCacheKey
+import org.thoughtcrime.securesms.compose.features.chats.conversation.AutoDownloadSuppression
 
 @OptIn(UnstableApi::class, ExperimentalMaterial3ExpressiveApi::class)
 @kotlin.OptIn(ExperimentalMaterial3ExpressiveApi::class)

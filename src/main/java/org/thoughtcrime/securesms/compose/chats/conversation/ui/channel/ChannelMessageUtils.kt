@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.channel
 
 import android.content.Context
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.R
 import java.text.SimpleDateFormat
 import java.util.*
 

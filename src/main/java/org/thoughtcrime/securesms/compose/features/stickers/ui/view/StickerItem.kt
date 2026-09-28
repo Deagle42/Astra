@@ -14,8 +14,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import kotlinx.coroutines.flow.firstOrNull
 import org.koin.compose.koinInject
-import org.monogram.domain.models.StickerModel
-import org.monogram.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
 import java.io.File
 
 @OptIn(ExperimentalFoundationApi::class)

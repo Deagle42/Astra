@@ -42,21 +42,21 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.features.chats.conversation.ui.CompactMediaMosaic
-import org.monogram.presentation.features.chats.conversation.ui.message.ForwardContent
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageMetadata
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageReactionsView
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageText
-import org.monogram.presentation.features.chats.conversation.ui.message.ReplyContent
-import org.monogram.presentation.features.chats.conversation.ui.message.buildAnnotatedMessageTextWithEmoji
-import org.monogram.presentation.features.chats.conversation.ui.message.formatFileSize
-import org.monogram.presentation.features.chats.conversation.ui.message.rememberMessageInlineContent
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.CompactMediaMosaic
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.ForwardContent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageMetadata
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageReactionsView
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageText
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.ReplyContent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.buildAnnotatedMessageTextWithEmoji
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.formatFileSize
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.rememberMessageInlineContent
 
 @Composable
 fun ChannelAlbumMessageBubble(

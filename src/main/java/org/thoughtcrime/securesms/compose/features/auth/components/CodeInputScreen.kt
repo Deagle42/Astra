@@ -88,11 +88,11 @@ import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
-import org.monogram.domain.repository.AuthCodeDelivery
-import org.monogram.domain.repository.AuthCodeInputKind
-import org.monogram.domain.repository.AuthUiStatus
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ExpressiveDefaults
+import org.thoughtcrime.securesms.compose.domain.repository.AuthCodeDelivery
+import org.thoughtcrime.securesms.compose.domain.repository.AuthCodeInputKind
+import org.thoughtcrime.securesms.compose.domain.repository.AuthUiStatus
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import java.util.Locale
 
 @OptIn(ExperimentalFoundationApi::class, ExperimentalMaterial3ExpressiveApi::class)

@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.settings.privacy.userSelection
 
 import com.arkivanov.decompose.value.Value
-import org.monogram.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
 
 interface UserSelectionComponent {
     val state: Value<State>

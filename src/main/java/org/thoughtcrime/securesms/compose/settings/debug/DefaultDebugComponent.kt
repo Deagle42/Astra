@@ -7,13 +7,13 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import org.monogram.domain.repository.ConversationPipelineMode
-import org.monogram.presentation.BuildConfig
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.core.util.conversationPipelineModeWithLegacyKillSwitch
-import org.monogram.presentation.core.util.defaultConversationPipelineMode
-import org.monogram.presentation.core.util.isConversationPipelineKillSwitchAvailable
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.repository.ConversationPipelineMode
+import org.thoughtcrime.securesms.compose.BuildConfig
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.core.util.conversationPipelineModeWithLegacyKillSwitch
+import org.thoughtcrime.securesms.compose.core.util.defaultConversationPipelineMode
+import org.thoughtcrime.securesms.compose.core.util.isConversationPipelineKillSwitchAvailable
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 import java.io.File
 
 class DefaultDebugComponent(

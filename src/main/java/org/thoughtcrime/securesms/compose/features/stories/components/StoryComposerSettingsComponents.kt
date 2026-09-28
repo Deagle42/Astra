@@ -44,19 +44,19 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.stories.StoryPrivacyMode
-import org.monogram.domain.models.stories.StoryPrivacySettingsModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsGroup
-import org.monogram.presentation.core.ui.SettingsTextField
-import org.monogram.presentation.core.ui.SettingsTile
-import org.monogram.presentation.features.stories.StoryAudienceFilterMode
-import org.monogram.presentation.features.stories.StoryAudiencePickerState
-import org.monogram.presentation.features.stories.StoryCapabilityPresentation
-import org.monogram.presentation.features.stories.StoryPrivacyUi
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryPrivacyMode
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryPrivacySettingsModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsGroup
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTile
+import org.thoughtcrime.securesms.compose.features.stories.StoryAudienceFilterMode
+import org.thoughtcrime.securesms.compose.features.stories.StoryAudiencePickerState
+import org.thoughtcrime.securesms.compose.features.stories.StoryCapabilityPresentation
+import org.thoughtcrime.securesms.compose.features.stories.StoryPrivacyUi
 
 @Composable
 internal fun StorySettingsCardComponent(

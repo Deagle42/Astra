@@ -7,15 +7,15 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.InlineKeyboardButtonModel
-import org.monogram.domain.models.InlineKeyboardButtonType
-import org.monogram.domain.models.KeyboardButtonModel
-import org.monogram.domain.models.KeyboardButtonType
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.UserTypeEnum
-import org.monogram.domain.repository.ChatMembersFilter
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.InlineKeyboardButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.InlineKeyboardButtonType
+import org.thoughtcrime.securesms.compose.domain.models.KeyboardButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.KeyboardButtonType
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.UserTypeEnum
+import org.thoughtcrime.securesms.compose.domain.repository.ChatMembersFilter
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 internal fun DefaultChatComponent.handleMentionQueryChange(
     query: String?,

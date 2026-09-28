@@ -12,10 +12,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.presentation.R
-import org.monogram.presentation.features.webapp.CustomMethodRequest
-import org.monogram.presentation.features.webapp.PermissionRequest
-import org.monogram.presentation.features.webapp.PopupState
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.webapp.CustomMethodRequest
+import org.thoughtcrime.securesms.compose.features.webapp.PermissionRequest
+import org.thoughtcrime.securesms.compose.features.webapp.PopupState
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

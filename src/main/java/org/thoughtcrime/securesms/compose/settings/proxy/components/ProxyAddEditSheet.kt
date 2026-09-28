@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.proxy.components
+package org.thoughtcrime.securesms.compose.settings.proxy.components
 
 import android.content.ClipData
 import android.widget.Toast
@@ -53,13 +53,13 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.models.ProxyModel
-import org.monogram.domain.models.ProxyTypeModel
-import org.monogram.domain.proxy.MtprotoSecretNormalizer
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsTextField
-import org.monogram.presentation.features.stickers.ui.menu.MenuOptionRow
+import org.thoughtcrime.securesms.compose.domain.models.ProxyModel
+import org.thoughtcrime.securesms.compose.domain.models.ProxyTypeModel
+import org.thoughtcrime.securesms.compose.domain.proxy.MtprotoSecretNormalizer
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -26,7 +26,7 @@ import com.google.zxing.EncodeHintType
 import com.google.zxing.common.BitMatrix
 import com.google.zxing.qrcode.QRCodeWriter
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.R
 import java.io.File
 import java.io.FileOutputStream
 import androidx.compose.foundation.Canvas as ComposeCanvas

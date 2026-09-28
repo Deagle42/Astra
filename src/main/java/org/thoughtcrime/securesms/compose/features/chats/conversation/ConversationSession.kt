@@ -9,15 +9,15 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.ConversationUpdate
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.repository.HistoryDirection
-import org.monogram.domain.repository.HistoryAnchor
-import org.monogram.domain.repository.HistoryPage
-import org.monogram.domain.repository.HistoryRequest
-import org.monogram.domain.repository.ConversationPipelineMode
-import org.monogram.domain.repository.BoundaryState
-import org.monogram.domain.repository.HistorySource
+import org.thoughtcrime.securesms.compose.domain.models.ConversationUpdate
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.repository.HistoryDirection
+import org.thoughtcrime.securesms.compose.domain.repository.HistoryAnchor
+import org.thoughtcrime.securesms.compose.domain.repository.HistoryPage
+import org.thoughtcrime.securesms.compose.domain.repository.HistoryRequest
+import org.thoughtcrime.securesms.compose.domain.repository.ConversationPipelineMode
+import org.thoughtcrime.securesms.compose.domain.repository.BoundaryState
+import org.thoughtcrime.securesms.compose.domain.repository.HistorySource
 import java.util.concurrent.atomic.AtomicBoolean
 
 internal object ConversationPipelineFallbackGate {

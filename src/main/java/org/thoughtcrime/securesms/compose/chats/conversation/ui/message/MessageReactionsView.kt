@@ -29,9 +29,9 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.models.MessageReactionModel
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.domain.models.MessageReactionModel
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable

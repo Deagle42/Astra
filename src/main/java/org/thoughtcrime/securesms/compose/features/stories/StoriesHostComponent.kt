@@ -1,20 +1,20 @@
 package org.thoughtcrime.securesms.compose.features.stories
 
 import kotlinx.coroutines.flow.StateFlow
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.stories.ActiveStoryListModel
-import org.monogram.domain.models.stories.StoryAvailableReactionsModel
-import org.monogram.domain.models.stories.StoryComposerDraftModel
-import org.monogram.domain.models.stories.StoryComposerMediaItemModel
-import org.monogram.domain.models.stories.StoryInteractionPageModel
-import org.monogram.domain.models.stories.StoryListType
-import org.monogram.domain.models.stories.StoryMediaType
-import org.monogram.domain.models.stories.StoryModel
-import org.monogram.domain.models.stories.StoryOptionsModel
-import org.monogram.domain.models.stories.StoryPostCapabilityModel
-import org.monogram.domain.models.stories.StoryReactionModel
-import org.monogram.domain.models.stories.StoryStatisticsModel
-import org.monogram.domain.models.stories.StoryStealthModeModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.ActiveStoryListModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryAvailableReactionsModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryComposerDraftModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryComposerMediaItemModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryInteractionPageModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryListType
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryMediaType
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryOptionsModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryPostCapabilityModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryReactionModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryStatisticsModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryStealthModeModel
 
 interface StoriesHostComponent {
     val state: StateFlow<State>

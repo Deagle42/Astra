@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.profile.admin
+package org.thoughtcrime.securesms.compose.features.profile.admin
 
 import androidx.compose.animation.*
 import androidx.compose.foundation.clickable
@@ -35,8 +35,8 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

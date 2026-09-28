@@ -1,10 +1,10 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
 
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.repository.ConversationKey
-import org.monogram.domain.repository.ConversationScope
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.repository.ConversationKey
+import org.thoughtcrime.securesms.compose.domain.repository.ConversationScope
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 internal fun ChatComponent.State.effectiveThreadChatId(baseChatId: Long): Long {
     return currentThreadChatId ?: baseChatId

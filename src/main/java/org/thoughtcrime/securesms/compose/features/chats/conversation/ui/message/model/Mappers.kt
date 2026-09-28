@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.model
 
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
 
 /**
  * Gets text part for current [MessageEntity]

@@ -15,7 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

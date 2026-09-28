@@ -39,10 +39,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.FileDownloadEvent
-import org.monogram.domain.models.webapp.InvoiceModel
-import org.monogram.domain.repository.FileRepository
-import org.monogram.domain.repository.PaymentRepository
+import org.thoughtcrime.securesms.compose.domain.models.FileDownloadEvent
+import org.thoughtcrime.securesms.compose.domain.models.webapp.InvoiceModel
+import org.thoughtcrime.securesms.compose.domain.repository.FileRepository
+import org.thoughtcrime.securesms.compose.domain.repository.PaymentRepository
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

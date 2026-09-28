@@ -69,11 +69,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsTextField
-import org.monogram.presentation.core.util.NightMode
-import org.monogram.presentation.core.util.coRunCatching
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
+import org.thoughtcrime.securesms.compose.core.util.NightMode
+import org.thoughtcrime.securesms.compose.core.util.coRunCatching
 import java.util.Calendar
 
 private enum class PaletteMode { LIGHT, DARK }

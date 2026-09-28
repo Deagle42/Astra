@@ -4,12 +4,12 @@ import android.util.Log
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.DraftLinkPreviewRequest
-import org.monogram.domain.models.FixedLinkPreviewRules
-import org.monogram.domain.models.LinkPreviewTarget
-import org.monogram.domain.models.WebPage
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.DraftLinkPreviewRequest
+import org.thoughtcrime.securesms.compose.domain.models.FixedLinkPreviewRules
+import org.thoughtcrime.securesms.compose.domain.models.LinkPreviewTarget
+import org.thoughtcrime.securesms.compose.domain.models.WebPage
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 internal fun DefaultChatComponent.handleSelectDraftLinkPreview(url: String) {
     val normalizedUrl = DraftLinkPreviewTextParser.normalizeUrl(url) ?: url

@@ -32,10 +32,10 @@ import androidx.compose.ui.text.style.ResolvedTextDirection
 import androidx.compose.ui.text.style.TextOverflow
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageEntityType
-import org.monogram.domain.repository.TelegramLinkRepository
-import org.monogram.presentation.features.chats.conversation.ui.message.model.topLevelBlockEntities
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.model.topLevelBlockEntities
 
 internal data class MessageTextLayoutInfo(
     val width: Int,

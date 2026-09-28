@@ -15,7 +15,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.R
 import kotlin.math.absoluteValue
 import kotlin.math.floor
 import kotlin.math.roundToInt

@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.gallery.components
+package org.thoughtcrime.securesms.compose.features.gallery.components
 
 import android.net.Uri
 import androidx.compose.animation.core.animateFloatAsState
@@ -40,8 +40,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
-import org.monogram.presentation.R
-import org.monogram.presentation.features.gallery.GalleryMediaItem
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.gallery.GalleryMediaItem
 import java.util.Locale
 
 private fun formatDuration(durationMs: Long): String {

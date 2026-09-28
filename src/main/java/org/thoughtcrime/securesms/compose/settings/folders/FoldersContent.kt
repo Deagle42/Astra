@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.folders
+package org.thoughtcrime.securesms.compose.settings.folders
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Spring
@@ -76,11 +76,11 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.FolderModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsSwitchTile
-import org.monogram.presentation.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.domain.models.FolderModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
 import kotlin.math.abs
 
 @OptIn(ExperimentalMaterial3Api::class)

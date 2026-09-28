@@ -64,13 +64,13 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupProperties
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ExpressiveDefaults
-import org.monogram.presentation.features.stickers.ui.menu.MenuOptionRow
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
-import org.monogram.presentation.features.viewers.components.ViewerSettingsDropdown
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.features.viewers.components.ViewerSettingsDropdown
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

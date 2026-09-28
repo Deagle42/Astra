@@ -42,8 +42,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.WallpaperModel
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.domain.models.WallpaperModel
+import org.thoughtcrime.securesms.compose.R
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

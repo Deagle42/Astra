@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.profile.components
+package org.thoughtcrime.securesms.compose.features.profile.components
 
 import android.content.ClipData
 import android.content.Intent
@@ -99,19 +99,19 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.net.toUri
 import org.monogram.core.telegram.TelegramLinkDomains
-import org.monogram.domain.models.UserTypeEnum
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsTile
-import org.monogram.presentation.core.ui.StyledQRCode
-import org.monogram.presentation.core.ui.generatePureBitmap
-import org.monogram.presentation.core.ui.rememberShimmerBrush
-import org.monogram.presentation.core.ui.saveBitmapToGallery
-import org.monogram.presentation.core.ui.shareBitmap
-import org.monogram.presentation.core.util.CountryManager
-import org.monogram.presentation.core.util.OperatorManager
-import org.monogram.presentation.features.chats.common.ChatExitAction
-import org.monogram.presentation.features.profile.ProfileComponent
+import org.thoughtcrime.securesms.compose.domain.models.UserTypeEnum
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTile
+import org.thoughtcrime.securesms.compose.core.ui.StyledQRCode
+import org.thoughtcrime.securesms.compose.core.ui.generatePureBitmap
+import org.thoughtcrime.securesms.compose.core.ui.rememberShimmerBrush
+import org.thoughtcrime.securesms.compose.core.ui.saveBitmapToGallery
+import org.thoughtcrime.securesms.compose.core.ui.shareBitmap
+import org.thoughtcrime.securesms.compose.core.util.CountryManager
+import org.thoughtcrime.securesms.compose.core.util.OperatorManager
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatExitAction
+import org.thoughtcrime.securesms.compose.features.profile.ProfileComponent
 import java.util.Calendar
 
 @Composable

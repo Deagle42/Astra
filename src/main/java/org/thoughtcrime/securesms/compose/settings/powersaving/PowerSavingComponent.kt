@@ -6,10 +6,10 @@ import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import org.monogram.domain.repository.AppPreferencesProvider
-import org.monogram.domain.repository.ClientOptionsRepository
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.repository.AppPreferencesProvider
+import org.thoughtcrime.securesms.compose.domain.repository.ClientOptionsRepository
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface PowerSavingComponent {
     val state: Value<State>

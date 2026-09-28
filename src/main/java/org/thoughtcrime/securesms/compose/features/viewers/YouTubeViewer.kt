@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class, androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.viewers
+package org.thoughtcrime.securesms.compose.features.viewers
 
 import android.app.PictureInPictureParams
 import android.content.Context
@@ -85,19 +85,19 @@ import androidx.lifecycle.compose.LocalLifecycleOwner
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.features.viewers.components.GestureOverlay
-import org.monogram.presentation.features.viewers.components.PipController
-import org.monogram.presentation.features.viewers.components.SeekFeedback
-import org.monogram.presentation.features.viewers.components.YouTubePlayerControlsUI
-import org.monogram.presentation.features.viewers.components.YouTubeSettingsMenu
-import org.monogram.presentation.features.viewers.components.baseQualityLabel
-import org.monogram.presentation.features.viewers.components.captureViewerDeviceSettings
-import org.monogram.presentation.features.viewers.components.enterPipMode
-import org.monogram.presentation.features.viewers.components.findActivity
-import org.monogram.presentation.features.viewers.components.normalizeYouTubeQualityCode
-import org.monogram.presentation.features.viewers.components.youtubeQualityRank
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.features.viewers.components.GestureOverlay
+import org.thoughtcrime.securesms.compose.features.viewers.components.PipController
+import org.thoughtcrime.securesms.compose.features.viewers.components.SeekFeedback
+import org.thoughtcrime.securesms.compose.features.viewers.components.YouTubePlayerControlsUI
+import org.thoughtcrime.securesms.compose.features.viewers.components.YouTubeSettingsMenu
+import org.thoughtcrime.securesms.compose.features.viewers.components.baseQualityLabel
+import org.thoughtcrime.securesms.compose.features.viewers.components.captureViewerDeviceSettings
+import org.thoughtcrime.securesms.compose.features.viewers.components.enterPipMode
+import org.thoughtcrime.securesms.compose.features.viewers.components.findActivity
+import org.thoughtcrime.securesms.compose.features.viewers.components.normalizeYouTubeQualityCode
+import org.thoughtcrime.securesms.compose.features.viewers.components.youtubeQualityRank
 import java.io.ByteArrayInputStream
 import java.text.SimpleDateFormat
 import java.util.Date

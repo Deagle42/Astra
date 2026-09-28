@@ -5,12 +5,12 @@ import com.arkivanov.decompose.value.Value
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.serialization.Serializable
-import org.monogram.domain.repository.PrivacyKey
-import org.monogram.domain.repository.PrivacyRepository
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
-import org.monogram.presentation.settings.privacy.userSelection.DefaultUserSelectionComponent
-import org.monogram.presentation.settings.privacy.userSelection.UserSelectionComponent
+import org.thoughtcrime.securesms.compose.domain.repository.PrivacyKey
+import org.thoughtcrime.securesms.compose.domain.repository.PrivacyRepository
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.settings.privacy.userSelection.DefaultUserSelectionComponent
+import org.thoughtcrime.securesms.compose.settings.privacy.userSelection.UserSelectionComponent
 
 interface PrivacyComponent {
     val childStack: Value<ChildStack<*, Child>>

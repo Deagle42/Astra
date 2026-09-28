@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.stickers.ui.menu
+package org.thoughtcrime.securesms.compose.features.stickers.ui.menu
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedContentTransitionScope
@@ -127,18 +127,18 @@ import androidx.compose.ui.zIndex
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.MessageViewerModel
-import org.monogram.domain.models.RecentEmojiModel
-import org.monogram.domain.repository.EmojiRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.features.chats.conversation.ui.content.DeleteMessagesSheet
-import org.monogram.presentation.features.chats.conversation.ui.message.getEmojiFontFamily
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageViewerModel
+import org.thoughtcrime.securesms.compose.domain.models.RecentEmojiModel
+import org.thoughtcrime.securesms.compose.domain.repository.EmojiRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content.DeleteMessagesSheet
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.getEmojiFontFamily
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

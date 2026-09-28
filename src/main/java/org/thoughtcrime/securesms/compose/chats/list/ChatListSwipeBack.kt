@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.compose.chats.list
 
-import org.monogram.presentation.core.ui.ScreenSwipeBackAction
-import org.monogram.presentation.core.ui.ScreenSwipeBackPreview
-import org.monogram.presentation.core.ui.ScreenSwipeBackState
+import org.thoughtcrime.securesms.compose.core.ui.ScreenSwipeBackAction
+import org.thoughtcrime.securesms.compose.core.ui.ScreenSwipeBackPreview
+import org.thoughtcrime.securesms.compose.core.ui.ScreenSwipeBackState
 
 fun resolveArchiveReturnFolderId(
     folders: List<org.monogram.domain.models.FolderModel>,

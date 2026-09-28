@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.compose.settings.privacy
 import com.arkivanov.decompose.value.MutableValue
 import com.arkivanov.decompose.value.Value
 import com.arkivanov.decompose.value.update
-import org.monogram.domain.repository.AppPreferencesProvider
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.repository.AppPreferencesProvider
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface PasscodeComponent {
     val state: Value<State>

@@ -1,10 +1,10 @@
 package org.thoughtcrime.securesms.compose.features.auth
 
 import com.arkivanov.decompose.value.Value
-import org.monogram.domain.repository.AuthCodeDelivery
-import org.monogram.domain.repository.AuthCodeInputKind
-import org.monogram.domain.repository.AuthError
-import org.monogram.domain.repository.AuthUiStatus
+import org.thoughtcrime.securesms.compose.domain.repository.AuthCodeDelivery
+import org.thoughtcrime.securesms.compose.domain.repository.AuthCodeInputKind
+import org.thoughtcrime.securesms.compose.domain.repository.AuthError
+import org.thoughtcrime.securesms.compose.domain.repository.AuthUiStatus
 
 interface AuthComponent {
     val model: Value<Model>

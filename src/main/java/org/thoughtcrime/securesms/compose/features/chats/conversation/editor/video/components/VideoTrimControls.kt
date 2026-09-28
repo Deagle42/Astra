@@ -9,8 +9,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.features.chats.conversation.editor.video.VideoTrimRange
-import org.monogram.presentation.features.chats.conversation.editor.video.formatDuration
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video.VideoTrimRange
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.video.formatDuration
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

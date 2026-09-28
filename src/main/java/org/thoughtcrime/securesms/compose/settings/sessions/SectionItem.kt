@@ -5,8 +5,8 @@ import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.items
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import org.monogram.domain.models.SessionModel
-import org.monogram.presentation.core.ui.SectionHeader
+import org.thoughtcrime.securesms.compose.domain.models.SessionModel
+import org.thoughtcrime.securesms.compose.core.ui.SectionHeader
 
 internal fun LazyListScope.sessionSection(
     @StringRes titleRes: Int,

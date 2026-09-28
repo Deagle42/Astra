@@ -8,13 +8,13 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.monogram.domain.managers.AssetsManager
-import org.monogram.domain.managers.ClipManager
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.repository.ChatListRepository
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.managers.AssetsManager
+import org.thoughtcrime.securesms.compose.domain.managers.ClipManager
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.repository.ChatListRepository
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface AdBlockComponent {
     val state: Value<State>

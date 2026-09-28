@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation
 
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.MessageSendingState
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageSendingState
 
 /**
  * Presentation projection of TDLib's outgoing-message lifecycle. The temporary id is

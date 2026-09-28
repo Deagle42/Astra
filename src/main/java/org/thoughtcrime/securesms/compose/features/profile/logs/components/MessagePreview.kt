@@ -26,14 +26,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.R
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageText
-import org.monogram.presentation.features.chats.conversation.ui.message.buildAnnotatedMessageTextWithEmoji
-import org.monogram.presentation.features.chats.conversation.ui.message.rememberMessageInlineContent
-import org.monogram.presentation.features.profile.logs.ProfileLogsComponent
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageText
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.buildAnnotatedMessageTextWithEmoji
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.rememberMessageInlineContent
+import org.thoughtcrime.securesms.compose.features.profile.logs.ProfileLogsComponent
 import java.io.File
 
 @Composable

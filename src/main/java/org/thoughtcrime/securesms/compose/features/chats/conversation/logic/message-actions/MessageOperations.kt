@@ -4,17 +4,17 @@ import android.util.Log
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.ChecklistTask
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.MessageReactionModel
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.repository.ChecklistDraft
-import org.monogram.domain.repository.RichTextParseMode
-import org.monogram.presentation.R
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.ChecklistTask
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageReactionModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.repository.ChecklistDraft
+import org.thoughtcrime.securesms.compose.domain.repository.RichTextParseMode
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 private const val REACTION_UPDATE_SUPPRESSION_MS = 1500L
 

@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.compose.settings.debug
 
 import com.arkivanov.decompose.value.Value
-import org.monogram.domain.repository.PushProvider
-import org.monogram.domain.repository.UnifiedPushDebugStatus
+import org.thoughtcrime.securesms.compose.domain.repository.PushProvider
+import org.thoughtcrime.securesms.compose.domain.repository.UnifiedPushDebugStatus
 
 interface DebugComponent {
     val state: Value<State>

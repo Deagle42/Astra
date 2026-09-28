@@ -1,10 +1,10 @@
 package org.thoughtcrime.securesms.compose.features.profile.logs
 
 import com.arkivanov.decompose.value.Value
-import org.monogram.domain.models.ChatEventLogFiltersModel
-import org.monogram.domain.models.ChatEventModel
-import org.monogram.domain.repository.ChatEventLogRepository
-import org.monogram.presentation.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.domain.models.ChatEventLogFiltersModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatEventModel
+import org.thoughtcrime.securesms.compose.domain.repository.ChatEventLogRepository
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
 
 interface ProfileLogsComponent {
     val state: Value<State>

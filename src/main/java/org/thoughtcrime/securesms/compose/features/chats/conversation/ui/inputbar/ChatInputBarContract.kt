@@ -3,25 +3,25 @@ package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.inputb
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.Dp
-import org.monogram.domain.models.AttachMenuBotModel
-import org.monogram.domain.models.BotCommandModel
-import org.monogram.domain.models.BotMenuButtonModel
-import org.monogram.domain.models.ChatPermissionsModel
-import org.monogram.domain.models.GifModel
-import org.monogram.domain.models.KeyboardButtonModel
-import org.monogram.domain.models.LinkPreviewTarget
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.MessageSendOptions
-import org.monogram.domain.models.PollDraft
-import org.monogram.domain.models.ReplyMarkupModel
-import org.monogram.domain.models.TdLibLimits
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.WebPage
-import org.monogram.domain.repository.InlineBotResultsModel
-import org.monogram.domain.repository.RichTextParseMode
-import org.monogram.presentation.features.chats.conversation.ui.message.LinkPreviewAction
-import org.monogram.presentation.features.share.PendingAttachment
+import org.thoughtcrime.securesms.compose.domain.models.AttachMenuBotModel
+import org.thoughtcrime.securesms.compose.domain.models.BotCommandModel
+import org.thoughtcrime.securesms.compose.domain.models.BotMenuButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
+import org.thoughtcrime.securesms.compose.domain.models.GifModel
+import org.thoughtcrime.securesms.compose.domain.models.KeyboardButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.LinkPreviewTarget
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageSendOptions
+import org.thoughtcrime.securesms.compose.domain.models.PollDraft
+import org.thoughtcrime.securesms.compose.domain.models.ReplyMarkupModel
+import org.thoughtcrime.securesms.compose.domain.models.TdLibLimits
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.WebPage
+import org.thoughtcrime.securesms.compose.domain.repository.InlineBotResultsModel
+import org.thoughtcrime.securesms.compose.domain.repository.RichTextParseMode
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.LinkPreviewAction
+import org.thoughtcrime.securesms.compose.features.share.PendingAttachment
 
 @Immutable
 data class ChatInputBarState(

@@ -1,12 +1,12 @@
 package org.thoughtcrime.securesms.compose.settings.profile
 
 import com.arkivanov.decompose.value.Value
-import org.monogram.domain.models.BirthdateModel
-import org.monogram.domain.models.BusinessOpeningHoursModel
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.TdLibLimits
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.features.editing.EditorScreenState
+import org.thoughtcrime.securesms.compose.domain.models.BirthdateModel
+import org.thoughtcrime.securesms.compose.domain.models.BusinessOpeningHoursModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.TdLibLimits
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.features.editing.EditorScreenState
 
 interface EditProfileComponent {
     val state: Value<State>

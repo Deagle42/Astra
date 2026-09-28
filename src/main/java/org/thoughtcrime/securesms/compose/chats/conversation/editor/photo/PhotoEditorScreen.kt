@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.chats.conversation.editor.photo
+package org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo
 
 import android.graphics.BitmapFactory
 import androidx.activity.compose.BackHandler
@@ -89,25 +89,25 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.monogram.presentation.R
-import org.monogram.presentation.features.chats.conversation.editor.photo.components.DrawControls
-import org.monogram.presentation.features.chats.conversation.editor.photo.components.EditorTopBar
-import org.monogram.presentation.features.chats.conversation.editor.photo.components.FilterControls
-import org.monogram.presentation.features.chats.conversation.editor.photo.components.TextEntryDialog
-import org.monogram.presentation.features.chats.conversation.editor.photo.components.TransformControls
-import org.monogram.presentation.features.chats.conversation.editor.photo.components.normalizeRotationDegrees
-import org.monogram.presentation.features.chats.conversation.editor.photo.components.rotateClockwiseAnimationTarget
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.CropOverlay
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.CropScrim
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.calculateScalarTransformedBounds
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.calculateTargetFillRect
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.clampOffsetToCoverCrop
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.constrainCropRectToImage
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.fitContentInBounds
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.minimumScaleToCoverCrop
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.offsetForRotationAroundAnchor
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.offsetForZoomAroundAnchor
-import org.monogram.presentation.features.chats.conversation.editor.photo.crop.rememberCropEditorState
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.DrawControls
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.EditorTopBar
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.FilterControls
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.TextEntryDialog
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.TransformControls
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.normalizeRotationDegrees
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.rotateClockwiseAnimationTarget
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.CropOverlay
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.CropScrim
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.calculateScalarTransformedBounds
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.calculateTargetFillRect
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.clampOffsetToCoverCrop
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.constrainCropRectToImage
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.fitContentInBounds
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.minimumScaleToCoverCrop
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.offsetForRotationAroundAnchor
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.offsetForZoomAroundAnchor
+import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.crop.rememberCropEditorState
 import java.io.File
 
 enum class EditorTool(val labelRes: Int, val icon: ImageVector) {

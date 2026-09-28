@@ -7,19 +7,19 @@ import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.core.content.ContextCompat
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageEntityType
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.StickerFormat
-import org.monogram.domain.models.StickerModel
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.webapp.toEditorMarkdown
-import org.monogram.presentation.core.util.copyUriToTempDocumentFile
-import org.monogram.presentation.core.util.copyUriToTempMediaFile
-import org.monogram.presentation.features.share.PendingAttachment
-import org.monogram.presentation.features.share.PendingAttachmentKind
-import org.monogram.presentation.features.share.inferPendingAttachmentKind
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerFormat
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.webapp.toEditorMarkdown
+import org.thoughtcrime.securesms.compose.core.util.copyUriToTempDocumentFile
+import org.thoughtcrime.securesms.compose.core.util.copyUriToTempMediaFile
+import org.thoughtcrime.securesms.compose.features.share.PendingAttachment
+import org.thoughtcrime.securesms.compose.features.share.PendingAttachmentKind
+import org.thoughtcrime.securesms.compose.features.share.inferPendingAttachmentKind
 
 internal data class InlineQueryInput(
     val botUsername: String,

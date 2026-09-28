@@ -6,10 +6,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.models.MessageEntity
-import org.monogram.presentation.features.chats.conversation.ui.message.BigEmojiContent
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageText
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageTextRenderData
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.BigEmojiContent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageText
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageTextRenderData
 
 @Composable
 internal fun MarkdownPreviewContent(

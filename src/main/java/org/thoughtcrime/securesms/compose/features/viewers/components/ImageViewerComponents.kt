@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.viewers.components
+package org.thoughtcrime.securesms.compose.features.viewers.components
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
@@ -82,11 +82,11 @@ import coil3.size.Precision
 import coil3.size.Size
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.features.stickers.ui.menu.MenuOptionRow
-import org.monogram.presentation.features.viewers.FullscreenImageItem
-import org.monogram.presentation.features.viewers.FullscreenImageLoadState
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
+import org.thoughtcrime.securesms.compose.features.viewers.FullscreenImageItem
+import org.thoughtcrime.securesms.compose.features.viewers.FullscreenImageLoadState
 
 @Composable
 fun ImagePage(

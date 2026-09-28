@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.webapp.components
+package org.thoughtcrime.securesms.compose.features.webapp.components
 
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.RepeatMode
@@ -29,10 +29,10 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import org.koin.compose.koinInject
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
-import org.monogram.presentation.features.webapp.MainButtonState
-import org.monogram.presentation.features.webapp.SecondaryButtonState
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.features.webapp.MainButtonState
+import org.thoughtcrime.securesms.compose.features.webapp.SecondaryButtonState
 
 private fun Modifier.shineEffect(enabled: Boolean, shineOffset: Float): Modifier {
     if (!enabled) return this

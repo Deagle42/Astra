@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.compose.features.profile.contact
 
 import com.arkivanov.decompose.value.Value
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.features.editing.EditorScreenState
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.features.editing.EditorScreenState
 
 interface ContactEditComponent {
     val state: Value<State>

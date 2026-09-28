@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.storage
+package org.thoughtcrime.securesms.compose.settings.storage
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing
@@ -70,11 +70,11 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.domain.models.ChatStorageUsageModel
-import org.monogram.domain.models.StorageUsageBreakdownModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsTile
+import org.thoughtcrime.securesms.compose.domain.models.ChatStorageUsageModel
+import org.thoughtcrime.securesms.compose.domain.models.StorageUsageBreakdownModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTile
 import java.util.Locale
 import kotlin.math.roundToInt
 

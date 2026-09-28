@@ -29,11 +29,11 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.ForwardOriginType
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.features.chats.conversation.ui.isTodayTimestamp
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.ForwardOriginType
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.isTodayTimestamp
 
 @Composable
 fun ForwardContent(

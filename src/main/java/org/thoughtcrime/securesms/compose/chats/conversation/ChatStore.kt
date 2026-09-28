@@ -2,18 +2,18 @@ package org.thoughtcrime.securesms.compose.chats.conversation
 
 import androidx.compose.ui.platform.Clipboard
 import com.arkivanov.mvikotlin.core.store.Store
-import org.monogram.domain.models.ChatPermissionsModel
-import org.monogram.domain.models.ChatViewportCacheEntry
-import org.monogram.domain.models.GifModel
-import org.monogram.domain.models.InlineKeyboardButtonModel
-import org.monogram.domain.models.KeyboardButtonModel
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.MessageSendOptions
-import org.monogram.domain.models.PollDraft
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.repository.ChecklistDraft
-import org.monogram.domain.repository.RichTextParseMode
+import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatViewportCacheEntry
+import org.thoughtcrime.securesms.compose.domain.models.GifModel
+import org.thoughtcrime.securesms.compose.domain.models.InlineKeyboardButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.KeyboardButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageSendOptions
+import org.thoughtcrime.securesms.compose.domain.models.PollDraft
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.repository.ChecklistDraft
+import org.thoughtcrime.securesms.compose.domain.repository.RichTextParseMode
 import java.io.File
 
 interface ChatStore : Store<ChatStore.Intent, ChatComponent.State, ChatStore.Label> {

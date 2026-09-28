@@ -6,7 +6,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.monogram.presentation.core.media.ExoPlayerCache
+import org.thoughtcrime.securesms.compose.core.media.ExoPlayerCache
 import java.io.File
 
 data class AppTempCacheUsage(

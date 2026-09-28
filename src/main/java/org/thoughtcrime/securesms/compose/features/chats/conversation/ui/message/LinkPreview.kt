@@ -40,8 +40,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.WebPage
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.domain.models.WebPage
+import org.thoughtcrime.securesms.compose.R
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

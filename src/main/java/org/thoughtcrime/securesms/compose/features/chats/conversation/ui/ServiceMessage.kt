@@ -36,9 +36,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.ServiceEmphasis
-import org.monogram.domain.models.ServiceKind
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.ServiceEmphasis
+import org.thoughtcrime.securesms.compose.domain.models.ServiceKind
 
 @Composable
 fun ServiceMessage(service: MessageContent.Service, modifier: Modifier = Modifier) {

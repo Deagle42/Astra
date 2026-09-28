@@ -5,9 +5,9 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 
 internal fun DefaultChatComponent.loadPinnedMessage() {

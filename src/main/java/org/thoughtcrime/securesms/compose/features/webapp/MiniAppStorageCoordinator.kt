@@ -4,9 +4,9 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import org.json.JSONArray
 import org.json.JSONObject
-import org.monogram.domain.repository.BotPreferencesProvider
-import org.monogram.domain.repository.WebAppRepository
-import org.monogram.presentation.features.webapp.MiniAppResponseEmitter.Companion.putNullable
+import org.thoughtcrime.securesms.compose.domain.repository.BotPreferencesProvider
+import org.thoughtcrime.securesms.compose.domain.repository.WebAppRepository
+import org.thoughtcrime.securesms.compose.features.webapp.MiniAppResponseEmitter.Companion.putNullable
 
 internal class MiniAppStorageCoordinator(
     private val botUserId: Long,

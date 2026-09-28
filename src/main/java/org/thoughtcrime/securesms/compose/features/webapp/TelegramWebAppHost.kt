@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.features.webapp
 
 import org.json.JSONObject
-import org.monogram.domain.models.webapp.WebAppPopupButton
+import org.thoughtcrime.securesms.compose.domain.models.webapp.WebAppPopupButton
 
 interface TelegramWebAppHost {
     // Navigation & UI

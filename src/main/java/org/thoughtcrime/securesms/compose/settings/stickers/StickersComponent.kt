@@ -5,11 +5,11 @@ import com.arkivanov.decompose.value.Value
 import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.StickerSetModel
-import org.monogram.domain.repository.EmojiRepository
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
+import org.thoughtcrime.securesms.compose.domain.repository.EmojiRepository
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface StickersComponent {
     val state: Value<State>

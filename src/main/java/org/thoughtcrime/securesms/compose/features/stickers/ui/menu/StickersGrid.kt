@@ -66,15 +66,15 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.StickerModel
-import org.monogram.domain.models.StickerSetModel
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.features.chats.conversation.ui.StickerSetSheet
-import org.monogram.presentation.features.stickers.ui.view.LocalIsScrolling
-import org.monogram.presentation.features.stickers.ui.view.StickerItem
-import org.monogram.presentation.features.stickers.ui.view.StickerSkeleton
-import org.monogram.presentation.features.stickers.ui.view.shimmerEffect
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.StickerSetSheet
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.LocalIsScrolling
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerItem
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerSkeleton
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.shimmerEffect
 
 @Composable
 fun StickersView(

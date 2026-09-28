@@ -13,7 +13,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.layout.Layout
-import org.monogram.presentation.core.util.ScrollStrategy
+import org.thoughtcrime.securesms.compose.core.util.ScrollStrategy
 
 
 @Stable

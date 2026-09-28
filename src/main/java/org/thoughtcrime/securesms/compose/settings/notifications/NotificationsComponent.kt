@@ -14,15 +14,15 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
-import org.monogram.domain.managers.DistrManager
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.repository.ClientOptionsRepository
-import org.monogram.domain.repository.NotificationSettingsRepository
-import org.monogram.domain.repository.NotificationSettingsRepository.TdNotificationScope
-import org.monogram.domain.repository.PushProvider
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.managers.DistrManager
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.repository.ClientOptionsRepository
+import org.thoughtcrime.securesms.compose.domain.repository.NotificationSettingsRepository
+import org.thoughtcrime.securesms.compose.domain.repository.NotificationSettingsRepository.TdNotificationScope
+import org.thoughtcrime.securesms.compose.domain.repository.PushProvider
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface NotificationsComponent {
     val state: Value<State>

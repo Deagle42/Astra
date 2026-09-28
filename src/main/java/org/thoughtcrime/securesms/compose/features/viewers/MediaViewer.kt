@@ -23,13 +23,13 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.media3.common.util.UnstableApi
 import kotlinx.coroutines.launch
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.core.util.getMimeType
-import org.monogram.presentation.features.viewers.components.DismissRootState
-import org.monogram.presentation.features.viewers.components.ZoomState
-import org.monogram.presentation.features.viewers.components.findActivity
-import org.monogram.presentation.features.viewers.components.rememberDismissRootState
-import org.monogram.presentation.features.viewers.components.rememberZoomState
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.core.util.getMimeType
+import org.thoughtcrime.securesms.compose.features.viewers.components.DismissRootState
+import org.thoughtcrime.securesms.compose.features.viewers.components.ZoomState
+import org.thoughtcrime.securesms.compose.features.viewers.components.findActivity
+import org.thoughtcrime.securesms.compose.features.viewers.components.rememberDismissRootState
+import org.thoughtcrime.securesms.compose.features.viewers.components.rememberZoomState
 
 internal data class FullscreenViewerHostState(
     val rootState: DismissRootState,

@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.viewers.components
+package org.thoughtcrime.securesms.compose.features.viewers.components
 
 import android.os.Build
 import androidx.compose.animation.AnimatedContent
@@ -85,10 +85,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.R
-import org.monogram.presentation.features.stickers.ui.menu.MenuInfoRow
-import org.monogram.presentation.features.stickers.ui.menu.MenuOptionRow
-import org.monogram.presentation.features.stickers.ui.menu.MenuToggleRow
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuInfoRow
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuToggleRow
 
 @Composable
 fun YouTubePlayerControlsUI(

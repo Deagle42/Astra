@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.sessions
+package org.thoughtcrime.securesms.compose.settings.sessions
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -36,10 +36,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.IntegratedQRScanner
-import org.monogram.presentation.core.ui.spacer.HeightSpacer
-import org.monogram.presentation.core.ui.toolbar.Toolbar
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.IntegratedQRScanner
+import org.thoughtcrime.securesms.compose.core.ui.spacer.HeightSpacer
+import org.thoughtcrime.securesms.compose.core.ui.toolbar.Toolbar
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

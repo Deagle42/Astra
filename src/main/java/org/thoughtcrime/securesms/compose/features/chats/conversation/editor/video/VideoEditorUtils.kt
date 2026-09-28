@@ -14,7 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorMatrix
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.R
 import java.io.File
 import java.nio.ByteBuffer
 import java.nio.ByteOrder

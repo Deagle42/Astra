@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
 
-import org.monogram.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 
 internal fun MessageContent.withFileDownloadState(
     fileId: Int,

@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
 import android.util.Log
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 internal fun DefaultChatComponent.handleStickerClick(setId: Long) {
     if (setId == 0L) return

@@ -27,13 +27,13 @@ import androidx.compose.ui.layout.positionInWindow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.MessageSendingState
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.features.chats.conversation.ui.CompactMediaMosaic
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageSendingState
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.CompactMediaMosaic
 
 @Composable
 fun ChatAlbumMessageBubble(

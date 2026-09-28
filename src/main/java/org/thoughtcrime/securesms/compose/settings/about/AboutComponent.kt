@@ -5,13 +5,13 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.GitHubCommitModel
-import org.monogram.domain.models.UpdateState
-import org.monogram.domain.repository.GitHubCommitRepository
-import org.monogram.domain.repository.UpdateRepository
-import org.monogram.presentation.BuildConfig
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.models.GitHubCommitModel
+import org.thoughtcrime.securesms.compose.domain.models.UpdateState
+import org.thoughtcrime.securesms.compose.domain.repository.GitHubCommitRepository
+import org.thoughtcrime.securesms.compose.domain.repository.UpdateRepository
+import org.thoughtcrime.securesms.compose.BuildConfig
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 data class RecentCommitsState(
     val isVisible: Boolean = false,

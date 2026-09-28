@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.features.profile.admin
 
 import com.arkivanov.decompose.value.Value
-import org.monogram.domain.models.GroupMemberModel
+import org.thoughtcrime.securesms.compose.domain.models.GroupMemberModel
 
 interface MemberListComponent {
     val state: Value<State>

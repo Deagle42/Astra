@@ -141,40 +141,40 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.FolderModel
-import org.monogram.domain.models.TopicModel
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.repository.ConnectionStatus
-import org.monogram.domain.repository.ForwardTarget
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.ui.ConfirmationSheet
-import org.monogram.presentation.core.ui.ScreenSwipeBackState
-import org.monogram.presentation.core.ui.shimmerBackground
-import org.monogram.presentation.core.util.LocalTabletInterfaceEnabled
-import org.monogram.presentation.features.chats.common.ChatActionState
-import org.monogram.presentation.features.chats.conversation.ui.content.ReportChatDialog
-import org.monogram.presentation.features.chats.conversation.ui.message.getEmojiFontFamily
-import org.monogram.presentation.features.chats.list.components.AccountMenu
-import org.monogram.presentation.features.chats.list.components.ArchiveHeaderCard
-import org.monogram.presentation.features.chats.list.components.ChatListItem
-import org.monogram.presentation.features.chats.list.components.ChatListShimmer
-import org.monogram.presentation.features.chats.list.components.ChatListTopBar
-import org.monogram.presentation.features.chats.list.components.EmptyStateView
-import org.monogram.presentation.features.chats.list.components.FolderTabs
-import org.monogram.presentation.features.chats.list.components.MessageSearchItem
-import org.monogram.presentation.features.chats.list.components.PermissionRequestSheet
-import org.monogram.presentation.features.chats.list.components.SelectionTopBar
-import org.monogram.presentation.features.instantview.InstantViewer
-import org.monogram.presentation.features.stickers.ui.menu.ActionMenuPopup
-import org.monogram.presentation.features.stickers.ui.menu.EmojisGrid
-import org.monogram.presentation.features.stickers.ui.menu.MenuOptionRow
-import org.monogram.presentation.features.stories.StoriesStrip
-import org.monogram.presentation.features.stories.StoryStripItemUiModel
-import org.monogram.presentation.features.stories.shouldShowStoriesStrip
-import org.monogram.presentation.features.webapp.MiniAppViewer
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.FolderModel
+import org.thoughtcrime.securesms.compose.domain.models.TopicModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.repository.ConnectionStatus
+import org.thoughtcrime.securesms.compose.domain.repository.ForwardTarget
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
+import org.thoughtcrime.securesms.compose.core.ui.ScreenSwipeBackState
+import org.thoughtcrime.securesms.compose.core.ui.shimmerBackground
+import org.thoughtcrime.securesms.compose.core.util.LocalTabletInterfaceEnabled
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionState
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content.ReportChatDialog
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.getEmojiFontFamily
+import org.thoughtcrime.securesms.compose.features.chats.list.components.AccountMenu
+import org.thoughtcrime.securesms.compose.features.chats.list.components.ArchiveHeaderCard
+import org.thoughtcrime.securesms.compose.features.chats.list.components.ChatListItem
+import org.thoughtcrime.securesms.compose.features.chats.list.components.ChatListShimmer
+import org.thoughtcrime.securesms.compose.features.chats.list.components.ChatListTopBar
+import org.thoughtcrime.securesms.compose.features.chats.list.components.EmptyStateView
+import org.thoughtcrime.securesms.compose.features.chats.list.components.FolderTabs
+import org.thoughtcrime.securesms.compose.features.chats.list.components.MessageSearchItem
+import org.thoughtcrime.securesms.compose.features.chats.list.components.PermissionRequestSheet
+import org.thoughtcrime.securesms.compose.features.chats.list.components.SelectionTopBar
+import org.thoughtcrime.securesms.compose.features.instantview.InstantViewer
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.ActionMenuPopup
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.EmojisGrid
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
+import org.thoughtcrime.securesms.compose.features.stories.StoriesStrip
+import org.thoughtcrime.securesms.compose.features.stories.StoryStripItemUiModel
+import org.thoughtcrime.securesms.compose.features.stories.shouldShowStoriesStrip
+import org.thoughtcrime.securesms.compose.features.webapp.MiniAppViewer
 import kotlin.math.abs
 import kotlin.math.roundToInt
 
@@ -2848,7 +2848,7 @@ private fun ForwardConfirmationPanel(
                                 modifier = Modifier
                                     .fillMaxWidth()
                                     .height(ButtonDefaults.MediumContainerHeight),
-                                shapes = org.monogram.presentation.core.ui.ExpressiveDefaults.buttonShapesFor(
+                                shapes = org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults.buttonShapesFor(
                                     ButtonDefaults.MediumContainerHeight
                                 )
                             ) {
@@ -2903,7 +2903,7 @@ private fun ForwardCollapsedPanel(
             onClick = onSend,
             enabled = !isSending,
             modifier = Modifier.height(40.dp),
-            shapes = org.monogram.presentation.core.ui.ExpressiveDefaults.buttonShapesFor(
+            shapes = org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults.buttonShapesFor(
                 ButtonDefaults.MediumContainerHeight
             )
         ) {

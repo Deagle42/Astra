@@ -20,13 +20,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import org.koin.compose.koinInject
-import org.monogram.domain.models.ChatEventActionModel
-import org.monogram.domain.models.ChatEventModel
-import org.monogram.domain.models.MessageSenderModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.features.profile.logs.ProfileLogsComponent
+import org.thoughtcrime.securesms.compose.domain.models.ChatEventActionModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatEventModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageSenderModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.features.profile.logs.ProfileLogsComponent
 import java.text.SimpleDateFormat
 import java.util.*
 

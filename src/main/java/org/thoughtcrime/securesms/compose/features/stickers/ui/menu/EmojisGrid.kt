@@ -71,17 +71,17 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.RecentEmojiModel
-import org.monogram.domain.models.StickerModel
-import org.monogram.domain.models.StickerSetModel
-import org.monogram.domain.repository.EmojiRepository
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.features.chats.conversation.ui.StickerSetSheet
-import org.monogram.presentation.features.chats.conversation.ui.message.getEmojiFontFamily
-import org.monogram.presentation.features.stickers.ui.view.LocalIsScrolling
-import org.monogram.presentation.features.stickers.ui.view.StickerItem
+import org.thoughtcrime.securesms.compose.domain.models.RecentEmojiModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
+import org.thoughtcrime.securesms.compose.domain.repository.EmojiRepository
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.StickerSetSheet
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.getEmojiFontFamily
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.LocalIsScrolling
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerItem
 
 @Composable
 fun EmojisGrid(

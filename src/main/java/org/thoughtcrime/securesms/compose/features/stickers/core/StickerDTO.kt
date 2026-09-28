@@ -1,13 +1,13 @@
 package org.thoughtcrime.securesms.compose.features.stickers.core
 
 import kotlinx.serialization.Serializable
-import org.monogram.domain.models.GifModel
-import org.monogram.domain.models.RecentEmojiModel
-import org.monogram.domain.models.StickerFormat
-import org.monogram.domain.models.StickerModel
-import org.monogram.domain.models.StickerSetInfoModel
-import org.monogram.domain.models.StickerSetModel
-import org.monogram.domain.models.StickerType
+import org.thoughtcrime.securesms.compose.domain.models.GifModel
+import org.thoughtcrime.securesms.compose.domain.models.RecentEmojiModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerFormat
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerSetInfoModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerType
 
 @Serializable
 data class StickerSetUiModel(

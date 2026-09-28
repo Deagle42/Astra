@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.R
 
 @Composable
 fun TextEntryDialog(

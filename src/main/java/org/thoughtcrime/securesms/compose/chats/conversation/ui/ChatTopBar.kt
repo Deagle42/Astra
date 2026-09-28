@@ -61,14 +61,14 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.window.core.layout.WindowSizeClass
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.AvatarForChat
-import org.monogram.presentation.core.ui.ConfirmationSheet
-import org.monogram.presentation.core.ui.TypingDots
-import org.monogram.presentation.core.util.LocalTabletInterfaceEnabled
-import org.monogram.presentation.features.stickers.ui.menu.ActionMenuPopup
-import org.monogram.presentation.features.stickers.ui.menu.MenuOptionRow
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.AvatarForChat
+import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
+import org.thoughtcrime.securesms.compose.core.ui.TypingDots
+import org.thoughtcrime.securesms.compose.core.util.LocalTabletInterfaceEnabled
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.ActionMenuPopup
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

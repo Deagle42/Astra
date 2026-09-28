@@ -38,22 +38,22 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.GifModel
-import org.monogram.domain.models.KeyboardButtonModel
-import org.monogram.domain.models.LinkPreviewTarget
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.MessageSendOptions
-import org.monogram.domain.models.ReplyMarkupModel
-import org.monogram.domain.models.StickerModel
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.WebPage
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.features.chats.conversation.ui.message.BotCommandSuggestions
-import org.monogram.presentation.features.chats.conversation.ui.message.LinkPreviewAction
-import org.monogram.presentation.features.share.PendingAttachmentKind
-import org.monogram.presentation.features.stickers.ui.menu.StickerEmojiMenu
+import org.thoughtcrime.securesms.compose.domain.models.GifModel
+import org.thoughtcrime.securesms.compose.domain.models.KeyboardButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.LinkPreviewTarget
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageSendOptions
+import org.thoughtcrime.securesms.compose.domain.models.ReplyMarkupModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.WebPage
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.BotCommandSuggestions
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.LinkPreviewAction
+import org.thoughtcrime.securesms.compose.features.share.PendingAttachmentKind
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.StickerEmojiMenu
 
 @Composable
 internal fun ChatInputBarComposerSection(
@@ -89,7 +89,7 @@ internal fun ChatInputBarComposerSection(
     onCancelDocuments: () -> Unit,
     onAddMedia: () -> Unit,
     onAddDocuments: () -> Unit,
-    onPendingAttachmentsChange: (List<org.monogram.presentation.features.share.PendingAttachment>) -> Unit,
+    onPendingAttachmentsChange: (List<org.thoughtcrime.securesms.compose.features.share.PendingAttachment>) -> Unit,
     onMediaClick: (String) -> Unit,
     onDraftLinkPreviewAction: (LinkPreviewAction) -> Unit,
     onPasteImages: (List<Uri>) -> Unit,

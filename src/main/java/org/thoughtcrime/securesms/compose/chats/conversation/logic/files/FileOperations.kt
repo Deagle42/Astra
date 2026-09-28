@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.compose.chats.conversation.logic
 import android.util.Log
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.MessageContent
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 internal fun DefaultChatComponent.handleDownloadFile(fileId: Int, userInitiated: Boolean = true) {
     // Only an explicit gesture gets priority 32 and the user-initiated fast path. Viewport

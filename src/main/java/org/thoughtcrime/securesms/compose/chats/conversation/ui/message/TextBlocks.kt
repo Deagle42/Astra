@@ -1,10 +1,10 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.ui.message
 
 import androidx.compose.runtime.Composable
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageEntityType
-import org.monogram.presentation.features.chats.conversation.ui.message.model.blockFor
-import org.monogram.presentation.features.chats.conversation.ui.message.model.entitiesForBlock
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.model.blockFor
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.model.entitiesForBlock
 
 @Composable
 internal fun TextBlocks(

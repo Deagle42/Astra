@@ -44,13 +44,13 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.mapNotNull
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withTimeoutOrNull
-import org.monogram.domain.models.FileDownloadEvent
-import org.monogram.domain.models.webapp.PageBlockCaption
-import org.monogram.domain.models.webapp.RichText
-import org.monogram.presentation.core.media.VideoStickerPlayer
-import org.monogram.presentation.core.media.VideoType
-import org.monogram.presentation.features.chats.conversation.ui.message.normalizeUrl
-import org.monogram.presentation.features.stickers.ui.view.shimmerEffect
+import org.thoughtcrime.securesms.compose.domain.models.FileDownloadEvent
+import org.thoughtcrime.securesms.compose.domain.models.webapp.PageBlockCaption
+import org.thoughtcrime.securesms.compose.domain.models.webapp.RichText
+import org.thoughtcrime.securesms.compose.core.media.VideoStickerPlayer
+import org.thoughtcrime.securesms.compose.core.media.VideoType
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.normalizeUrl
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.shimmerEffect
 
 @Composable
 fun RichTextView(

@@ -18,12 +18,12 @@ import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.map
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.ChatConversationLog
-import org.monogram.presentation.features.chats.conversation.ChatScrollCommand
-import org.monogram.presentation.features.chats.conversation.ChatViewportPhase
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
-import org.monogram.presentation.features.chats.conversation.logic.requestMessageHighlight
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatConversationLog
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatScrollCommand
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatViewportPhase
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.logic.requestMessageHighlight
 import kotlin.math.abs
 
 private const val MIN_DOWNLOAD_PREFETCH_ITEMS = 12

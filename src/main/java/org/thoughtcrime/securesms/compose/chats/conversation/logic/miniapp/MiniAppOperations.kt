@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.compose.chats.conversation.logic
 import android.util.Log
 
 import kotlinx.coroutines.flow.update
-import org.monogram.presentation.features.chats.conversation.DefaultChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.DefaultChatComponent
 
 internal fun DefaultChatComponent.handleOpenMiniApp(url: String, name: String, botUserId: Long) {
     if (botUserId != 0L && !botPreferences.getWebappPermission(botUserId, "tos_accepted")) {

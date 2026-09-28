@@ -14,10 +14,10 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.SessionModel
-import org.monogram.domain.models.SessionType
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.domain.models.SessionModel
+import org.thoughtcrime.securesms.compose.domain.models.SessionType
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 
 /**
  * Map session model to its own color

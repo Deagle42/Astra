@@ -78,15 +78,15 @@ import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.AttachMenuBotModel
-import org.monogram.domain.models.UpdateState
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsItem
-import org.monogram.presentation.core.util.AppUtils
-import org.monogram.presentation.core.util.CountryManager
+import org.thoughtcrime.securesms.compose.domain.models.AttachMenuBotModel
+import org.thoughtcrime.securesms.compose.domain.models.UpdateState
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsItem
+import org.thoughtcrime.securesms.compose.core.util.AppUtils
+import org.thoughtcrime.securesms.compose.core.util.CountryManager
 import kotlin.math.roundToInt
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

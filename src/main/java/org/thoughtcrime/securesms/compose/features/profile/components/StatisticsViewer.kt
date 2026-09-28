@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.profile.components
+package org.thoughtcrime.securesms.compose.features.profile.components
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.Crossfade
@@ -105,18 +105,18 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.json.JSONObject
 import org.koin.compose.koinInject
-import org.monogram.domain.models.ChatInteractionInfoModel
-import org.monogram.domain.models.ChatInteractionType
-import org.monogram.domain.models.ChatRevenueStatisticsModel
-import org.monogram.domain.models.ChatStatisticsModel
-import org.monogram.domain.models.DateRangeModel
-import org.monogram.domain.models.StatisticsGraphModel
-import org.monogram.domain.models.StatisticsType
-import org.monogram.domain.models.stories.StoryStatisticsModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.SectionHeader
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.core.util.coRunCatching
+import org.thoughtcrime.securesms.compose.domain.models.ChatInteractionInfoModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatInteractionType
+import org.thoughtcrime.securesms.compose.domain.models.ChatRevenueStatisticsModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatStatisticsModel
+import org.thoughtcrime.securesms.compose.domain.models.DateRangeModel
+import org.thoughtcrime.securesms.compose.domain.models.StatisticsGraphModel
+import org.thoughtcrime.securesms.compose.domain.models.StatisticsType
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryStatisticsModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.SectionHeader
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.core.util.coRunCatching
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

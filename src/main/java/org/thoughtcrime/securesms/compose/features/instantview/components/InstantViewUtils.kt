@@ -17,11 +17,11 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.mapNotNull
 import kotlinx.coroutines.withTimeoutOrNull
 import org.monogram.core.telegram.TelegramLinkDomains
-import org.monogram.domain.models.FileDownloadEvent
-import org.monogram.domain.models.webapp.PageBlock
-import org.monogram.domain.models.webapp.PageBlockCaption
-import org.monogram.domain.models.webapp.RichText
-import org.monogram.domain.repository.FileRepository
+import org.thoughtcrime.securesms.compose.domain.models.FileDownloadEvent
+import org.thoughtcrime.securesms.compose.domain.models.webapp.PageBlock
+import org.thoughtcrime.securesms.compose.domain.models.webapp.PageBlockCaption
+import org.thoughtcrime.securesms.compose.domain.models.webapp.RichText
+import org.thoughtcrime.securesms.compose.domain.repository.FileRepository
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

@@ -32,11 +32,11 @@ import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
 import coil3.request.ImageRequest
 import coil3.request.crossfade
-import org.monogram.domain.models.InlineQueryResultModel
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.repository.InlineBotResultsModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.namespacedCacheKey
+import org.thoughtcrime.securesms.compose.domain.models.InlineQueryResultModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.repository.InlineBotResultsModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.namespacedCacheKey
 
 private enum class InlineResultsMode {
     Loading,

@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.compose.features.chats.conversation
 import android.os.Trace
 import android.util.Log
 import org.monogram.core.perf.ChatOpenPerfDebug
-import org.monogram.presentation.BuildConfig
-import org.monogram.presentation.features.chats.conversation.logic.effectiveThreadId
+import org.thoughtcrime.securesms.compose.BuildConfig
+import org.thoughtcrime.securesms.compose.features.chats.conversation.logic.effectiveThreadId
 import java.util.concurrent.atomic.AtomicInteger
 
 internal data class ConversationLoadSession(

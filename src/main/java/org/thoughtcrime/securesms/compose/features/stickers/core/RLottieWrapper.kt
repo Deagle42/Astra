@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.features.stickers.core
 
 import android.graphics.Bitmap
-import org.monogram.presentation.core.util.coRunCatching
+import org.thoughtcrime.securesms.compose.core.util.coRunCatching
 import java.io.File
 import java.io.FileInputStream
 import java.util.zip.GZIPInputStream

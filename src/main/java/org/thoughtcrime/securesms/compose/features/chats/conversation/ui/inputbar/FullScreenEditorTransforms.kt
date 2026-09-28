@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.inputb
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.input.TextFieldValue
-import org.monogram.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
 
 internal fun currentTextUrl(value: TextFieldValue): String? {
     val range = normalizedSelection(value.selection) ?: return null

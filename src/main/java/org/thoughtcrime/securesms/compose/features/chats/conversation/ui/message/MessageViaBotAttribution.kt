@@ -14,7 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 
 @Composable
 fun MessageViaBotAttribution(

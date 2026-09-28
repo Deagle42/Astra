@@ -4,8 +4,8 @@ import android.content.Context
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import org.json.JSONObject
-import org.monogram.domain.repository.UserRepository
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.domain.repository.UserRepository
+import org.thoughtcrime.securesms.compose.R
 import java.net.URLEncoder
 
 internal class MiniAppPermissionCoordinator(

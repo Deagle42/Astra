@@ -24,10 +24,10 @@ import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import coil3.request.ImageRequest
 import org.koin.compose.koinInject
-import org.monogram.presentation.R
-import org.monogram.presentation.core.media.AvatarPlayer
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.core.util.generateColorFromHash
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.media.AvatarPlayer
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.core.util.generateColorFromHash
 import java.io.File
 
 @Composable

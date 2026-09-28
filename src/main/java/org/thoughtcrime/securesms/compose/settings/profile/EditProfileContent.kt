@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.profile
+package org.thoughtcrime.securesms.compose.settings.profile
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -111,16 +111,16 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 import org.maplibre.android.geometry.LatLng
 import org.maplibre.android.maps.MapLibreMapOptions
-import org.monogram.domain.models.BirthdateModel
-import org.monogram.domain.models.BusinessOpeningHoursIntervalModel
-import org.monogram.domain.models.BusinessOpeningHoursModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.ui.ConfirmationSheet
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SectionHeader
-import org.monogram.presentation.core.ui.SettingsTextField
-import org.monogram.presentation.core.util.FileUtils
+import org.thoughtcrime.securesms.compose.domain.models.BirthdateModel
+import org.thoughtcrime.securesms.compose.domain.models.BusinessOpeningHoursIntervalModel
+import org.thoughtcrime.securesms.compose.domain.models.BusinessOpeningHoursModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SectionHeader
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
+import org.thoughtcrime.securesms.compose.core.util.FileUtils
 import java.util.Calendar
 import java.util.Collections
 import java.util.TimeZone

@@ -6,8 +6,8 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.FileDownloadEvent
-import org.monogram.domain.repository.FileRepository
+import org.thoughtcrime.securesms.compose.domain.models.FileDownloadEvent
+import org.thoughtcrime.securesms.compose.domain.repository.FileRepository
 
 class FullscreenImageStateHolder(
     initialItems: List<FullscreenImageItem>,

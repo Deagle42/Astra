@@ -42,10 +42,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.core.util.NightMode
-import org.monogram.presentation.features.chats.conversation.ui.message.code.CodeHighlighter
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.core.util.NightMode
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.code.CodeHighlighter
 import java.util.Calendar
 
 @Composable

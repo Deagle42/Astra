@@ -10,7 +10,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
 
 fun buildEditorPreviewAnnotatedString(
     source: AnnotatedString,

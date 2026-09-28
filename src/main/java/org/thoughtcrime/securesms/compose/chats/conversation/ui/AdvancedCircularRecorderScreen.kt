@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.chats.conversation.ui
+package org.thoughtcrime.securesms.compose.features.chats.conversation.ui
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -111,7 +111,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.R
 import java.io.File
 import java.nio.ByteBuffer
 import java.nio.ByteOrder

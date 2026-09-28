@@ -36,10 +36,10 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.GifModel
-import org.monogram.domain.models.StickerModel
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.domain.models.GifModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

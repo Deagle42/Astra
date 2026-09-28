@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.stickers
+package org.thoughtcrime.securesms.compose.settings.stickers
 
 import androidx.compose.animation.*
 import androidx.compose.animation.core.Spring
@@ -43,11 +43,11 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.StickerSetModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.*
-import org.monogram.presentation.features.stickers.ui.view.LocalIsScrolling
-import org.monogram.presentation.features.webapp.MiniAppViewer
+import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.*
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.LocalIsScrolling
+import org.thoughtcrime.securesms.compose.features.webapp.MiniAppViewer
 import kotlin.math.abs
 
 private enum class StickerTab(val titleRes: Int, val icon: ImageVector) {

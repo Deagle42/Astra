@@ -4,8 +4,8 @@ import com.arkivanov.mvikotlin.core.store.Reducer
 import com.arkivanov.mvikotlin.core.store.Store
 import com.arkivanov.mvikotlin.core.store.StoreFactory
 import com.arkivanov.mvikotlin.extensions.coroutines.CoroutineExecutor
-import org.monogram.presentation.features.profile.ProfileStore.Intent
-import org.monogram.presentation.features.profile.ProfileStore.Label
+import org.thoughtcrime.securesms.compose.features.profile.ProfileStore.Intent
+import org.thoughtcrime.securesms.compose.features.profile.ProfileStore.Label
 
 class ProfileStoreFactory(
     private val storeFactory: StoreFactory,

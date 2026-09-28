@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.profile
+package org.thoughtcrime.securesms.compose.features.profile
 
 import android.content.ClipData
 import android.widget.Toast
@@ -54,34 +54,34 @@ import androidx.window.core.layout.WindowSizeClass
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.UserStatusType
-import org.monogram.domain.models.UserTypeEnum
-import org.monogram.domain.repository.TelegramLinkRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.CollapsingToolbarScaffold
-import org.monogram.presentation.core.ui.ConfirmationSheet
-import org.monogram.presentation.core.ui.rememberCollapsingToolbarScaffoldState
-import org.monogram.presentation.core.ui.rememberShimmerBrush
-import org.monogram.presentation.core.util.CountryManager
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.core.util.LocalTabletInterfaceEnabled
-import org.monogram.presentation.core.util.ScrollStrategy
-import org.monogram.presentation.core.util.getUserStatusText
-import org.monogram.presentation.features.chats.common.ChatActionScreenContext
-import org.monogram.presentation.features.chats.common.ChatActionState
-import org.monogram.presentation.features.chats.common.ChatExitAction
-import org.monogram.presentation.features.chats.common.resolveChatActionPolicy
-import org.monogram.presentation.features.chats.conversation.ui.content.ReportChatDialog
-import org.monogram.presentation.features.profile.components.LocationViewer
-import org.monogram.presentation.features.profile.components.ProfileHeaderTransformed
-import org.monogram.presentation.features.profile.components.ProfileInfoSection
-import org.monogram.presentation.features.profile.components.ProfileInfoSectionSkeleton
-import org.monogram.presentation.features.profile.components.ProfilePermissionsDialog
-import org.monogram.presentation.features.profile.components.ProfileQRDialog
-import org.monogram.presentation.features.profile.components.ProfileTOSDialog
-import org.monogram.presentation.features.profile.components.ProfileTopBar
-import org.monogram.presentation.features.profile.components.StatisticsViewer
-import org.monogram.presentation.features.profile.components.profileMediaSection
+import org.thoughtcrime.securesms.compose.domain.models.UserStatusType
+import org.thoughtcrime.securesms.compose.domain.models.UserTypeEnum
+import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.CollapsingToolbarScaffold
+import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
+import org.thoughtcrime.securesms.compose.core.ui.rememberCollapsingToolbarScaffoldState
+import org.thoughtcrime.securesms.compose.core.ui.rememberShimmerBrush
+import org.thoughtcrime.securesms.compose.core.util.CountryManager
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.core.util.LocalTabletInterfaceEnabled
+import org.thoughtcrime.securesms.compose.core.util.ScrollStrategy
+import org.thoughtcrime.securesms.compose.core.util.getUserStatusText
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionScreenContext
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionState
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatExitAction
+import org.thoughtcrime.securesms.compose.features.chats.common.resolveChatActionPolicy
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content.ReportChatDialog
+import org.thoughtcrime.securesms.compose.features.profile.components.LocationViewer
+import org.thoughtcrime.securesms.compose.features.profile.components.ProfileHeaderTransformed
+import org.thoughtcrime.securesms.compose.features.profile.components.ProfileInfoSection
+import org.thoughtcrime.securesms.compose.features.profile.components.ProfileInfoSectionSkeleton
+import org.thoughtcrime.securesms.compose.features.profile.components.ProfilePermissionsDialog
+import org.thoughtcrime.securesms.compose.features.profile.components.ProfileQRDialog
+import org.thoughtcrime.securesms.compose.features.profile.components.ProfileTOSDialog
+import org.thoughtcrime.securesms.compose.features.profile.components.ProfileTopBar
+import org.thoughtcrime.securesms.compose.features.profile.components.StatisticsViewer
+import org.thoughtcrime.securesms.compose.features.profile.components.profileMediaSection
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

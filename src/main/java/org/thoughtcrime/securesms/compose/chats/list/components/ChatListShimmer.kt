@@ -6,7 +6,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.core.ui.shimmerBackground
+import org.thoughtcrime.securesms.compose.core.ui.shimmerBackground
 
 @Composable
 fun ChatListShimmer(itemCount: Int = 10) {

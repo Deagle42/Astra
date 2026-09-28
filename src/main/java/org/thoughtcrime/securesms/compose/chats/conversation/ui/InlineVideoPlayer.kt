@@ -4,8 +4,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.media3.common.PlaybackException
-import org.monogram.presentation.core.media.VideoStickerPlayer
-import org.monogram.presentation.core.media.VideoType
+import org.thoughtcrime.securesms.compose.core.media.VideoStickerPlayer
+import org.thoughtcrime.securesms.compose.core.media.VideoType
 
 @Composable
 fun InlineVideoPlayer(

@@ -66,12 +66,12 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageEntityType
-import org.monogram.domain.models.StickerModel
-import org.monogram.presentation.R
-import org.monogram.presentation.features.chats.conversation.ui.message.addEmojiStyle
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.addEmojiStyle
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 
 internal const val CUSTOM_EMOJI_TAG = "custom_emoji"
 internal const val MENTION_TAG = "mention"

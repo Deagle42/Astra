@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.compose.features.profile.admin
 
 import com.arkivanov.decompose.value.Value
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.ChatPermissionsModel
-import org.monogram.presentation.features.editing.EditorScreenState
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
+import org.thoughtcrime.securesms.compose.features.editing.EditorScreenState
 
 interface ChatEditComponent {
     val state: Value<State>

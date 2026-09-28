@@ -23,8 +23,8 @@ import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.WallpaperModel
-import org.monogram.domain.models.WallpaperType
+import org.thoughtcrime.securesms.compose.domain.models.WallpaperModel
+import org.thoughtcrime.securesms.compose.domain.models.WallpaperType
 import java.io.File
 
 @Composable

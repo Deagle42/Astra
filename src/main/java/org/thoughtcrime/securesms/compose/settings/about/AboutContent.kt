@@ -1,6 +1,6 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.about
+package org.thoughtcrime.securesms.compose.settings.about
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.core.animateFloatAsState
@@ -77,17 +77,17 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.UpdateInfo
-import org.monogram.domain.models.UpdateState
-import org.monogram.domain.repository.TelegramLinkRepository
-import org.monogram.presentation.BuildConfig
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsItem
-import org.monogram.presentation.core.util.AppUtils
-import org.monogram.presentation.core.util.buildRichText
-import org.monogram.presentation.core.util.toBuildTimeString
-import org.monogram.presentation.core.util.toGitHubCommitTimeString
+import org.thoughtcrime.securesms.compose.domain.models.UpdateInfo
+import org.thoughtcrime.securesms.compose.domain.models.UpdateState
+import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
+import org.thoughtcrime.securesms.compose.BuildConfig
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsItem
+import org.thoughtcrime.securesms.compose.core.util.AppUtils
+import org.thoughtcrime.securesms.compose.core.util.buildRichText
+import org.thoughtcrime.securesms.compose.core.util.toBuildTimeString
+import org.thoughtcrime.securesms.compose.core.util.toGitHubCommitTimeString
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

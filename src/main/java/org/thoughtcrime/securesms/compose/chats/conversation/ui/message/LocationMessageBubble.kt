@@ -42,12 +42,12 @@ import com.maplibre.compose.rememberSaveableMapViewCamera
 import com.maplibre.compose.symbols.Symbol
 import org.maplibre.android.geometry.LatLng
 import org.maplibre.android.maps.MapLibreMapOptions
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.R
-import org.monogram.presentation.features.profile.ProfileComponent
-import org.monogram.presentation.features.profile.components.LocationViewer
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.profile.ProfileComponent
+import org.thoughtcrime.securesms.compose.features.profile.components.LocationViewer
 
 private const val MAP_STYLE = "https://tiles.openfreemap.org/styles/bright"
 

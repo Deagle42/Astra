@@ -3,8 +3,8 @@ package org.thoughtcrime.securesms.compose.chats.conversation.ui.inputbar
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.input.TextFieldValue
-import org.monogram.domain.models.MessageEntityType
-import org.monogram.domain.repository.RichTextParseMode
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.domain.repository.RichTextParseMode
 
 internal const val LATEX_TAG = "latex_expression"
 internal const val EDITOR_HEADING_TAG = "editor_heading"

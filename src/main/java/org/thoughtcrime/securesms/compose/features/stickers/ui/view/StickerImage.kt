@@ -10,7 +10,7 @@ import androidx.compose.ui.platform.LocalContext
 import coil3.compose.SubcomposeAsyncImage
 import coil3.request.ImageRequest
 import coil3.request.crossfade
-import org.monogram.presentation.core.util.namespacedCacheKey
+import org.thoughtcrime.securesms.compose.core.util.namespacedCacheKey
 
 @Composable
 fun StickerImage(

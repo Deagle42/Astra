@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content
 
 import androidx.compose.runtime.Immutable
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.SponsoredMessageModel
-import org.monogram.domain.models.SponsoredMessagesFeedModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.SponsoredMessageModel
+import org.thoughtcrime.securesms.compose.domain.models.SponsoredMessagesFeedModel
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

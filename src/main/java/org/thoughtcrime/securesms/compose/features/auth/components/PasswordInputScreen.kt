@@ -90,9 +90,9 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.graphics.shapes.RoundedPolygon
-import org.monogram.domain.repository.AuthUiStatus
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ExpressiveDefaults
+import org.thoughtcrime.securesms.compose.domain.repository.AuthUiStatus
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import kotlin.math.max
 import kotlin.math.roundToInt
 

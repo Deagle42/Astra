@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.features.viewers.components
+package org.thoughtcrime.securesms.compose.features.viewers.components
 
 import android.os.Build
 import android.util.Log
@@ -125,14 +125,14 @@ import androidx.media3.ui.AspectRatioFrameLayout
 import androidx.media3.ui.PlayerView
 import kotlinx.coroutines.delay
 import org.koin.compose.koinInject
-import org.monogram.domain.repository.PlayerDataSourceFactory
-import org.monogram.domain.repository.StreamingRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.core.util.getMimeType
-import org.monogram.presentation.features.stickers.ui.menu.MenuOptionRow
-import org.monogram.presentation.features.stickers.ui.menu.MenuToggleRow
+import org.thoughtcrime.securesms.compose.domain.repository.PlayerDataSourceFactory
+import org.thoughtcrime.securesms.compose.domain.repository.StreamingRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.core.util.getMimeType
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuToggleRow
 import kotlin.math.max
 
 private const val TAG = "VideoPage"

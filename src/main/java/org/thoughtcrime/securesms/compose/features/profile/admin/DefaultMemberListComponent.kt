@@ -6,12 +6,12 @@ import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.GroupMemberModel
-import org.monogram.domain.repository.ChatInfoRepository
-import org.monogram.domain.repository.ChatMemberStatus
-import org.monogram.domain.repository.ChatMembersFilter
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.models.GroupMemberModel
+import org.thoughtcrime.securesms.compose.domain.repository.ChatInfoRepository
+import org.thoughtcrime.securesms.compose.domain.repository.ChatMemberStatus
+import org.thoughtcrime.securesms.compose.domain.repository.ChatMembersFilter
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 class DefaultMemberListComponent(
     context: AppComponentContext,

@@ -4,7 +4,7 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.input.TextFieldValue
-import org.monogram.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
 
 internal fun insertEmojiAtSelection(
     value: TextFieldValue,

@@ -30,12 +30,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
-import org.monogram.presentation.R
-import org.monogram.domain.models.SessionModel
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.spacer.WidthSpacer
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.core.util.toShortRelativeDate
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.domain.models.SessionModel
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.spacer.WidthSpacer
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.core.util.toShortRelativeDate
 
 @Composable
 internal fun SessionItem(

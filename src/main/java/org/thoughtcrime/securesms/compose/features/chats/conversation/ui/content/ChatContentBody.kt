@@ -66,20 +66,20 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.unit.toSize
 import androidx.compose.ui.zIndex
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ExpressiveDefaults
-import org.monogram.presentation.core.util.copyUriToTempMediaFile
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.ui.AdvancedCircularRecorderScreen
-import org.monogram.presentation.features.chats.conversation.ui.ChatInputBar
-import org.monogram.presentation.features.chats.conversation.ui.MessageListShimmer
-import org.monogram.presentation.features.chats.conversation.ui.message.LinkPreviewAction
-import org.monogram.presentation.features.share.PendingAttachment
-import org.monogram.presentation.features.share.inferPendingAttachmentKind
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
+import org.thoughtcrime.securesms.compose.core.util.copyUriToTempMediaFile
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.AdvancedCircularRecorderScreen
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.ChatInputBar
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.MessageListShimmer
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.LinkPreviewAction
+import org.thoughtcrime.securesms.compose.features.share.PendingAttachment
+import org.thoughtcrime.securesms.compose.features.share.inferPendingAttachmentKind
 import java.io.File
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)

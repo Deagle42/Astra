@@ -18,8 +18,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.models.MessageSendingState
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.domain.models.MessageSendingState
+import org.thoughtcrime.securesms.compose.R
 
 @Composable
 internal fun MessageFooterRow(

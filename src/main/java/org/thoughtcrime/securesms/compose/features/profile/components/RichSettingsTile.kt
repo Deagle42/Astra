@@ -22,8 +22,8 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.presentation.core.util.buildRichText
-import org.monogram.presentation.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.util.buildRichText
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 
 @Composable
 fun RichSettingsTile(

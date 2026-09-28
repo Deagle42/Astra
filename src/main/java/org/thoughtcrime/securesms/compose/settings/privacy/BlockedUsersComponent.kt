@@ -4,11 +4,11 @@ import com.arkivanov.decompose.value.MutableValue
 import com.arkivanov.decompose.value.Value
 import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.repository.PrivacyRepository
-import org.monogram.domain.repository.UserRepository
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.repository.PrivacyRepository
+import org.thoughtcrime.securesms.compose.domain.repository.UserRepository
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface BlockedUsersComponent {
     val state: Value<State>

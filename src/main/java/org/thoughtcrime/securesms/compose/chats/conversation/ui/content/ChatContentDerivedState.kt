@@ -5,13 +5,13 @@ import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.MessageSendingState
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.ChatRenderMode
-import org.monogram.presentation.features.chats.conversation.ChatViewportPhase
-import org.monogram.presentation.features.chats.conversation.OutgoingMessageReducer
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageSendingState
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatRenderMode
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatViewportPhase
+import org.thoughtcrime.securesms.compose.features.chats.conversation.OutgoingMessageReducer
 
 @Immutable
 internal data class ChatContentPermissionState(

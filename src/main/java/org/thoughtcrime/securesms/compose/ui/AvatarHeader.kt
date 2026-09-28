@@ -26,8 +26,8 @@ import coil3.request.ImageRequest
 import coil3.request.crossfade
 import coil3.size.Precision
 import coil3.size.Size
-import org.monogram.presentation.core.media.AvatarPlayer
-import org.monogram.presentation.core.util.generateColorFromHash
+import org.thoughtcrime.securesms.compose.core.media.AvatarPlayer
+import org.thoughtcrime.securesms.compose.core.util.generateColorFromHash
 import java.io.File
 
 @Composable

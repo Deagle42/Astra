@@ -5,12 +5,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.ReplyMarkupModel
-import org.monogram.domain.repository.TelegramLinkRepository
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.ui.inputbar.ChatInputBarActions
-import org.monogram.presentation.features.chats.conversation.ui.inputbar.ChatInputBarState
-import org.monogram.presentation.features.chats.conversation.ui.message.LinkPreviewAction
+import org.thoughtcrime.securesms.compose.domain.models.ReplyMarkupModel
+import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.inputbar.ChatInputBarActions
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.inputbar.ChatInputBarState
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.LinkPreviewAction
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 

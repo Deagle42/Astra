@@ -65,12 +65,12 @@ import coil3.request.ImageRequest
 import coil3.request.crossfade
 import kotlinx.coroutines.delay
 import org.koin.compose.koinInject
-import org.monogram.domain.models.GifModel
-import org.monogram.domain.repository.GifRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.core.media.VideoStickerPlayer
-import org.monogram.presentation.core.media.VideoType
-import org.monogram.presentation.features.stickers.ui.view.shimmerEffect
+import org.thoughtcrime.securesms.compose.domain.models.GifModel
+import org.thoughtcrime.securesms.compose.domain.repository.GifRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.media.VideoStickerPlayer
+import org.thoughtcrime.securesms.compose.core.media.VideoType
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.shimmerEffect
 
 @androidx.annotation.OptIn(UnstableApi::class)
 @Composable

@@ -17,10 +17,10 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clipToBounds
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.domain.repository.FileRepository
-import org.monogram.presentation.features.viewers.components.ImageOverlay
-import org.monogram.presentation.features.viewers.components.ImagePage
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.domain.repository.FileRepository
+import org.thoughtcrime.securesms.compose.features.viewers.components.ImageOverlay
+import org.thoughtcrime.securesms.compose.features.viewers.components.ImagePage
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

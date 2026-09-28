@@ -40,12 +40,12 @@ import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import coil3.request.ImageRequest
 import coil3.request.crossfade
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.SponsoredMessageModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.shimmerBackground
-import org.monogram.presentation.core.util.namespacedCacheKey
-import org.monogram.presentation.features.chats.conversation.ui.message.MediaLoadingBackground
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.SponsoredMessageModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.shimmerBackground
+import org.thoughtcrime.securesms.compose.core.util.namespacedCacheKey
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MediaLoadingBackground
 
 @Composable
 internal fun ChannelSponsoredMessageRow(

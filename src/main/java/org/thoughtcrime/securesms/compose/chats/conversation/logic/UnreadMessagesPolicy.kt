@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.logic
 
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.ChatViewportPhase
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatViewportPhase
 
 internal fun ChatComponent.State.withUnreadSessionFromChat(
     chatUnreadCount: Int,

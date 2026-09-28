@@ -38,20 +38,20 @@ import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.UserStatusType
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.Avatar
-import org.monogram.presentation.core.ui.ConfirmationSheet
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.shimmerBackground
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.core.util.FileUtils
-import org.monogram.presentation.core.util.getUserStatusText
-import org.monogram.presentation.features.chats.list.components.NewChannelContent
-import org.monogram.presentation.features.chats.list.components.NewGroupContent
-import org.monogram.presentation.core.ui.SectionHeader
-import org.monogram.presentation.core.ui.SettingsTextField
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.UserStatusType
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.Avatar
+import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.shimmerBackground
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.core.util.FileUtils
+import org.thoughtcrime.securesms.compose.core.util.getUserStatusText
+import org.thoughtcrime.securesms.compose.features.chats.list.components.NewChannelContent
+import org.thoughtcrime.securesms.compose.features.chats.list.components.NewGroupContent
+import org.thoughtcrime.securesms.compose.core.ui.SectionHeader
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable

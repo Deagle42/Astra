@@ -95,14 +95,14 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.monogram.domain.repository.AuthUiStatus
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.CountryFlag
-import org.monogram.presentation.core.ui.ExpressiveDefaults
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.util.Country
-import org.monogram.presentation.core.util.CountryManager
-import org.monogram.presentation.core.ui.SettingsTextField
+import org.thoughtcrime.securesms.compose.domain.repository.AuthUiStatus
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.CountryFlag
+import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.util.Country
+import org.thoughtcrime.securesms.compose.core.util.CountryManager
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
 import java.util.Locale
 
 enum class ActiveField {

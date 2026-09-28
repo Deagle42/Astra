@@ -30,9 +30,9 @@ import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.models.KeyboardButtonModel
-import org.monogram.domain.models.KeyboardButtonType
-import org.monogram.domain.models.ReplyMarkupModel
+import org.thoughtcrime.securesms.compose.domain.models.KeyboardButtonModel
+import org.thoughtcrime.securesms.compose.domain.models.KeyboardButtonType
+import org.thoughtcrime.securesms.compose.domain.models.ReplyMarkupModel
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

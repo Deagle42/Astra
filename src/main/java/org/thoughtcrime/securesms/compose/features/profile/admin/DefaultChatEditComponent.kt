@@ -4,14 +4,14 @@ import com.arkivanov.decompose.value.MutableValue
 import com.arkivanov.decompose.value.Value
 import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.ChatPermissionsModel
-import org.monogram.domain.repository.ChatInfoRepository
-import org.monogram.domain.repository.ChatListRepository
-import org.monogram.domain.repository.ChatOperationsRepository
-import org.monogram.domain.repository.ChatSettingsRepository
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.features.editing.EditorPrimitives
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
+import org.thoughtcrime.securesms.compose.domain.repository.ChatInfoRepository
+import org.thoughtcrime.securesms.compose.domain.repository.ChatListRepository
+import org.thoughtcrime.securesms.compose.domain.repository.ChatOperationsRepository
+import org.thoughtcrime.securesms.compose.domain.repository.ChatSettingsRepository
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.features.editing.EditorPrimitives
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 class DefaultChatEditComponent(
     context: AppComponentContext,

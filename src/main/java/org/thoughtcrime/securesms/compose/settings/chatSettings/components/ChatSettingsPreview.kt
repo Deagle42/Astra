@@ -26,19 +26,19 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageEntityType
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.MessageReactionModel
-import org.monogram.domain.models.WallpaperModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.features.chats.conversation.ui.MessageAppearanceConfig
-import org.monogram.presentation.features.chats.conversation.ui.MessageBubbleContainer
-import org.monogram.presentation.features.chats.conversation.ui.MessageRowBehaviorConfig
-import org.monogram.presentation.features.chats.conversation.ui.buildSenderGrouping
-import org.monogram.presentation.features.chats.conversation.ui.content.GroupedMessageItem
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageReactionModel
+import org.thoughtcrime.securesms.compose.domain.models.WallpaperModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.MessageAppearanceConfig
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.MessageBubbleContainer
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.MessageRowBehaviorConfig
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.buildSenderGrouping
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content.GroupedMessageItem
 import java.io.File
 
 @Composable

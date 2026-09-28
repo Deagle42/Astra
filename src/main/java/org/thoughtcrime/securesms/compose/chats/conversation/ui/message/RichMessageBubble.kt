@@ -21,21 +21,21 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.WebPage
-import org.monogram.domain.models.webapp.PageBlock
-import org.monogram.domain.repository.FileRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.features.instantview.InstantViewBlock
-import org.monogram.presentation.features.instantview.components.LocalFileRepository
-import org.monogram.presentation.features.instantview.components.LocalOnUrlClick
-import org.monogram.presentation.features.instantview.components.renderedTextOrNull
-import org.monogram.presentation.features.instantview.components.resolvePathForViewer
-import org.monogram.presentation.features.viewers.FullscreenImageItem
-import org.monogram.presentation.features.stickers.ui.view.shimmerEffect
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.WebPage
+import org.thoughtcrime.securesms.compose.domain.models.webapp.PageBlock
+import org.thoughtcrime.securesms.compose.domain.repository.FileRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.features.instantview.InstantViewBlock
+import org.thoughtcrime.securesms.compose.features.instantview.components.LocalFileRepository
+import org.thoughtcrime.securesms.compose.features.instantview.components.LocalOnUrlClick
+import org.thoughtcrime.securesms.compose.features.instantview.components.renderedTextOrNull
+import org.thoughtcrime.securesms.compose.features.instantview.components.resolvePathForViewer
+import org.thoughtcrime.securesms.compose.features.viewers.FullscreenImageItem
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.shimmerEffect
 
 @Composable
 internal fun RichMessageBubble(

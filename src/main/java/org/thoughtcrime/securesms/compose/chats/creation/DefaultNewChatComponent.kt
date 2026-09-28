@@ -8,11 +8,11 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
-import org.monogram.domain.repository.ChatCreationRepository
-import org.monogram.domain.repository.ChatSettingsRepository
-import org.monogram.domain.repository.UserRepository
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.repository.ChatCreationRepository
+import org.thoughtcrime.securesms.compose.domain.repository.ChatSettingsRepository
+import org.thoughtcrime.securesms.compose.domain.repository.UserRepository
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 class DefaultNewChatComponent(
     context: AppComponentContext,

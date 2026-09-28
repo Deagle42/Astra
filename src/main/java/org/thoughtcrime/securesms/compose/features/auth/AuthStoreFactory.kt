@@ -4,8 +4,8 @@ import com.arkivanov.mvikotlin.core.store.Reducer
 import com.arkivanov.mvikotlin.core.store.Store
 import com.arkivanov.mvikotlin.core.store.StoreFactory
 import com.arkivanov.mvikotlin.extensions.coroutines.CoroutineExecutor
-import org.monogram.presentation.features.auth.AuthStore.Intent
-import org.monogram.presentation.features.auth.AuthStore.Label
+import org.thoughtcrime.securesms.compose.features.auth.AuthStore.Intent
+import org.thoughtcrime.securesms.compose.features.auth.AuthStore.Label
 
 class AuthStoreFactory(
     private val storeFactory: StoreFactory,

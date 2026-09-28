@@ -2,20 +2,20 @@ package org.thoughtcrime.securesms.compose.features.chats.list
 
 import androidx.compose.runtime.Immutable
 import kotlinx.coroutines.flow.StateFlow
-import org.monogram.domain.models.AttachMenuBotModel
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.FolderModel
-import org.monogram.domain.models.MessageEntity
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.TopicModel
-import org.monogram.domain.models.UpdateState
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.stories.ActiveStoryListModel
-import org.monogram.domain.repository.ConnectionStatus
-import org.monogram.domain.repository.ForwardTarget
-import org.monogram.presentation.core.util.AppPreferences
-import org.monogram.presentation.features.chats.common.ChatActionState
-import org.monogram.presentation.features.share.ShareTarget
+import org.thoughtcrime.securesms.compose.domain.models.AttachMenuBotModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.FolderModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.TopicModel
+import org.thoughtcrime.securesms.compose.domain.models.UpdateState
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.ActiveStoryListModel
+import org.thoughtcrime.securesms.compose.domain.repository.ConnectionStatus
+import org.thoughtcrime.securesms.compose.domain.repository.ForwardTarget
+import org.thoughtcrime.securesms.compose.core.util.AppPreferences
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionState
+import org.thoughtcrime.securesms.compose.features.share.ShareTarget
 
 interface ChatListComponent {
     val state: StateFlow<State>

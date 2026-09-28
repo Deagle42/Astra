@@ -5,11 +5,11 @@ import com.arkivanov.decompose.value.Value
 import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
-import org.monogram.domain.repository.AuthRepository
-import org.monogram.domain.repository.AuthStep
-import org.monogram.domain.repository.AuthUiStatus
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.repository.AuthRepository
+import org.thoughtcrime.securesms.compose.domain.repository.AuthStep
+import org.thoughtcrime.securesms.compose.domain.repository.AuthUiStatus
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 class DefaultAuthComponent(
     context: AppComponentContext,

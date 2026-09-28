@@ -13,8 +13,8 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import org.monogram.domain.repository.AuthError
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.domain.repository.AuthError
+import org.thoughtcrime.securesms.compose.R
 
 @Composable
 fun AuthErrorDialog(

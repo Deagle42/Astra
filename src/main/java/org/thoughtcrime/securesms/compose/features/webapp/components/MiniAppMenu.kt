@@ -39,10 +39,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.coRunCatching
-import org.monogram.presentation.features.stickers.ui.menu.MenuOptionRow
-import org.monogram.presentation.features.viewers.components.ViewerSettingsDropdown
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.coRunCatching
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
+import org.thoughtcrime.securesms.compose.features.viewers.components.ViewerSettingsDropdown
 
 @Composable
 fun MiniAppMenu(

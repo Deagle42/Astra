@@ -56,23 +56,23 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupProperties
-import org.monogram.domain.models.ChatPermissionsModel
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.TopicModel
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ExpressiveDefaults
-import org.monogram.presentation.core.util.rememberUserStatusText
-import org.monogram.presentation.features.chats.common.ChatActionScreenContext
-import org.monogram.presentation.features.chats.common.ChatActionState
-import org.monogram.presentation.features.chats.common.ChatExitAction
-import org.monogram.presentation.features.chats.common.resolveChatActionPolicy
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.features.chats.conversation.logic.hasCopyableTelegramLink
-import org.monogram.presentation.features.chats.conversation.ui.ChatTopBar
-import org.monogram.presentation.features.chats.conversation.ui.pins.PinnedMessageBar
-import org.monogram.presentation.features.stickers.ui.menu.MenuOptionRow
-import org.monogram.presentation.features.viewers.components.ViewerSettingsDropdown
+import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.TopicModel
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
+import org.thoughtcrime.securesms.compose.core.util.rememberUserStatusText
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionScreenContext
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionState
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatExitAction
+import org.thoughtcrime.securesms.compose.features.chats.common.resolveChatActionPolicy
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.logic.hasCopyableTelegramLink
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.ChatTopBar
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.pins.PinnedMessageBar
+import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
+import org.thoughtcrime.securesms.compose.features.viewers.components.ViewerSettingsDropdown
 
 @Immutable
 data class ChatContentTopBarUiState(

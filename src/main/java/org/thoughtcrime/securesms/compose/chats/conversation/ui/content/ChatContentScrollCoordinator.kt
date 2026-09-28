@@ -9,8 +9,8 @@ import androidx.compose.runtime.withFrameNanos
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withTimeoutOrNull
-import org.monogram.domain.models.ChatViewportCacheEntry
-import org.monogram.presentation.features.chats.conversation.ScrollAlign
+import org.thoughtcrime.securesms.compose.domain.models.ChatViewportCacheEntry
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ScrollAlign
 import kotlin.math.abs
 
 private const val BOTTOM_ALIGNMENT_TOLERANCE_PX = 1f

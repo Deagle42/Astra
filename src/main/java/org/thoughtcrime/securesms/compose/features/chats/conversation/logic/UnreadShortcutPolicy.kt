@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.logic
 
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
 
 internal enum class UnreadShortcutType {
     Mention,

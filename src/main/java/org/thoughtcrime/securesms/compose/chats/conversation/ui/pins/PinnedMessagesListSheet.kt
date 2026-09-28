@@ -56,20 +56,20 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.rememberShimmerBrush
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.features.chats.conversation.ui.AlbumMessageBubbleContainer
-import org.monogram.presentation.features.chats.conversation.ui.DateSeparator
-import org.monogram.presentation.features.chats.conversation.ui.MessageAppearanceConfig
-import org.monogram.presentation.features.chats.conversation.ui.MessageBubbleContainer
-import org.monogram.presentation.features.chats.conversation.ui.MessageRowBehaviorConfig
-import org.monogram.presentation.features.chats.conversation.ui.buildSenderGrouping
-import org.monogram.presentation.features.chats.conversation.ui.channel.ChannelMessageBubbleContainer
-import org.monogram.presentation.features.chats.conversation.ui.content.GroupedMessageItem
-import org.monogram.presentation.features.chats.conversation.ui.content.groupMessagesByAlbum
-import org.monogram.presentation.features.chats.conversation.ui.content.shouldShowDate
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.rememberShimmerBrush
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.AlbumMessageBubbleContainer
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.DateSeparator
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.MessageAppearanceConfig
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.MessageBubbleContainer
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.MessageRowBehaviorConfig
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.buildSenderGrouping
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.channel.ChannelMessageBubbleContainer
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content.GroupedMessageItem
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content.groupMessagesByAlbum
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.content.shouldShowDate
 import kotlin.math.roundToInt
 
 @OptIn(ExperimentalMaterial3Api::class)

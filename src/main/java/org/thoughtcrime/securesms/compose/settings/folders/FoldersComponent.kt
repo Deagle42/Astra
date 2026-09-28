@@ -6,13 +6,13 @@ import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.FolderModel
-import org.monogram.domain.repository.ChatFolderRepository
-import org.monogram.domain.repository.ChatListRepository
-import org.monogram.domain.repository.ChatSearchRepository
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.FolderModel
+import org.thoughtcrime.securesms.compose.domain.repository.ChatFolderRepository
+import org.thoughtcrime.securesms.compose.domain.repository.ChatListRepository
+import org.thoughtcrime.securesms.compose.domain.repository.ChatSearchRepository
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface FoldersComponent {
     val state: Value<State>

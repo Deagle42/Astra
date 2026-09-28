@@ -1,21 +1,21 @@
 package org.thoughtcrime.securesms.compose.features.profile
 
 import com.arkivanov.decompose.value.Value
-import org.monogram.domain.models.ChatFullInfoModel
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.ChatPermissionsModel
-import org.monogram.domain.models.ChatRevenueStatisticsModel
-import org.monogram.domain.models.ChatStatisticsModel
-import org.monogram.domain.models.GroupMemberModel
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.models.ProfilePhotoMedia
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.models.stories.ActiveStoryListModel
-import org.monogram.domain.models.stories.StoryModel
-import org.monogram.domain.repository.ChatMemberStatus
-import org.monogram.domain.repository.MessageRepository
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.presentation.features.chats.common.ChatActionState
+import org.thoughtcrime.securesms.compose.domain.models.ChatFullInfoModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatRevenueStatisticsModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatStatisticsModel
+import org.thoughtcrime.securesms.compose.domain.models.GroupMemberModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.models.ProfilePhotoMedia
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.ActiveStoryListModel
+import org.thoughtcrime.securesms.compose.domain.models.stories.StoryModel
+import org.thoughtcrime.securesms.compose.domain.repository.ChatMemberStatus
+import org.thoughtcrime.securesms.compose.domain.repository.MessageRepository
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionState
 
 interface ProfileComponent {
     val state: Value<State>

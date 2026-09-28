@@ -45,7 +45,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.R
 
 @Composable
 internal fun FullScreenEditorMetaPill(text: String, color: Color, contentColor: Color) {

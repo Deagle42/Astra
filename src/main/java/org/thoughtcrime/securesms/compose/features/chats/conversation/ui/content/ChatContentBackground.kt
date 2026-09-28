@@ -10,8 +10,8 @@ import androidx.compose.ui.draw.blur
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
-import org.monogram.presentation.features.chats.conversation.ChatComponent
-import org.monogram.presentation.settings.chatSettings.components.WallpaperBackground
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
+import org.thoughtcrime.securesms.compose.settings.chatSettings.components.WallpaperBackground
 
 import java.io.File
 

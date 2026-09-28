@@ -49,11 +49,11 @@ import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.flow.firstOrNull
 import org.koin.compose.koinInject
-import org.monogram.domain.models.StickerSetModel
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
-import org.monogram.presentation.features.stickers.ui.view.StickerSkeleton
+import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerSkeleton
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

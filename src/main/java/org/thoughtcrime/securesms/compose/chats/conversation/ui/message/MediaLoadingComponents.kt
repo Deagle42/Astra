@@ -39,8 +39,8 @@ import coil3.compose.AsyncImage
 import coil3.compose.AsyncImagePainter
 import coil3.compose.rememberAsyncImagePainter
 import coil3.request.ImageRequest
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.namespacedCacheKey
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.namespacedCacheKey
 
 internal enum class StableMediaPainterState {
     Empty,

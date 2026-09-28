@@ -1,8 +1,8 @@
 package org.thoughtcrime.securesms.compose.chats.conversation.logic
 
-import org.monogram.domain.models.ChatViewportCacheEntry
-import org.monogram.domain.repository.HistoryPage
-import org.monogram.presentation.features.chats.conversation.ChatInitialLoadKey
+import org.thoughtcrime.securesms.compose.domain.models.ChatViewportCacheEntry
+import org.thoughtcrime.securesms.compose.domain.repository.HistoryPage
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatInitialLoadKey
 
 internal fun buildChatInitialLoadKey(
     chatId: Long,

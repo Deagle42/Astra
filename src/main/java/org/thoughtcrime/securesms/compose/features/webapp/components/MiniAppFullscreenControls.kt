@@ -24,7 +24,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.R
 
 @Composable
 fun BoxScope.MiniAppFullscreenControls(

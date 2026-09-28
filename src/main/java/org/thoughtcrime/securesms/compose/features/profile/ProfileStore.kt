@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.compose.features.profile
 
 import com.arkivanov.mvikotlin.core.store.Store
-import org.monogram.domain.models.ChatPermissionsModel
-import org.monogram.domain.models.MessageModel
-import org.monogram.domain.repository.ChatMemberStatus
+import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.domain.repository.ChatMemberStatus
 
 interface ProfileStore : Store<ProfileStore.Intent, ProfileComponent.State, ProfileStore.Label> {
 

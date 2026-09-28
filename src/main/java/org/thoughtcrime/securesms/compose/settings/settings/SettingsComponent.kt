@@ -1,10 +1,10 @@
 package org.thoughtcrime.securesms.compose.settings.settings
 
 import com.arkivanov.decompose.value.Value
-import org.monogram.domain.models.UserModel
-import org.monogram.presentation.core.util.IDownloadUtils
-import org.monogram.domain.repository.FileRepository
-import org.monogram.presentation.features.viewers.FullscreenImageItem
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
+import org.thoughtcrime.securesms.compose.domain.repository.FileRepository
+import org.thoughtcrime.securesms.compose.features.viewers.FullscreenImageItem
 
 interface SettingsComponent {
     val state: Value<State>

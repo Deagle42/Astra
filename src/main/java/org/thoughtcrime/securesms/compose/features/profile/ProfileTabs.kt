@@ -1,12 +1,12 @@
 package org.thoughtcrime.securesms.compose.features.profile
 
 import androidx.annotation.StringRes
-import org.monogram.domain.models.ChatFullInfoModel
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.ProfileTabType
-import org.monogram.domain.repository.ChatMembersFilter
-import org.monogram.domain.repository.ProfileMediaFilter
-import org.monogram.presentation.R
+import org.thoughtcrime.securesms.compose.domain.models.ChatFullInfoModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.ProfileTabType
+import org.thoughtcrime.securesms.compose.domain.repository.ChatMembersFilter
+import org.thoughtcrime.securesms.compose.domain.repository.ProfileMediaFilter
+import org.thoughtcrime.securesms.compose.R
 
 enum class ProfileTabKey {
     STORIES,

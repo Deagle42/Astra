@@ -56,14 +56,14 @@ import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.monogram.domain.models.StickerModel
-import org.monogram.domain.models.StickerSetModel
-import org.monogram.domain.models.StickerType
-import org.monogram.domain.repository.StickerRepository
-import org.monogram.domain.repository.TelegramLinkRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.features.stickers.ui.view.StickerImage
-import org.monogram.presentation.features.stickers.ui.view.StickerSkeleton
+import org.thoughtcrime.securesms.compose.domain.models.StickerModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
+import org.thoughtcrime.securesms.compose.domain.models.StickerType
+import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
+import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
+import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerSkeleton
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -6,16 +6,16 @@ import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import org.monogram.domain.models.ChatModel
-import org.monogram.domain.models.PrivacyValue
-import org.monogram.domain.models.UserModel
-import org.monogram.domain.repository.ChatListRepository
-import org.monogram.domain.repository.PrivacyKey
-import org.monogram.domain.repository.PrivacyRepository
-import org.monogram.domain.repository.UserRepository
-import org.monogram.presentation.R
-import org.monogram.presentation.core.util.componentScope
-import org.monogram.presentation.root.AppComponentContext
+import org.thoughtcrime.securesms.compose.domain.models.ChatModel
+import org.thoughtcrime.securesms.compose.domain.models.PrivacyValue
+import org.thoughtcrime.securesms.compose.domain.models.UserModel
+import org.thoughtcrime.securesms.compose.domain.repository.ChatListRepository
+import org.thoughtcrime.securesms.compose.domain.repository.PrivacyKey
+import org.thoughtcrime.securesms.compose.domain.repository.PrivacyRepository
+import org.thoughtcrime.securesms.compose.domain.repository.UserRepository
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.util.componentScope
+import org.thoughtcrime.securesms.compose.root.AppComponentContext
 
 interface PrivacySettingComponent {
     val state: Value<State>

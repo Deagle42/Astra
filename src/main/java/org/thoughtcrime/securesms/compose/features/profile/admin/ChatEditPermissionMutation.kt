@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.compose.features.profile.admin
 
-import org.monogram.domain.models.ChatPermissionsModel
+import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
 
 internal fun ChatPermissionsModel.toggle(permission: ChatEditComponent.Permission): ChatPermissionsModel {
     return when (permission) {

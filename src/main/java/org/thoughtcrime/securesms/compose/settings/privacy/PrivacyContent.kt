@@ -5,7 +5,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
 import com.arkivanov.decompose.extensions.compose.stack.Children
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.presentation.settings.privacy.userSelection.UserSelectionContent
+import org.thoughtcrime.securesms.compose.settings.privacy.userSelection.UserSelectionContent
 
 @Composable
 fun PrivacyContent(component: PrivacyComponent) {

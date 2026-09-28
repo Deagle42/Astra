@@ -1,9 +1,9 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message
 
-import org.monogram.domain.models.WebPage
-import org.monogram.presentation.core.util.namespacedCacheKey
-import org.monogram.presentation.features.viewers.FullscreenImageItem
-import org.monogram.presentation.features.viewers.extractYouTubeId
+import org.thoughtcrime.securesms.compose.domain.models.WebPage
+import org.thoughtcrime.securesms.compose.core.util.namespacedCacheKey
+import org.thoughtcrime.securesms.compose.features.viewers.FullscreenImageItem
+import org.thoughtcrime.securesms.compose.features.viewers.extractYouTubeId
 import java.net.URI
 
 internal sealed interface LinkPreviewAction {

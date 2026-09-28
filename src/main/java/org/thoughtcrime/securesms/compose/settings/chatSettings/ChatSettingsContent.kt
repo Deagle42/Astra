@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package org.monogram.presentation.settings.chatSettings
+package org.thoughtcrime.securesms.compose.settings.chatSettings
 
 import android.content.Context
 import android.net.Uri
@@ -132,17 +132,17 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.window.core.layout.WindowSizeClass
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.monogram.presentation.R
-import org.monogram.presentation.core.ui.ConfirmationSheet
-import org.monogram.presentation.core.ui.ItemPosition
-import org.monogram.presentation.core.ui.SettingsSwitchTile
-import org.monogram.presentation.core.ui.SettingsTile
-import org.monogram.presentation.core.util.EmojiStyle
-import org.monogram.presentation.core.util.NightMode
-import org.monogram.presentation.features.chats.conversation.ui.message.getEmojiFontFamily
-import org.monogram.presentation.settings.chatSettings.components.ChatListPreview
-import org.monogram.presentation.settings.chatSettings.components.ChatSettingsPreview
-import org.monogram.presentation.settings.chatSettings.components.WallpaperItem
+import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
+import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
+import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile
+import org.thoughtcrime.securesms.compose.core.ui.SettingsTile
+import org.thoughtcrime.securesms.compose.core.util.EmojiStyle
+import org.thoughtcrime.securesms.compose.core.util.NightMode
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.getEmojiFontFamily
+import org.thoughtcrime.securesms.compose.settings.chatSettings.components.ChatListPreview
+import org.thoughtcrime.securesms.compose.settings.chatSettings.components.ChatSettingsPreview
+import org.thoughtcrime.securesms.compose.settings.chatSettings.components.WallpaperItem
 import java.io.File
 import java.io.FileOutputStream
 

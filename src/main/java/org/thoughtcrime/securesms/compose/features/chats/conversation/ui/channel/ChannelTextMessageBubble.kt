@@ -20,22 +20,22 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
-import org.monogram.domain.models.ForwardInfo
-import org.monogram.domain.models.MessageContent
-import org.monogram.domain.models.MessageModel
-import org.monogram.presentation.core.util.DateFormatManager
-import org.monogram.presentation.features.chats.conversation.ui.message.BigEmojiContent
-import org.monogram.presentation.features.chats.conversation.ui.message.ForwardContent
-import org.monogram.presentation.features.chats.conversation.ui.message.LinkPreview
-import org.monogram.presentation.features.chats.conversation.ui.message.LinkPreviewAction
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageFooterRow
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageReactionsView
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageText
-import org.monogram.presentation.features.chats.conversation.ui.message.MessageTextLayoutInfo
-import org.monogram.presentation.features.chats.conversation.ui.message.ReplyContent
-import org.monogram.presentation.features.chats.conversation.ui.message.TextWithTimestampLayout
-import org.monogram.presentation.features.chats.conversation.ui.message.rememberMessageTextRenderData
-import org.monogram.presentation.features.chats.conversation.ui.message.shouldUseInlineFooter
+import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
+import org.thoughtcrime.securesms.compose.domain.models.MessageContent
+import org.thoughtcrime.securesms.compose.domain.models.MessageModel
+import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.BigEmojiContent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.ForwardContent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.LinkPreview
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.LinkPreviewAction
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageFooterRow
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageReactionsView
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageText
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageTextLayoutInfo
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.ReplyContent
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.TextWithTimestampLayout
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.rememberMessageTextRenderData
+import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.shouldUseInlineFooter
 
 @Composable
 internal fun ChannelTextMessageBubble(

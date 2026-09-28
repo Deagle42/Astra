@@ -7,8 +7,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import org.monogram.presentation.features.webapp.MainButtonState
-import org.monogram.presentation.features.webapp.SecondaryButtonState
+import org.thoughtcrime.securesms.compose.features.webapp.MainButtonState
+import org.thoughtcrime.securesms.compose.features.webapp.SecondaryButtonState
 
 @Composable
 fun MiniAppBottomBar(
