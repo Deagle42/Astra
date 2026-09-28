@@ -1349,15 +1349,8 @@
     <!-- Monogram Compose UI Compatibility Strings -->
     <string name="cancel_button">Cancel</string>
     <string name="cd_back">Back</string>
-    <string name="saved">Saved</string>
-    <string name="error">Error</string>
     <string name="copied">Copied</string>
-    <string name="search">Search</string>
-    <string name="done">Done</string>
-    <string name="close">Close</string>
     <string name="apply">Apply</string>
-    <string name="delete">Delete</string>
-    <string name="ok">OK</string>
 
 
     <!-- Auto-generated UI strings -->
