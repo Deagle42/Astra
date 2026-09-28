@@ -61,7 +61,6 @@ import org.thoughtcrime.securesms.compose.domain.models.StickerType
 import org.thoughtcrime.securesms.compose.domain.repository.MessageAiRepository
 import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
 import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
 import org.thoughtcrime.securesms.compose.core.util.coRunCatching
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent

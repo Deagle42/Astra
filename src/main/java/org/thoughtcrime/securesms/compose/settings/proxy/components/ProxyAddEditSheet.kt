@@ -57,7 +57,6 @@ import androidx.compose.ui.unit.sp
 import org.thoughtcrime.securesms.compose.domain.models.ProxyModel
 import org.thoughtcrime.securesms.compose.domain.models.ProxyTypeModel
 import org.thoughtcrime.securesms.compose.domain.proxy.MtprotoSecretNormalizer
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
 import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow

@@ -15,7 +15,6 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
@@ -36,12 +35,12 @@ fun SelectionTopBar(
             )
         },
         navigationIcon = {
-            IconButton(onClick = onClearSelection, shapes = iconButtonShapes) {
+            IconButton(onClick = onClearSelection, shape = iconButtonShapes) {
                 Icon(Icons.Rounded.Close, contentDescription = stringResource(R.string.cd_clear_selection))
             }
         },
         actions = {
-            IconButton(onClick = onMoreClick, shapes = iconButtonShapes) {
+            IconButton(onClick = onMoreClick, shape = iconButtonShapes) {
                 Icon(Icons.Rounded.MoreVert, stringResource(R.string.menu_more))
             }
         },

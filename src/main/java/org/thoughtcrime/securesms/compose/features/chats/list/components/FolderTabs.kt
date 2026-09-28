@@ -29,7 +29,6 @@ import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.FolderModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.AppPreferences
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.addEmojiStyle
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.getEmojiFontFamily

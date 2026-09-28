@@ -40,7 +40,6 @@ import androidx.media3.extractor.DefaultExtractorsFactory
 import androidx.media3.extractor.mp4.Mp4Extractor
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.getMimeType
 import org.thoughtcrime.securesms.compose.core.media.VideoGLTextureView
 import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.EditorTopBar

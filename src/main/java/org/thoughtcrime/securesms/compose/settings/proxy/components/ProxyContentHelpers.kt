@@ -40,7 +40,6 @@ import org.thoughtcrime.securesms.compose.domain.repository.ProxyNetworkType
 import org.thoughtcrime.securesms.compose.domain.repository.ProxySmartSwitchMode
 import org.thoughtcrime.securesms.compose.domain.repository.ProxySortMode
 import org.thoughtcrime.securesms.compose.domain.repository.ProxyUnavailableFallback
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets

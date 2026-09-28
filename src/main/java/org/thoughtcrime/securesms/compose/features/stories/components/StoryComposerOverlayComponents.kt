@@ -106,7 +106,6 @@ import org.thoughtcrime.securesms.compose.domain.models.stories.StoryComposerMed
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryMediaType
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryPrivacyMode
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryPrivacySettingsModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile
 import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField

@@ -37,7 +37,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.IntegratedQRScanner
 import org.thoughtcrime.securesms.compose.core.ui.spacer.HeightSpacer
 import org.thoughtcrime.securesms.compose.core.ui.toolbar.Toolbar

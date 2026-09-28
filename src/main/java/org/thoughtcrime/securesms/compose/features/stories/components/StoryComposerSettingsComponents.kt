@@ -48,7 +48,6 @@ import androidx.compose.ui.unit.dp
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryPrivacyMode
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryPrivacySettingsModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.Avatar
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsGroup

@@ -7,7 +7,6 @@ import org.thoughtcrime.securesms.compose.domain.models.ChatModel
 import org.thoughtcrime.securesms.compose.domain.models.ProfileTabType
 import org.thoughtcrime.securesms.compose.domain.repository.ChatMembersFilter
 import org.thoughtcrime.securesms.compose.domain.repository.ProfileMediaFilter
-import org.thoughtcrime.securesms.R
 
 enum class ProfileTabKey {
     STORIES,

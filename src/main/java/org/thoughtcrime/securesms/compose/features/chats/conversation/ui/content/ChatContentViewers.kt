@@ -24,7 +24,6 @@ import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
 import org.thoughtcrime.securesms.compose.domain.repository.FileRepository
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.PreviewImageViewerRequest
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.PreviewVideoViewerRequest

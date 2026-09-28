@@ -124,7 +124,6 @@ import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
 import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.CollapsingToolbarScaffold
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SectionHeader

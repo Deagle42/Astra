@@ -43,7 +43,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.AppPreferences
 import org.thoughtcrime.securesms.compose.core.util.NightMode
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.code.CodeHighlighter

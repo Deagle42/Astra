@@ -67,7 +67,6 @@ import com.arkivanov.decompose.extensions.compose.stack.Children
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
 import org.thoughtcrime.securesms.compose.domain.repository.NotificationSettingsRepository.TdNotificationScope
 import org.thoughtcrime.securesms.compose.domain.repository.PushProvider
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsItem
@@ -110,7 +109,7 @@ private fun NotificationsMainContent(component: NotificationsComponent) {
                 navigationIcon = {
                     IconButton(
                         onClick = component::onBackClicked,
-                        shapes = ExpressiveDefaults.iconButtonShapes()
+                        shape = ExpressiveDefaults.iconButtonShapes()
                     ) {
                         Icon(
                             Icons.AutoMirrored.Rounded.ArrowBack,
@@ -520,7 +519,7 @@ private fun NotificationOptionSheet(
 
             Button(
                 onClick = onDismiss,
-                shapes = ExpressiveDefaults.largeButtonShapes(),
+                shape = ExpressiveDefaults.largeButtonShapes(),
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(ButtonDefaults.MediumContainerHeight)

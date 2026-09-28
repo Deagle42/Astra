@@ -30,7 +30,6 @@ import coil3.compose.AsyncImage
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MessageText
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.buildAnnotatedMessageTextWithEmoji
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.rememberMessageInlineContent

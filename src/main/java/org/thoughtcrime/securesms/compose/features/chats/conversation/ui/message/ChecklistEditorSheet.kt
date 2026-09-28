@@ -86,7 +86,6 @@ import androidx.core.view.WindowCompat
 import kotlinx.coroutines.launch
 import org.thoughtcrime.securesms.compose.domain.repository.ChecklistDraft
 import org.thoughtcrime.securesms.compose.domain.repository.ChecklistTaskDraft
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SectionHeader
 import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile

@@ -48,7 +48,6 @@ import androidx.compose.ui.unit.sp
 import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
 import org.thoughtcrime.securesms.compose.features.chats.conversation.AutoDownloadSuppression
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.channel.ChannelCommentsButton

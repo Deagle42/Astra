@@ -15,7 +15,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import org.thoughtcrime.securesms.compose.domain.repository.AuthError
-import org.thoughtcrime.securesms.R
 
 @Composable
 fun AuthErrorDialog(

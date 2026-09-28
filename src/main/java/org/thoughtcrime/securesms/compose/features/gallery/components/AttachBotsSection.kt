@@ -40,7 +40,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import org.thoughtcrime.securesms.compose.domain.models.AttachMenuBotModel
-import org.thoughtcrime.securesms.R
 
 private sealed interface GalleryRailItem {
     data object File : GalleryRailItem

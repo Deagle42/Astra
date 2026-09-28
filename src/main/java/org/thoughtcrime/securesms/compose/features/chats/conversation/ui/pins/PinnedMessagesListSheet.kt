@@ -58,7 +58,6 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.rememberShimmerBrush
 import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.AlbumMessageBubbleContainer

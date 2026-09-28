@@ -92,7 +92,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.graphics.shapes.RoundedPolygon
 import org.thoughtcrime.securesms.compose.domain.repository.AuthUiStatus
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import kotlin.math.max
 import kotlin.math.roundToInt
@@ -449,7 +448,7 @@ private fun PasswordContent(
 
         IconButton(
             onClick = { onPasswordVisibleChange(!passwordVisible) },
-            shapes = ExpressiveDefaults.iconButtonShapes()
+            shape = ExpressiveDefaults.iconButtonShapes()
         ) {
             Icon(
                 imageVector = if (passwordVisible) Icons.Filled.Visibility else Icons.Filled.VisibilityOff,
@@ -486,7 +485,7 @@ private fun PasswordContent(
 
     Button(
         onClick = { onConfirm(password) },
-        shapes = ExpressiveDefaults.extraLargeButtonShapes(),
+        shape = ExpressiveDefaults.extraLargeButtonShapes(),
         modifier = Modifier
             .fillMaxWidth()
             .height(56.dp),

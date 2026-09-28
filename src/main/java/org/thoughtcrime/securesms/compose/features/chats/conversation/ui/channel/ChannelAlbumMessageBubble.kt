@@ -46,7 +46,6 @@ import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
 import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.CompactMediaMosaic

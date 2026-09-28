@@ -21,7 +21,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
 import org.thoughtcrime.securesms.compose.domain.repository.ChatMemberStatus
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.Avatar
 import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition

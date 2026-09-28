@@ -86,7 +86,6 @@ import androidx.lifecycle.compose.LocalLifecycleOwner
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
 import org.thoughtcrime.securesms.compose.features.viewers.components.GestureOverlay
 import org.thoughtcrime.securesms.compose.features.viewers.components.PipController

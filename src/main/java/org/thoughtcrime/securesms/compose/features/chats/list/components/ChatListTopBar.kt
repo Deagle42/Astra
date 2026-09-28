@@ -60,7 +60,6 @@ import androidx.compose.ui.unit.dp
 import androidx.window.core.layout.WindowSizeClass
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
 import org.thoughtcrime.securesms.compose.domain.repository.ConnectionStatus
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.core.util.LocalTabletInterfaceEnabled
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
@@ -137,14 +136,14 @@ fun ChatListTopBar(
                                         keyboardController?.hide()
                                         onSearchToggle()
                                     },
-                                    shapes = iconButtonShapes
+                                    shape = iconButtonShapes
                                 ) {
                                     Icon(Icons.AutoMirrored.Rounded.ArrowBack, contentDescription = stringResource(R.string.cd_back))
                                 }
                             },
                             trailingIcon = {
                                 if (searchQuery.isNotEmpty()) {
-                                    IconButton(onClick = { onSearchQueryChange("") }, shapes = iconButtonShapes) {
+                                    IconButton(onClick = { onSearchQueryChange("") }, shape = iconButtonShapes) {
                                         Icon(Icons.Rounded.Close, contentDescription = stringResource(R.string.action_clear))
                                     }
                                 }
@@ -314,7 +313,7 @@ fun ChatListTopBar(
                         if (isProxyEnabled) {
                             val isConnected =
                                 connectionStatus is ConnectionStatus.Connected || connectionStatus is ConnectionStatus.Updating
-                            IconButton(onClick = onProxySettingsClick, shapes = iconButtonShapes) {
+                            IconButton(onClick = onProxySettingsClick, shape = iconButtonShapes) {
                                 Icon(
                                     imageVector = if (isConnected) Icons.Rounded.Shield else Icons.Rounded.ShieldMoon,
                                     contentDescription = stringResource(R.string.cd_proxy),
@@ -324,7 +323,7 @@ fun ChatListTopBar(
                             }
                         }
 
-                        IconButton(onClick = onSearchToggle, shapes = iconButtonShapes) {
+                        IconButton(onClick = onSearchToggle, shape = iconButtonShapes) {
                             Icon(
                                 imageVector = Icons.Rounded.Search,
                                 contentDescription = stringResource(R.string.action_search),
@@ -333,7 +332,7 @@ fun ChatListTopBar(
                             )
                         }
 
-                        IconButton(onClick = onActionsClick, shapes = iconButtonShapes) {
+                        IconButton(onClick = onActionsClick, shape = iconButtonShapes) {
                             Icon(
                                 imageVector = Icons.Rounded.MoreVert,
                                 contentDescription = stringResource(R.string.menu_more),
@@ -346,7 +345,7 @@ fun ChatListTopBar(
 
                         IconButton(
                             onClick = onMenuClick,
-                            shapes = iconButtonShapes,
+                            shape = iconButtonShapes,
                             modifier = Modifier
                                 .size(40.dp)
                                 .semantics { contentDescription = settingsContentDescription }

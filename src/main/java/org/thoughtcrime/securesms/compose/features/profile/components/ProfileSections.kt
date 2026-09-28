@@ -101,7 +101,6 @@ import androidx.compose.ui.unit.sp
 import androidx.core.net.toUri
 import org.thoughtcrime.securesms.compose.core.telegram.TelegramLinkDomains
 import org.thoughtcrime.securesms.compose.domain.models.UserTypeEnum
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsTile
 import org.thoughtcrime.securesms.compose.core.ui.StyledQRCode

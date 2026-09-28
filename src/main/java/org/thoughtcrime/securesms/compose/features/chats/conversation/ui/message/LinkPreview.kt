@@ -42,7 +42,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import org.thoughtcrime.securesms.compose.domain.models.WebPage
-import org.thoughtcrime.securesms.R
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

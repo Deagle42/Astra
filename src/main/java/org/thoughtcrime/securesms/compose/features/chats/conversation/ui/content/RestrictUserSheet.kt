@@ -19,7 +19,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
 import java.text.SimpleDateFormat
 import java.util.*

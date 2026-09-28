@@ -44,7 +44,6 @@ import androidx.compose.ui.draw.scale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import org.thoughtcrime.securesms.compose.domain.models.WallpaperModel
-import org.thoughtcrime.securesms.R
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
@@ -123,7 +122,7 @@ fun WallpaperItem(
             })
 
             MaterialTheme(
-                shapes = MaterialTheme.shapes.copy(extraSmall = RoundedCornerShape(16.dp))
+                shape = MaterialTheme.shapes.copy(extraSmall = RoundedCornerShape(16.dp))
             ) {
                 DropdownMenu(
                     expanded = showMenu,

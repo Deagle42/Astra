@@ -128,7 +128,6 @@ import kotlinx.coroutines.delay
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.repository.PlayerDataSourceFactory
 import org.thoughtcrime.securesms.compose.domain.repository.StreamingRepository
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
 import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
 import org.thoughtcrime.securesms.compose.core.util.getMimeType

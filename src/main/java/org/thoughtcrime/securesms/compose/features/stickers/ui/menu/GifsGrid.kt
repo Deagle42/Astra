@@ -68,7 +68,6 @@ import kotlinx.coroutines.delay
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.GifModel
 import org.thoughtcrime.securesms.compose.domain.repository.GifRepository
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.media.VideoStickerPlayer
 import org.thoughtcrime.securesms.compose.core.media.VideoType
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.shimmerEffect

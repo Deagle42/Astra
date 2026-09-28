@@ -25,7 +25,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.thoughtcrime.securesms.R
 import java.text.DateFormat
 import java.util.Date
 import java.util.Locale

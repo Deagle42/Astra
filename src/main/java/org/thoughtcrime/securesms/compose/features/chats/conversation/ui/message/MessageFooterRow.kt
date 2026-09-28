@@ -20,7 +20,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.thoughtcrime.securesms.compose.domain.models.MessageSendingState
-import org.thoughtcrime.securesms.R
 
 @Composable
 internal fun MessageFooterRow(

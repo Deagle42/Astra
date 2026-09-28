@@ -86,7 +86,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuInfoRow
 import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
 import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuToggleRow

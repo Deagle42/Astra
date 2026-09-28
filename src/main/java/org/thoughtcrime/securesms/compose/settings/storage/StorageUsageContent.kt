@@ -73,7 +73,6 @@ import androidx.compose.ui.unit.sp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
 import org.thoughtcrime.securesms.compose.domain.models.ChatStorageUsageModel
 import org.thoughtcrime.securesms.compose.domain.models.StorageUsageBreakdownModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsTile
 import java.util.Locale

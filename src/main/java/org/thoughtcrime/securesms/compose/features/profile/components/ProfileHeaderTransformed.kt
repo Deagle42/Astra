@@ -48,7 +48,6 @@ import androidx.compose.ui.unit.sp
 import org.thoughtcrime.securesms.compose.domain.models.ChatModel
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
 import org.thoughtcrime.securesms.compose.domain.models.UserTypeEnum
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.AvatarHeader
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 

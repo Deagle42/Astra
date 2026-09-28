@@ -149,7 +149,6 @@ import org.thoughtcrime.securesms.compose.domain.models.UserModel
 import org.thoughtcrime.securesms.compose.domain.repository.ConnectionStatus
 import org.thoughtcrime.securesms.compose.domain.repository.ForwardTarget
 import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.Avatar
 import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
 import org.thoughtcrime.securesms.compose.core.ui.ScreenSwipeBackState
@@ -2849,7 +2848,7 @@ private fun ForwardConfirmationPanel(
                                 modifier = Modifier
                                     .fillMaxWidth()
                                     .height(ButtonDefaults.MediumContainerHeight),
-                                shapes = org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults.buttonShapesFor(
+                                shape = org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults.buttonShapesFor(
                                     ButtonDefaults.MediumContainerHeight
                                 )
                             ) {
@@ -2904,7 +2903,7 @@ private fun ForwardCollapsedPanel(
             onClick = onSend,
             enabled = !isSending,
             modifier = Modifier.height(40.dp),
-            shapes = org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults.buttonShapesFor(
+            shape = org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults.buttonShapesFor(
                 ButtonDefaults.MediumContainerHeight
             )
         ) {

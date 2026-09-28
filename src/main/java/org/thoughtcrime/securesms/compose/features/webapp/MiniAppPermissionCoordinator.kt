@@ -6,7 +6,6 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import org.json.JSONObject
 import org.thoughtcrime.securesms.compose.domain.repository.UserRepository
-import org.thoughtcrime.securesms.R
 import java.net.URLEncoder
 
 internal class MiniAppPermissionCoordinator(

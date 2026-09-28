@@ -47,7 +47,6 @@ import org.thoughtcrime.securesms.compose.domain.models.ChecklistTask
 import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
-import org.thoughtcrime.securesms.R
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

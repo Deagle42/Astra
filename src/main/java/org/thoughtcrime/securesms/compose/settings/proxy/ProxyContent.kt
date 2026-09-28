@@ -115,7 +115,6 @@ import org.thoughtcrime.securesms.compose.domain.repository.ProxySortMode
 import org.thoughtcrime.securesms.compose.domain.repository.ProxyUnavailableFallback
 import org.thoughtcrime.securesms.compose.domain.repository.defaultProxyNetworkMode
 import org.thoughtcrime.securesms.compose.BuildConfig
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.IntegratedQRScanner
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile

@@ -72,7 +72,6 @@ import org.thoughtcrime.securesms.compose.domain.models.stories.StoryModel
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryPostCapabilityModel
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryReactionModel
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryStealthModeModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.stories.components.AddStoryStripTileComponent
 import org.thoughtcrime.securesms.compose.features.stories.components.StoryCapabilityCardComponent
 import org.thoughtcrime.securesms.compose.features.stories.components.StoryComposerOverlayComponent

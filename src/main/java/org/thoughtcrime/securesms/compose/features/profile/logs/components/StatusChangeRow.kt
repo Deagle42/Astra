@@ -9,7 +9,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import org.thoughtcrime.securesms.R
 
 @Composable
 fun StatusChangeRow(label: String, status: String) {

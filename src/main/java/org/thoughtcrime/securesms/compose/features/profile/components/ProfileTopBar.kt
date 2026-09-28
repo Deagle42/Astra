@@ -67,7 +67,6 @@ import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupProperties
 import org.thoughtcrime.securesms.compose.domain.models.ChatModel
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
@@ -214,7 +213,7 @@ fun ProfileTopBar(
                     shape = RoundedCornerShape(50),
                     colors = CardDefaults.cardColors(containerColor = buttonBackground)
                 ) {
-                    IconButton(onClick = onBack, shapes = iconButtonShapes) {
+                    IconButton(onClick = onBack, shape = iconButtonShapes) {
                         Icon(
                             imageVector = Icons.AutoMirrored.Rounded.ArrowBack,
                             contentDescription = stringResource(R.string.cd_back),
@@ -232,7 +231,7 @@ fun ProfileTopBar(
                     ) {
                         Row {
                             if (canSearch) {
-                                IconButton(onClick = onSearch, shapes = iconButtonShapes) {
+                                IconButton(onClick = onSearch, shape = iconButtonShapes) {
                                     Icon(
                                         Icons.Rounded.Search,
                                         contentDescription = stringResource(R.string.search_section_chats),
@@ -241,7 +240,7 @@ fun ProfileTopBar(
                                 }
                             }
                             if (hasMenuActions) {
-                                IconButton(onClick = { showMenu = true }, shapes = iconButtonShapes) {
+                                IconButton(onClick = { showMenu = true }, shape = iconButtonShapes) {
                                     Icon(Icons.Rounded.MoreVert, contentDescription = null, tint = iconTint)
                                 }
                             }

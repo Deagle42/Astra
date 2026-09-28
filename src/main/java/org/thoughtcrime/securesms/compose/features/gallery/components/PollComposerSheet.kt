@@ -106,7 +106,6 @@ import androidx.compose.ui.zIndex
 import androidx.core.view.WindowCompat
 import kotlinx.coroutines.launch
 import org.thoughtcrime.securesms.compose.domain.models.PollDraft
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile
 import org.thoughtcrime.securesms.compose.core.ui.SettingsTile

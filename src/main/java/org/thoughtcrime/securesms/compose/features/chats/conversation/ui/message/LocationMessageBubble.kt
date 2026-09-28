@@ -46,7 +46,6 @@ import org.maplibre.android.maps.MapLibreMapOptions
 import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.profile.ProfileComponent
 import org.thoughtcrime.securesms.compose.features.profile.components.LocationViewer
 

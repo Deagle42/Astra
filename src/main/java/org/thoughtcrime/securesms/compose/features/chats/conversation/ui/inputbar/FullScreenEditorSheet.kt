@@ -115,7 +115,6 @@ import org.thoughtcrime.securesms.compose.domain.repository.MessageAiRepository
 import org.thoughtcrime.securesms.compose.domain.repository.RichTextParsingRepository
 import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
 import org.thoughtcrime.securesms.compose.domain.repository.TextCompositionStyleModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsTextField
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.BigEmojiContent

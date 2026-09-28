@@ -17,7 +17,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import org.thoughtcrime.securesms.compose.domain.models.SessionModel
 import org.thoughtcrime.securesms.compose.domain.models.SessionType
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 
 /**

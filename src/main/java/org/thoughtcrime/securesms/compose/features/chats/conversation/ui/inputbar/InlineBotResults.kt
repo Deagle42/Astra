@@ -36,7 +36,6 @@ import coil3.request.crossfade
 import org.thoughtcrime.securesms.compose.domain.models.InlineQueryResultModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.repository.InlineBotResultsModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.namespacedCacheKey
 
 private enum class InlineResultsMode {

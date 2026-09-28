@@ -97,7 +97,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.thoughtcrime.securesms.compose.domain.repository.AuthUiStatus
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.CountryFlag
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
@@ -534,7 +533,7 @@ fun PhoneInputScreen(
 
         Button(
             onClick = { onConfirm(fullNumber) },
-            shapes = ExpressiveDefaults.extraLargeButtonShapes(),
+            shape = ExpressiveDefaults.extraLargeButtonShapes(),
             modifier = Modifier
                 .fillMaxWidth()
                 .height(56.dp),

@@ -77,7 +77,6 @@ import org.thoughtcrime.securesms.compose.domain.models.StickerModel
 import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
 import org.thoughtcrime.securesms.compose.domain.repository.EmojiRepository
 import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.AppPreferences
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.StickerSetSheet
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.getEmojiFontFamily

@@ -28,7 +28,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.thoughtcrime.securesms.R
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable
@@ -91,7 +90,7 @@ fun ConfirmationSheet(
             ) {
                 Button(
                     onClick = onConfirm,
-                    shapes = buttonShapes,
+                    shape = buttonShapes,
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(buttonHeight),
@@ -112,7 +111,7 @@ fun ConfirmationSheet(
 
                 OutlinedButton(
                     onClick = onDismiss,
-                    shapes = buttonShapes,
+                    shape = buttonShapes,
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(buttonHeight)

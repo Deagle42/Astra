@@ -92,7 +92,6 @@ import kotlinx.coroutines.delay
 import org.thoughtcrime.securesms.compose.domain.repository.AuthCodeDelivery
 import org.thoughtcrime.securesms.compose.domain.repository.AuthCodeInputKind
 import org.thoughtcrime.securesms.compose.domain.repository.AuthUiStatus
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import java.util.Locale
 
@@ -389,7 +388,7 @@ fun CodeInputScreen(
             Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 Button(
                     onClick = { onConfirm(code) },
-                    shapes = ExpressiveDefaults.extraLargeButtonShapes(),
+                    shape = ExpressiveDefaults.extraLargeButtonShapes(),
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(56.dp),
@@ -420,7 +419,7 @@ fun CodeInputScreen(
                 } else if (canResend) {
                     TextButton(
                         onClick = onResend,
-                        shapes = ExpressiveDefaults.largeButtonShapes(),
+                        shape = ExpressiveDefaults.largeButtonShapes(),
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         Icon(
@@ -446,7 +445,7 @@ fun CodeInputScreen(
 
                 TextButton(
                     onClick = onBack,
-                    shapes = ExpressiveDefaults.largeButtonShapes(),
+                    shape = ExpressiveDefaults.largeButtonShapes(),
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Icon(

@@ -78,7 +78,6 @@ import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.models.WebPage
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.shimmerBackground
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.LinkPreviewAction
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.buildAnnotatedMessageTextWithEmoji

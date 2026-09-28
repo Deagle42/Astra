@@ -37,7 +37,6 @@ import androidx.compose.ui.unit.sp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
 import org.thoughtcrime.securesms.compose.domain.models.NetworkTypeUsage
 import org.thoughtcrime.securesms.compose.domain.models.NetworkUsageCategory
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import java.util.*
 

@@ -28,7 +28,6 @@ import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.models.WebPage
 import org.thoughtcrime.securesms.compose.domain.models.webapp.PageBlock
 import org.thoughtcrime.securesms.compose.domain.repository.FileRepository
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
 import org.thoughtcrime.securesms.compose.features.instantview.InstantViewBlock
 import org.thoughtcrime.securesms.compose.features.instantview.components.LocalFileRepository

@@ -61,7 +61,6 @@ import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.models.TopicModel
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.core.util.rememberUserStatusText
 import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionScreenContext
@@ -211,7 +210,7 @@ fun ChatContentTopBar(
                         Text(text = "$selectedCount")
                     },
                     navigationIcon = {
-                        IconButton(onClick = { component.onClearSelection() }, shapes = iconButtonShapes) {
+                        IconButton(onClick = { component.onClearSelection() }, shape = iconButtonShapes) {
                             Icon(
                                 Icons.Default.Close,
                                 contentDescription = stringResource(R.string.cd_clear_selection)
@@ -219,19 +218,19 @@ fun ChatContentTopBar(
                         }
                     },
                     actions = {
-                        IconButton(onClick = { component.onForwardSelectedMessages() }, shapes = iconButtonShapes) {
+                        IconButton(onClick = { component.onForwardSelectedMessages() }, shape = iconButtonShapes) {
                             Icon(
                                 Icons.AutoMirrored.Filled.Forward,
                                 contentDescription = stringResource(R.string.menu_forward)
                             )
                         }
-                        IconButton(onClick = { component.onCopySelectedMessages(localClipboard) }, shapes = iconButtonShapes) {
+                        IconButton(onClick = { component.onCopySelectedMessages(localClipboard) }, shape = iconButtonShapes) {
                             Icon(
                                 Icons.Default.ContentCopy,
                                 contentDescription = stringResource(R.string.menu_copy)
                             )
                         }
-                        IconButton(onClick = { showDeleteSheet = true }, shapes = iconButtonShapes) {
+                        IconButton(onClick = { showDeleteSheet = true }, shape = iconButtonShapes) {
                             Icon(
                                 Icons.Default.Delete,
                                 contentDescription = stringResource(R.string.menu_delete)
@@ -242,7 +241,7 @@ fun ChatContentTopBar(
                             IconButton(onClick = {
                                 onOpenMenu()
                                 showMenu = true
-                            }, shapes = iconButtonShapes) {
+                            }, shape = iconButtonShapes) {
                                 Icon(
                                     Icons.Default.MoreVert,
                                     contentDescription = stringResource(R.string.menu_more)

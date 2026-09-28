@@ -71,7 +71,6 @@ import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.PremiumPaymentOptionModel
 import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile
@@ -116,7 +115,7 @@ fun PremiumContent(component: PremiumComponent) {
                 navigationIcon = {
                     IconButton(
                         onClick = component::onBackClicked,
-                        shapes = ExpressiveDefaults.iconButtonShapes()
+                        shape = ExpressiveDefaults.iconButtonShapes()
                     ) {
                         Icon(
                             imageVector = Icons.AutoMirrored.Rounded.ArrowBack,
@@ -138,7 +137,7 @@ fun PremiumContent(component: PremiumComponent) {
                 ) {
                     Button(
                         onClick = ::openPremiumBot,
-                        shapes = ExpressiveDefaults.largeButtonShapes(),
+                        shape = ExpressiveDefaults.largeButtonShapes(),
                         modifier = Modifier
                             .fillMaxWidth()
                             .navigationBarsPadding()

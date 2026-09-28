@@ -33,7 +33,6 @@ import androidx.core.content.PermissionChecker
 import androidx.core.net.toUri
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
-import org.thoughtcrime.securesms.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

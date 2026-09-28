@@ -2,7 +2,6 @@ package org.thoughtcrime.securesms.compose.features.chats.conversation.ui
 import org.thoughtcrime.securesms.R
 
 import android.content.Context
-import org.thoughtcrime.securesms.R
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Date

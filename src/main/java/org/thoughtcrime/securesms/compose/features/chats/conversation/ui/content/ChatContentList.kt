@@ -91,7 +91,6 @@ import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.models.SponsoredMessageModel
 import org.thoughtcrime.securesms.compose.domain.models.SponsoredMessagesFeedModel
 import org.thoughtcrime.securesms.compose.domain.models.TopicModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.Avatar
 import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
@@ -2187,4 +2186,3 @@ fun TopicItem(
         }
     }
 }
-

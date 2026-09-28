@@ -43,7 +43,6 @@ import coil3.request.ImageRequest
 import coil3.request.crossfade
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.SponsoredMessageModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.shimmerBackground
 import org.thoughtcrime.securesms.compose.core.util.namespacedCacheKey
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.MediaLoadingBackground

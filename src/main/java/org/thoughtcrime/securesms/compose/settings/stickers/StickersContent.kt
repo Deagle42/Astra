@@ -45,7 +45,6 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.*
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.LocalIsScrolling
 import org.thoughtcrime.securesms.compose.features.webapp.MiniAppViewer

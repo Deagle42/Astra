@@ -26,7 +26,6 @@ import androidx.window.core.layout.WindowWidthSizeClass
 import kotlinx.coroutines.launch
 import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
-import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
 import org.thoughtcrime.securesms.compose.core.util.LocalTabletInterfaceEnabled
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent
