@@ -21,3 +21,32 @@ object ExpressiveDefaults {
     @Composable
     fun iconButtonShapes(): Shape = RoundedCornerShape(50)
 }
+
+val MediumContainerHeight: Dp = 48.dp
+val LargeIncreased: Dp = 56.dp
+
+val TextStyle.titleMediumEmphasized: TextStyle get() = this.copy(fontWeight = FontWeight.Bold)
+val TextStyle.headlineSmallEmphasized: TextStyle get() = this.copy(fontWeight = FontWeight.Bold)
+
+
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.material3.MaterialTheme
+
+@Composable
+fun CircularWavyProgressIndicator(
+    modifier: Modifier = Modifier,
+    progress: Any? = null,
+    color: Color = MaterialTheme.colorScheme.primary,
+    trackColor: Color = Color.Transparent
+) {
+    CircularProgressIndicator(modifier = modifier, color = color)
+}
+
+
+import androidx.compose.material3.MotionScheme
+
+val MaterialTheme.motionScheme: MotionScheme
+    @Composable
+    get() = MotionScheme

@@ -1,5 +1,6 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.inputbar
 import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.compose.core.util.LocalLocale
 
 import android.content.ClipData
 import androidx.compose.animation.AnimatedContent
@@ -1690,10 +1691,7 @@ private fun FullScreenEditorAiSheet(
                                             },
                                             shape = RoundedCornerShape(16.dp),
                                             modifier = Modifier
-                                                .menuAnchor(
-                                                    type = ExposedDropdownMenuAnchorType.PrimaryNotEditable,
-                                                    enabled = !loading
-                                                )
+                                                .menuAnchor()
                                                 .fillMaxWidth()
                                         )
                                         ExposedDropdownMenu(

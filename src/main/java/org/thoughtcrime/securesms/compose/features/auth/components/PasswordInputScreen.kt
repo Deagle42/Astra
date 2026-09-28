@@ -218,7 +218,7 @@ fun PasswordInputScreen(
                 isFocused = isFocused,
                 onFocusChanged = { isFocused = it },
                 focusRequester = focusRequester,
-                charShapeList = charShapeList,
+                
                 isInputMode = isInputMode,
                 iconSize = iconSize,
                 iconAlpha = iconAlpha,

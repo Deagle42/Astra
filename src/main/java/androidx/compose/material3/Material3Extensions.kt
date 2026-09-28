@@ -105,3 +105,9 @@ fun OutlinedToggleButton(
         content()
     }
 }
+
+val MediumContainerHeight: Dp = 48.dp
+val LargeIncreased: Dp = 56.dp
+
+val TextStyle.titleMediumEmphasized: TextStyle get() = this.copy(fontWeight = FontWeight.Bold)
+val TextStyle.headlineSmallEmphasized: TextStyle get() = this.copy(fontWeight = FontWeight.Bold)

@@ -1,5 +1,6 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation.ui.inputbar
 import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.compose.core.util.LocalLocale
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility

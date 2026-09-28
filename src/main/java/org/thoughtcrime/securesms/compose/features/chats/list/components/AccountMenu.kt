@@ -380,6 +380,7 @@ fun AccountMenu(
                                         )
 
                                         is UpdateState.ReadyToInstall -> stringResource(R.string.update_ready_subtitle)
+                                        else -> ""
                                     },
                                     position = ItemPosition.MIDDLE,
                                     onClick = {

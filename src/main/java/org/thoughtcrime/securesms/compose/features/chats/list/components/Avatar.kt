@@ -1,13 +1,13 @@
 package org.thoughtcrime.securesms.compose.features.chats.list.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -22,7 +22,7 @@ fun rememberAnimatedAvatarPlaybackEnabled(): Boolean = true
 
 @Composable
 fun PlaceholderAvatar(
-    name: String,
+    name: String = "",
     modifier: Modifier = Modifier,
     size: Dp = 40.dp
 ) {
@@ -44,38 +44,56 @@ fun PlaceholderAvatar(
 
 @Composable
 fun Avatar(
-    model: Any?,
+    model: Any? = null,
+    path: Any? = null,
+    fallbackPath: Any? = null,
     name: String = "",
     modifier: Modifier = Modifier,
-    size: Dp = 40.dp
+    size: Dp = 40.dp,
+    fontSize: Any? = null,
+    isOnline: Boolean = false,
+    isLocal: Boolean = false,
+    onClick: (() -> Unit)? = null
 ) {
-    if (model != null && model.toString().isNotBlank()) {
+    val clickModifier = if (onClick != null) modifier.clickable { onClick() } else modifier
+    val resolvedModel = model ?: path ?: fallbackPath
+    if (resolvedModel != null && resolvedModel.toString().isNotBlank()) {
         AsyncImage(
-            model = model,
+            model = resolvedModel,
             contentDescription = name,
-            modifier = modifier
+            modifier = clickModifier
                 .size(size)
                 .clip(CircleShape)
         )
     } else {
-        PlaceholderAvatar(name = name, modifier = modifier, size = size)
+        PlaceholderAvatar(name = name, modifier = clickModifier, size = size)
     }
 }
 
 @Composable
 fun AvatarForChat(
-    chat: Any?,
+    chat: Any? = null,
+    path: Any? = null,
+    fallbackPath: Any? = null,
+    name: String = "",
+    isOnline: Boolean = false,
     modifier: Modifier = Modifier,
-    size: Dp = 40.dp
+    size: Dp = 40.dp,
+    onClick: (() -> Unit)? = null
 ) {
-    Avatar(model = null, name = chat?.toString() ?: "", modifier = modifier, size = size)
+    Avatar(model = chat, path = path, fallbackPath = fallbackPath, name = name.ifBlank { chat?.toString() ?: "" }, isOnline = isOnline, modifier = modifier, size = size, onClick = onClick)
 }
 
 @Composable
 fun AvatarTopAppBar(
-    chat: Any?,
+    chat: Any? = null,
+    path: Any? = null,
+    fallbackPath: Any? = null,
+    name: String = "",
+    isOnline: Boolean = false,
     modifier: Modifier = Modifier,
-    size: Dp = 36.dp
+    size: Dp = 36.dp,
+    onClick: (() -> Unit)? = null
 ) {
-    AvatarForChat(chat = chat, modifier = modifier, size = size)
+    AvatarForChat(chat = chat, path = path, fallbackPath = fallbackPath, name = name, isOnline = isOnline, modifier = modifier, size = size, onClick = onClick)
 }

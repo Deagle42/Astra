@@ -125,3 +125,5 @@ data class ChatPermissionsModel(
     val canCreateTopics: Boolean = false
 )
 
+
+val ChatModel?.hasCopyableTelegramLink: Boolean get() = false

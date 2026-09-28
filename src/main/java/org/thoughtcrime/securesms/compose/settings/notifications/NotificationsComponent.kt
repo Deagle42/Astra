@@ -1,6 +1,6 @@
 package org.thoughtcrime.securesms.compose.settings.notifications
 
-import android.os.Parcelable
+
 import com.arkivanov.decompose.router.stack.ChildStack
 import com.arkivanov.decompose.router.stack.StackNavigation
 import com.arkivanov.decompose.router.stack.childStack
@@ -12,7 +12,7 @@ import com.arkivanov.decompose.value.update
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import kotlinx.parcelize.Parcelize
+
 import kotlinx.serialization.Serializable
 import org.thoughtcrime.securesms.compose.domain.managers.DistrManager
 import org.thoughtcrime.securesms.compose.domain.models.ChatModel

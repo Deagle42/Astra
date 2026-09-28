@@ -13,7 +13,7 @@ import org.thoughtcrime.securesms.compose.domain.repository.ChatListRepository
 import org.thoughtcrime.securesms.compose.domain.repository.PrivacyKey
 import org.thoughtcrime.securesms.compose.domain.repository.PrivacyRepository
 import org.thoughtcrime.securesms.compose.domain.repository.UserRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.componentScope
 import org.thoughtcrime.securesms.compose.root.AppComponentContext
 

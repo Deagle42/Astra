@@ -446,3 +446,5 @@ interface ChatComponent {
                     stagedAttachments.any { it.kind != PendingAttachmentKind.DOCUMENT }
     }
 }
+
+fun ChatComponent.requestMessageHighlight(messageId: Long) {}

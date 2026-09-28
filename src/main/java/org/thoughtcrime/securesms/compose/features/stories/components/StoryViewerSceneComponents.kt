@@ -809,6 +809,7 @@ private fun StoryAreaLeading(
                     is StoryAreaTypeModel.Venue -> Icons.Rounded.Public
                     is StoryAreaTypeModel.Message -> Icons.Rounded.Share
                     is StoryAreaTypeModel.UpgradedGift -> Icons.Rounded.Image
+                    else -> Icons.Rounded.Info
                 },
                 contentDescription = null,
                 tint = contentColor

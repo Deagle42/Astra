@@ -806,7 +806,7 @@ internal fun buildStoryViewerMenuActions(
                 )
             )
         }
-        if (story.canBeEdited && // resolveStoryEditableMediaPath(story) != null) {
+        if (story.canBeEdited) {
             add(
                 StoryViewerMenuItem(
                     action = StoryViewerMenuAction.EDIT,

@@ -233,6 +233,7 @@ fun ChatListTopBar(
                                         MaterialTheme.colorScheme.onSurfaceVariant,
                                         TopBarStatusAction.ProxySettings
                                     )
+                                    else -> Triple("", MaterialTheme.colorScheme.onSurface, TopBarStatusAction.None)
 
                                     ConnectionStatus.Updating -> Triple(
                                         stringResource(R.string.updating),
@@ -245,6 +246,7 @@ fun ChatListTopBar(
                                         MaterialTheme.colorScheme.primary,
                                         TopBarStatusAction.ProxySettings
                                     )
+                                    else -> Triple("", MaterialTheme.colorScheme.onSurface, TopBarStatusAction.None)
                                 }
 
                                 TopBarStatusInfo(text = text, color = color, action = action)

@@ -68,8 +68,6 @@ import androidx.media3.extractor.mp4.Mp4Extractor
 import coil3.compose.AsyncImage
 import coil3.request.ImageRequest
 import coil3.request.crossfade
-import coil3.video.VideoFrameDecoder
-import coil3.video.videoFrameMillis
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import org.thoughtcrime.securesms.compose.domain.repository.PlayerDataSourceFactory
@@ -428,8 +426,6 @@ fun VideoStickerPlayer(
                             diskCacheKey(it)
                         }
                         if (thumbnailData == null) {
-                            decoderFactory(VideoFrameDecoder.Factory())
-                            // videoFrameMillis(0)
                         }
                     }
                     .crossfade(false)
