@@ -60,7 +60,7 @@ import androidx.compose.ui.unit.dp
 import androidx.window.core.layout.WindowSizeClass
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
 import org.thoughtcrime.securesms.compose.domain.repository.ConnectionStatus
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.core.util.LocalTabletInterfaceEnabled
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage

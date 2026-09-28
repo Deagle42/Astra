@@ -40,7 +40,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.coRunCatching
 import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
 import org.thoughtcrime.securesms.compose.features.viewers.components.ViewerSettingsDropdown

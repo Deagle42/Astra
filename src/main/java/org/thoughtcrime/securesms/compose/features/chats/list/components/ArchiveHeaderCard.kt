@@ -20,7 +20,7 @@ import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

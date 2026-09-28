@@ -78,7 +78,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.FolderModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile
 import org.thoughtcrime.securesms.compose.core.util.AppPreferences

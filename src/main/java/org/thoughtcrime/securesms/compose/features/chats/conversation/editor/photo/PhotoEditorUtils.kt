@@ -21,7 +21,7 @@ import androidx.core.graphics.createBitmap
 import androidx.core.graphics.withTranslation
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import java.io.File
 import java.io.FileOutputStream
 import java.util.UUID

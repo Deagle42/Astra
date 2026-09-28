@@ -52,7 +52,7 @@ import kotlinx.coroutines.flow.firstOrNull
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
 import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerSkeleton
 

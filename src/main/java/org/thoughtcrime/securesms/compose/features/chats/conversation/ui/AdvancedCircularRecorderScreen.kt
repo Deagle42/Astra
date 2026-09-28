@@ -112,7 +112,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import java.io.File
 import java.nio.ByteBuffer
 import java.nio.ByteOrder

@@ -41,7 +41,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.gallery.GalleryMediaItem
 import java.util.Locale
 

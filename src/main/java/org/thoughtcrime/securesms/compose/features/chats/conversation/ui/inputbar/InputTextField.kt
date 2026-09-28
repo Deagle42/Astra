@@ -70,7 +70,7 @@ import androidx.compose.ui.unit.sp
 import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
 import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
 import org.thoughtcrime.securesms.compose.domain.models.StickerModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.addEmojiStyle
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage
 

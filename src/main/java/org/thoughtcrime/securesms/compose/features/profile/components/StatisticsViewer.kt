@@ -114,7 +114,7 @@ import org.thoughtcrime.securesms.compose.domain.models.DateRangeModel
 import org.thoughtcrime.securesms.compose.domain.models.StatisticsGraphModel
 import org.thoughtcrime.securesms.compose.domain.models.StatisticsType
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryStatisticsModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.SectionHeader
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
 import org.thoughtcrime.securesms.compose.core.util.coRunCatching

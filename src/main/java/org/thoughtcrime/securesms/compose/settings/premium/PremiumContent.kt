@@ -71,7 +71,7 @@ import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.PremiumPaymentOptionModel
 import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsSwitchTile

@@ -67,7 +67,7 @@ import com.arkivanov.decompose.extensions.compose.stack.Children
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
 import org.thoughtcrime.securesms.compose.domain.repository.NotificationSettingsRepository.TdNotificationScope
 import org.thoughtcrime.securesms.compose.domain.repository.PushProvider
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsItem

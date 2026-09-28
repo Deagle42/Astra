@@ -31,7 +31,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.webview.components.CertificateSheet
 import org.thoughtcrime.securesms.compose.features.webview.components.FindInPageBar
 import org.thoughtcrime.securesms.compose.features.webview.components.OptionsSheet

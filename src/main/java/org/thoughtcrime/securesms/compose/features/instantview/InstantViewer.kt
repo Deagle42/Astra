@@ -140,7 +140,7 @@ import org.thoughtcrime.securesms.compose.domain.models.webapp.RichText
 import org.thoughtcrime.securesms.compose.domain.repository.FileRepository
 import org.thoughtcrime.securesms.compose.domain.repository.MessageRepository
 import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.normalizeUrl
 import org.thoughtcrime.securesms.compose.features.instantview.components.AsyncImageWithDownload

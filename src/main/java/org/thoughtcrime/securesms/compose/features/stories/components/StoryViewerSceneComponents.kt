@@ -97,7 +97,7 @@ import org.thoughtcrime.securesms.compose.domain.models.stories.StoryAreaTypeMod
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryMediaType
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryModel
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryReactionModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
 import org.thoughtcrime.securesms.compose.features.profile.components.StatisticsViewer
 import org.thoughtcrime.securesms.compose.features.stories.STORY_MEDIA_ASPECT_RATIO

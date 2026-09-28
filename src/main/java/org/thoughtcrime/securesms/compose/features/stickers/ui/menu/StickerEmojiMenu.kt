@@ -40,7 +40,7 @@ import androidx.compose.ui.unit.dp
 import org.thoughtcrime.securesms.compose.domain.models.GifModel
 import org.thoughtcrime.securesms.compose.domain.models.StickerModel
 import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

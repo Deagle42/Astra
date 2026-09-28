@@ -47,7 +47,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import org.thoughtcrime.securesms.compose.domain.models.ProxyModel
 import org.thoughtcrime.securesms.compose.domain.models.ProxyTypeModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.settings.proxy.ProxyPingIndicator
 import org.thoughtcrime.securesms.compose.settings.proxy.ProxyStatusPill

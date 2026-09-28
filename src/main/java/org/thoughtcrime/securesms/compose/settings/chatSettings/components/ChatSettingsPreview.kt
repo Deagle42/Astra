@@ -33,7 +33,7 @@ import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageReactionModel
 import org.thoughtcrime.securesms.compose.domain.models.WallpaperModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.MessageAppearanceConfig
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.MessageBubbleContainer

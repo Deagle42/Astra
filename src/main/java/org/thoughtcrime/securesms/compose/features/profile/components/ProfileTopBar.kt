@@ -67,7 +67,7 @@ import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupProperties
 import org.thoughtcrime.securesms.compose.domain.models.ChatModel
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerImage

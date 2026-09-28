@@ -96,7 +96,7 @@ import org.thoughtcrime.securesms.compose.domain.models.stories.StoryReactionMod
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryReactionUnavailabilityReasonModel
 import org.thoughtcrime.securesms.compose.domain.models.stories.StoryStealthModeModel
 import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.ActionMenuPopup
 import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuOptionRow
 import org.thoughtcrime.securesms.compose.features.stickers.ui.menu.MenuToggleRow

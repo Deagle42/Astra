@@ -62,7 +62,7 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.window.core.layout.WindowSizeClass
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.AvatarForChat
 import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
 import org.thoughtcrime.securesms.compose.core.ui.TypingDots

@@ -51,7 +51,7 @@ import androidx.compose.ui.unit.sp
 import com.arkivanov.decompose.extensions.compose.subscribeAsState
 import org.thoughtcrime.securesms.compose.domain.repository.PushProvider
 import org.thoughtcrime.securesms.compose.domain.repository.UnifiedPushDebugStatus
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SectionHeader
 import org.thoughtcrime.securesms.compose.core.ui.SettingsItem

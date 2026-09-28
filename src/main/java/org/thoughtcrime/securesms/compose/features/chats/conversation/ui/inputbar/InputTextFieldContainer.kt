@@ -43,7 +43,7 @@ import androidx.compose.ui.unit.dp
 import org.thoughtcrime.securesms.compose.domain.models.BotCommandModel
 import org.thoughtcrime.securesms.compose.domain.models.BotMenuButtonModel
 import org.thoughtcrime.securesms.compose.domain.models.StickerModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.LocalTabletInterfaceEnabled
 
 @Composable

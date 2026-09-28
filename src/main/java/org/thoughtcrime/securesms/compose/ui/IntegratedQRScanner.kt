@@ -38,7 +38,7 @@ import com.google.zxing.NotFoundException
 import com.google.zxing.PlanarYUVLuminanceSource
 import com.google.zxing.common.HybridBinarizer
 import com.google.zxing.qrcode.QRCodeReader
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import java.nio.ByteBuffer
 
 @Composable

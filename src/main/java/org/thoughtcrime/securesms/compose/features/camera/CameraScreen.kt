@@ -47,7 +47,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 
 @Composable
 fun CameraScreen(

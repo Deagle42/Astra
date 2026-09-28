@@ -47,7 +47,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.thoughtcrime.securesms.compose.domain.models.ProxyModel
 import org.thoughtcrime.securesms.compose.domain.models.ProxyTypeModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 
 @Composable
 internal fun ProxyConnectionSummaryCard(

@@ -76,7 +76,7 @@ import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageSendingState
 import org.thoughtcrime.securesms.compose.domain.models.PollOption
 import org.thoughtcrime.securesms.compose.domain.models.PollType
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
 
 @Composable

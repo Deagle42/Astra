@@ -30,7 +30,7 @@ import com.maplibre.compose.rememberSaveableMapViewCamera
 import com.maplibre.compose.symbols.Symbol
 import org.maplibre.android.geometry.LatLng
 import org.maplibre.android.maps.MapLibreMapOptions
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.profile.ProfileComponent
 
 private const val MAP_STYLE = "https://tiles.openfreemap.org/styles/bright"

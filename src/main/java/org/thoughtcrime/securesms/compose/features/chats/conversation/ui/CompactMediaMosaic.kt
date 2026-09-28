@@ -52,7 +52,7 @@ import androidx.compose.ui.unit.sp
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageSendingState
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.media.VideoStickerPlayer
 import org.thoughtcrime.securesms.compose.core.media.VideoType
 import org.thoughtcrime.securesms.compose.core.util.IDownloadUtils

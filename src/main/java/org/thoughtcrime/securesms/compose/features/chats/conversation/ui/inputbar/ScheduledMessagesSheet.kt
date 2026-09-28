@@ -41,7 +41,7 @@ import androidx.compose.ui.unit.dp
 import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
 
 @OptIn(ExperimentalMaterial3Api::class)

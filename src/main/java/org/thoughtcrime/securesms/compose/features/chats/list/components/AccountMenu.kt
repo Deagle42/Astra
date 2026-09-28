@@ -82,7 +82,7 @@ import kotlinx.coroutines.launch
 import org.thoughtcrime.securesms.compose.domain.models.AttachMenuBotModel
 import org.thoughtcrime.securesms.compose.domain.models.UpdateState
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.Avatar
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsItem

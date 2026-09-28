@@ -17,7 +17,7 @@ import androidx.core.app.PictureInPictureModeChangedInfo
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
 import androidx.core.util.Consumer
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 
 private const val ACTION_MEDIA_CONTROL = "org.thoughtcrime.securesms.compose.pip.MEDIA_CONTROL"
 private const val EXTRA_CONTROL_TYPE = "control_type"

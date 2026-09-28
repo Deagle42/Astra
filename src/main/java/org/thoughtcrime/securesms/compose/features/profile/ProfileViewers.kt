@@ -42,7 +42,7 @@ import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.instantview.InstantViewer
 import org.thoughtcrime.securesms.compose.features.viewers.FullscreenImageItem
 import org.thoughtcrime.securesms.compose.features.viewers.ManagedImageViewer

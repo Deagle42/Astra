@@ -50,7 +50,7 @@ import org.thoughtcrime.securesms.compose.domain.repository.BotPreferencesProvid
 import org.thoughtcrime.securesms.compose.domain.repository.LocationRepository
 import org.thoughtcrime.securesms.compose.domain.repository.UserRepository
 import org.thoughtcrime.securesms.compose.domain.repository.WebAppRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.coRunCatching
 import org.thoughtcrime.securesms.compose.core.util.toHex
 import java.security.SecureRandom

@@ -65,7 +65,7 @@ import org.thoughtcrime.securesms.compose.core.date.toDate
 import org.thoughtcrime.securesms.compose.domain.models.ChatModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
 import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.AvatarForChat
 import org.thoughtcrime.securesms.compose.core.ui.TypingDots
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager

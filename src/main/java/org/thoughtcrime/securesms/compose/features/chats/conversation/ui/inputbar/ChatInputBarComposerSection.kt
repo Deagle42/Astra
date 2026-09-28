@@ -50,7 +50,7 @@ import org.thoughtcrime.securesms.compose.domain.models.StickerModel
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
 import org.thoughtcrime.securesms.compose.domain.models.WebPage
 import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.BotCommandSuggestions
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.message.LinkPreviewAction
 import org.thoughtcrime.securesms.compose.features.share.PendingAttachmentKind

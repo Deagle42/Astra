@@ -82,7 +82,7 @@ import org.thoughtcrime.securesms.compose.domain.models.UpdateInfo
 import org.thoughtcrime.securesms.compose.domain.models.UpdateState
 import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
 import org.thoughtcrime.securesms.compose.BuildConfig
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition
 import org.thoughtcrime.securesms.compose.core.ui.SettingsItem
 import org.thoughtcrime.securesms.compose.core.util.AppUtils

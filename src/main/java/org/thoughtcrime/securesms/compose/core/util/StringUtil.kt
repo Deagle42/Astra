@@ -22,7 +22,7 @@ import org.thoughtcrime.securesms.compose.domain.models.RichText
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
 import org.thoughtcrime.securesms.compose.domain.models.UserStatusType
 import org.thoughtcrime.securesms.compose.domain.models.UserTypeEnum
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

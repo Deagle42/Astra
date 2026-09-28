@@ -4,7 +4,7 @@ import org.thoughtcrime.securesms.R
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 
 /**
  * Map message content to human-readable type name

@@ -90,7 +90,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.DrawControls
 import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.EditorTopBar
 import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.components.FilterControls

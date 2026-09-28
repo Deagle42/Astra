@@ -61,7 +61,7 @@ import org.thoughtcrime.securesms.compose.domain.models.ChatPermissionsModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.models.TopicModel
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.core.util.rememberUserStatusText
 import org.thoughtcrime.securesms.compose.features.chats.common.ChatActionScreenContext

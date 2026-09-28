@@ -115,7 +115,7 @@ import org.maplibre.android.maps.MapLibreMapOptions
 import org.thoughtcrime.securesms.compose.domain.models.BirthdateModel
 import org.thoughtcrime.securesms.compose.domain.models.BusinessOpeningHoursIntervalModel
 import org.thoughtcrime.securesms.compose.domain.models.BusinessOpeningHoursModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.Avatar
 import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
 import org.thoughtcrime.securesms.compose.core.ui.ItemPosition

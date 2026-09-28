@@ -49,7 +49,7 @@ import org.thoughtcrime.securesms.compose.domain.models.MessageEntity
 import org.thoughtcrime.securesms.compose.domain.models.MessageEntityType
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageSendingState
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
 import org.thoughtcrime.securesms.compose.core.util.EmojiStyle
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.channel.formatViews

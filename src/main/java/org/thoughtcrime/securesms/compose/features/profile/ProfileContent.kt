@@ -58,7 +58,7 @@ import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.UserStatusType
 import org.thoughtcrime.securesms.compose.domain.models.UserTypeEnum
 import org.thoughtcrime.securesms.compose.domain.repository.TelegramLinkRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.CollapsingToolbarScaffold
 import org.thoughtcrime.securesms.compose.core.ui.ConfirmationSheet
 import org.thoughtcrime.securesms.compose.core.ui.rememberCollapsingToolbarScaffoldState

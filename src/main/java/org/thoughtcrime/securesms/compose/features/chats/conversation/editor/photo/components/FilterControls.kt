@@ -20,7 +20,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.ImageFilter
 import org.thoughtcrime.securesms.compose.features.chats.conversation.editor.photo.getPresetFilters
 import java.io.File

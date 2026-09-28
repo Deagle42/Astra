@@ -70,7 +70,7 @@ import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.StickerModel
 import org.thoughtcrime.securesms.compose.domain.models.StickerSetModel
 import org.thoughtcrime.securesms.compose.domain.repository.StickerRepository
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ui.StickerSetSheet
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.LocalIsScrolling
 import org.thoughtcrime.securesms.compose.features.stickers.ui.view.StickerItem

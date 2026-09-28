@@ -24,7 +24,7 @@ import org.koin.compose.koinInject
 import org.thoughtcrime.securesms.compose.domain.models.ChatEventActionModel
 import org.thoughtcrime.securesms.compose.domain.models.ChatEventModel
 import org.thoughtcrime.securesms.compose.domain.models.MessageSenderModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.Avatar
 import org.thoughtcrime.securesms.compose.core.util.DateFormatManager
 import org.thoughtcrime.securesms.compose.features.profile.logs.ProfileLogsComponent

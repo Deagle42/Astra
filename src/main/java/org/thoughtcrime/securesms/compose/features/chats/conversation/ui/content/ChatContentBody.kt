@@ -71,7 +71,7 @@ import org.thoughtcrime.securesms.compose.domain.models.ForwardInfo
 import org.thoughtcrime.securesms.compose.domain.models.MessageContent
 import org.thoughtcrime.securesms.compose.domain.models.MessageModel
 import org.thoughtcrime.securesms.compose.domain.models.UserModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import org.thoughtcrime.securesms.compose.core.util.copyUriToTempMediaFile
 import org.thoughtcrime.securesms.compose.features.chats.conversation.ChatComponent

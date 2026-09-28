@@ -50,7 +50,7 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.thoughtcrime.securesms.compose.domain.models.AttachMenuBotModel
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.features.gallery.components.AttachBotsSection
 import org.thoughtcrime.securesms.compose.features.gallery.components.FolderRow
 import org.thoughtcrime.securesms.compose.features.gallery.components.GalleryGrid

@@ -92,7 +92,7 @@ import kotlinx.coroutines.delay
 import org.thoughtcrime.securesms.compose.domain.repository.AuthCodeDelivery
 import org.thoughtcrime.securesms.compose.domain.repository.AuthCodeInputKind
 import org.thoughtcrime.securesms.compose.domain.repository.AuthUiStatus
-import org.thoughtcrime.securesms.compose.R
+import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.compose.core.ui.ExpressiveDefaults
 import java.util.Locale
 
