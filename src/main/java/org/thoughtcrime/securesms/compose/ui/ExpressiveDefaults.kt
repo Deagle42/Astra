@@ -1,23 +1,23 @@
 package org.thoughtcrime.securesms.compose.ui
 
-import androidx.compose.material3.ButtonShapes
-import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.IconButtonShapes
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 object ExpressiveDefaults {
     @Composable
-    fun largeButtonShapes(): ButtonShapes = ButtonShapes
+    fun largeButtonShapes(): Shape = RoundedCornerShape(50)
 
     @Composable
-    fun extraLargeButtonShapes(): ButtonShapes = ButtonShapes
+    fun extraLargeButtonShapes(): Shape = RoundedCornerShape(50)
 
     @Composable
-    fun buttonShapesFor(height: Dp): ButtonShapes = ButtonShapes
+    fun buttonShapesFor(height: Dp): Shape = RoundedCornerShape(50)
 
     @Composable
-    fun iconButtonShapes(): IconButtonShapes = IconButtonShapes
+    fun iconButtonShapes(): Shape = RoundedCornerShape(50)
 }

@@ -8,3 +8,8 @@ val LocalVideoPlayerPool = staticCompositionLocalOf<VideoPlayerPool> {
 }
 
 val LocalTabletInterfaceEnabled = staticCompositionLocalOf { true }
+
+import androidx.compose.runtime.staticCompositionLocalOf
+import java.util.Locale
+
+val LocalLocale = staticCompositionLocalOf { Locale.getDefault() }

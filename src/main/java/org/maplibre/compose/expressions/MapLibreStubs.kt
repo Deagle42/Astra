@@ -1,4 +1,4 @@
-package org.maplibre.compose
+package org.maplibre.compose.expressions
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember

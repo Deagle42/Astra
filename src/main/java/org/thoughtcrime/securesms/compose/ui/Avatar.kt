@@ -65,7 +65,7 @@ fun Avatar(
         if (resolvedPath != null) {
             if (isLocal) {
                 AsyncImage(
-                    model = R.raw.konata,
+                    model = R.raw.coil3.compose.AsyncImage,
                     contentDescription = null,
                     modifier = combinedModifier,
                     contentScale = ContentScale.Crop,
@@ -153,7 +153,7 @@ fun AvatarForChat(
         if (resolvedPath != null) {
             if (isLocal) {
                 AsyncImage(
-                    model = R.raw.konata,
+                    model = R.raw.coil3.compose.AsyncImage,
                     contentDescription = null,
                     modifier = combinedModifier,
                     contentScale = ContentScale.Crop
