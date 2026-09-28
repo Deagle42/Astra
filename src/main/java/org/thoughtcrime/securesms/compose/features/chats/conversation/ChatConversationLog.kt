@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.features.chats.conversation
+import org.thoughtcrime.securesms.BuildConfig
 
 import android.os.Trace
 import android.util.Log

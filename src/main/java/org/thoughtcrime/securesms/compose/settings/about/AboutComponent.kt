@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.settings.about
+import org.thoughtcrime.securesms.BuildConfig
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms.compose.core.util
+import org.thoughtcrime.securesms.BuildConfig
 
 import android.content.Context
 import android.content.SharedPreferences

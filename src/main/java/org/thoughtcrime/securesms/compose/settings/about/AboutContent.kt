@@ -1,6 +1,7 @@
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3ExpressiveApi::class)
 
 package org.thoughtcrime.securesms.compose.settings.about
+import org.thoughtcrime.securesms.BuildConfig
 import org.thoughtcrime.securesms.R
 
 import androidx.compose.animation.AnimatedContent
